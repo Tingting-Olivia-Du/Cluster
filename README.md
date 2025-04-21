@@ -105,7 +105,8 @@ For each cluster in a step:
     "type": "comparison",
     "level": "medium",
 
-    //Raw Generation Outputs
+    //Raw Generation Outputs:
+
     "greedy": {
       "answer": "...",
       "token_probs": [["token1", prob1], ["token2", prob2], ...]
@@ -113,7 +114,8 @@ For each cluster in a step:
     "beam": {...},
     "sampling": {...},
 
-    //Step-Wise Extraction
+    //Step-Wise Extraction:
+
     "greedy_step_token_probs": {
       "1": [{"token": "Step", "prob": 0.98}, ...], //Step 1
       "2": [...],                                  //Step 2
