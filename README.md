@@ -91,7 +91,8 @@ For each cluster in a step:
 
 ## 📁 Phase 1 Output File Structure Example
 
-```text
+```markdown
+```jsonc
 {
   "<example_id>": {
     "question": "What profession do Am Rong and Alexandre Rockwell have in common?",
@@ -146,8 +147,9 @@ For each cluster in a step:
   - `token_probs`: List of tokens and their generation probabilities
 
 ### 2. **Step-Wise Extraction**
-- Tokens are grouped into steps using `Step i:` markers.
 - Result is stored under keys like `greedy_step_token_probs`.
+- Tokens are grouped into steps using `Step i:` markers.
+
 
 
 ## 💡 Future Extensions
