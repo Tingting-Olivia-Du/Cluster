@@ -53,7 +53,7 @@ Cluster/
 
 5. **Answer + Token Probs Output**  
    - Stored as:
-     ```jsonc
+     ```markdown
      "token_probs": [["token1", prob1], ["token2", prob2], ...]
      ```
 
@@ -91,7 +91,7 @@ For each cluster in a step:
 
 ## 📁 Phase 1 Output File Structure Example
 
-```jsonc
+```markdown
 {
   "<example_id>": {
     "question": "What profession do Am Rong and Alexandre Rockwell have in common?",
