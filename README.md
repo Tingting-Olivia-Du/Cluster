@@ -32,7 +32,7 @@ Cluster/
   - Fields used: `question`, `context`, `supporting_facts`, `answer`, `type`, `level`
 
 1. **Load Model**  
-   - Uses `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B` via HuggingFace Transformers, run through Google Colab
+   - Uses `Qwen/Qwen-2.5-7B`,`deepseek-ai/DeepSeek-R1-Distill-Qwen-7B` via HuggingFace Transformers, run through Google Colab
    - Loaded in `float16` with `device_map="auto"`
 
 2. **Prompt Design**  
@@ -159,6 +159,7 @@ For each cluster in a step:
 - Data processing: Python, pandas, json
 
 ## 📚 Acknowledgements
+
 - [HotpotQA](https://hotpotqa.github.io)
 - [DeepSeek-AI](https://huggingface.co/deepseek-ai)
 - [Qwen by Alibaba](https://huggingface.co/Qwen)
