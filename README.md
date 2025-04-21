@@ -91,7 +91,8 @@ For each cluster in a step:
 
 ## 📁 Phase 1 Output File Structure Example
 
-```json
+```markdown
+```jsonc
 {
   "<example_id>": {
     "question": "What profession do Am Rong and Alexandre Rockwell have in common?",
