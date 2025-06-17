@@ -18,6 +18,17 @@
 
   plot boundary and error index in comparison
 
+- step_wise.ipynb
+
+  use find peak to get steps boundaries, 
+
+  for negative sample, map the first error sentence into steps
+
+  for each step, get the average vector, by getting the mean of all token hidden states vectors within this step
+
+  plot each question with positive samples and negative samples
+
+
 ## for entropy only 
 
   same way of generation model's answer to gsm8k and locate error index
