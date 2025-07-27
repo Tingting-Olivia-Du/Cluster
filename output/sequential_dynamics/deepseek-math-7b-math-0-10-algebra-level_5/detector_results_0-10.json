@@ -1,0 +1,100 @@
+{
+  "threshold": 0.4,
+  "error_entropy_values": [
+    0.20899939157827485,
+    0.03382703924597842,
+    0.5606704185422289,
+    0.15179334905351066,
+    0.17816171500022823,
+    0.16347747907593915,
+    0.4497101524073236,
+    0.24997135318546262,
+    0.4089509970572666,
+    0.4176330969344344,
+    0.45703719728526676,
+    0.28689651517227166,
+    0.10482745192970273,
+    0.6304948871075015,
+    0.4540060784898528,
+    0.39170659678795977
+  ],
+  "predictions": [
+    {
+      "key": "q_0_sampling2",
+      "pred_is_error": false,
+      "true_is_error": true
+    },
+    {
+      "key": "q_1_sampling2",
+      "pred_is_error": true,
+      "true_is_error": true
+    },
+    {
+      "key": "q_4_sampling0",
+      "pred_is_error": true,
+      "true_is_error": true
+    },
+    {
+      "key": "q_4_sampling1",
+      "pred_is_error": true,
+      "true_is_error": true
+    },
+    {
+      "key": "q_9_sampling0",
+      "pred_is_error": true,
+      "true_is_error": true
+    },
+    {
+      "key": "q_9_sampling1",
+      "pred_is_error": true,
+      "true_is_error": true
+    },
+    {
+      "key": "q_0_sampling0",
+      "pred_is_error": false,
+      "true_is_error": false
+    },
+    {
+      "key": "q_1_sampling0",
+      "pred_is_error": true,
+      "true_is_error": false
+    },
+    {
+      "key": "q_4_sampling2",
+      "pred_is_error": false,
+      "true_is_error": false
+    },
+    {
+      "key": "q_9_sampling2",
+      "pred_is_error": false,
+      "true_is_error": false
+    }
+  ],
+  "classification_report": {
+    "False": {
+      "precision": 0.75,
+      "recall": 0.75,
+      "f1-score": 0.75,
+      "support": 4.0
+    },
+    "True": {
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.8333333333333334,
+      "support": 6.0
+    },
+    "accuracy": 0.8,
+    "macro avg": {
+      "precision": 0.7916666666666667,
+      "recall": 0.7916666666666667,
+      "f1-score": 0.7916666666666667,
+      "support": 10.0
+    },
+    "weighted avg": {
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1-score": 0.8,
+      "support": 10.0
+    }
+  }
+}

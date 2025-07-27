@@ -1,0 +1,54 @@
+{
+  "threshold": 0.27532330778848363,
+  "error_entropy_values": [
+    0.3413591402615446,
+    0.11189841726401353,
+    0.4808175933174626,
+    0.290698795788114,
+    0.1518425923112835
+  ],
+  "predictions": [
+    {
+      "key": "q_9_sampling0",
+      "pred_is_error": true,
+      "true_is_error": true
+    },
+    {
+      "key": "q_9_sampling1",
+      "pred_is_error": true,
+      "true_is_error": true
+    },
+    {
+      "key": "q_9_sampling2",
+      "pred_is_error": false,
+      "true_is_error": false
+    }
+  ],
+  "classification_report": {
+    "False": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "True": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    }
+  }
+}

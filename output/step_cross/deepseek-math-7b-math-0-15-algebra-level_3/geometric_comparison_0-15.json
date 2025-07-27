@@ -1,0 +1,260 @@
+{
+  "error_vs_fix": {
+    "convex_hull_area": {
+      "region1_mean": 102.6431495758059,
+      "region2_mean": 113.42239350789662,
+      "difference": 10.779243932090722,
+      "ratio": 1.1050166910956862,
+      "effect_size": 0.8992269721667503
+    },
+    "effective_dim_80": {
+      "region1_mean": 13.857142857142858,
+      "region2_mean": 12.2,
+      "difference": -1.6571428571428584,
+      "ratio": 0.8804123711340205,
+      "effect_size": -0.4176771270257588
+    },
+    "pairwise_distance_mean": {
+      "region1_mean": 14.360117614907224,
+      "region2_mean": 14.57715210865776,
+      "difference": 0.21703449375053552,
+      "ratio": 1.015113698896535,
+      "effect_size": 0.25745416407948657
+    },
+    "diameter": {
+      "region1_mean": 18.25400879671452,
+      "region2_mean": 18.572518758118797,
+      "difference": 0.3185099614042777,
+      "ratio": 1.0174487678269117,
+      "effect_size": 0.2518279635858517
+    },
+    "compactness": {
+      "region1_mean": 0.5426736333820348,
+      "region2_mean": 0.5449375709200741,
+      "difference": 0.002263937538039329,
+      "ratio": 1.0041718215125546,
+      "effect_size": 0.1288673244384522
+    },
+    "best_silhouette_score": {
+      "region1_mean": 0.1153961316758033,
+      "region2_mean": 0.1561961131874438,
+      "difference": 0.04079998151164051,
+      "ratio": 1.3535645512473933,
+      "effect_size": 1.7857558199146142
+    },
+    "cluster_cohesion": {
+      "region1_mean": 0.00300823920153347,
+      "region2_mean": 0.0006886608996209424,
+      "difference": -0.002319578301912527,
+      "ratio": 0.22892491370695953,
+      "effect_size": -0.5384977640294224
+    },
+    "manifold_curvature_mean": {
+      "region1_mean": 0.38094415997528036,
+      "region2_mean": 0.3566988440939352,
+      "difference": -0.024245315881345153,
+      "ratio": 0.9363546723411682,
+      "effect_size": -0.9735192146934406
+    },
+    "intrinsic_dimension": {
+      "region1_mean": 1.0,
+      "region2_mean": 1.0,
+      "difference": 0.0,
+      "ratio": 1.0,
+      "effect_size": NaN
+    },
+    "geometric_complexity": {
+      "region1_mean": 5.908266824753098,
+      "region2_mean": 5.874948387112438,
+      "difference": -0.033318437640660115,
+      "ratio": 0.9943607087105358,
+      "effect_size": -0.05374512968012218
+    },
+    "structural_regularity": {
+      "region1_mean": 0.35840327145534884,
+      "region2_mean": 0.38548243595802445,
+      "difference": 0.027079164502675612,
+      "ratio": 1.075555014865564,
+      "effect_size": 1.6870818753689376
+    },
+    "sphericity": {
+      "region1_mean": 0.7725350815620237,
+      "region2_mean": 0.8401073988249591,
+      "difference": 0.06757231726293544,
+      "ratio": 1.0874682831571971,
+      "effect_size": 1.0888772059972287
+    }
+  },
+  "error_vs_neg_normal": {
+    "convex_hull_area": {
+      "region1_mean": 102.6431495758059,
+      "region2_mean": 118.79322291213373,
+      "difference": 16.150073336327836,
+      "ratio": 1.1573419502720967,
+      "effect_size": 0.9196744695357124
+    },
+    "effective_dim_80": {
+      "region1_mean": 13.857142857142858,
+      "region2_mean": 11.117647058823529,
+      "difference": -2.7394957983193287,
+      "ratio": 0.8023044269254093,
+      "effect_size": -0.6496916317595153
+    },
+    "pairwise_distance_mean": {
+      "region1_mean": 14.360117614907224,
+      "region2_mean": 14.947078883353328,
+      "difference": 0.5869612684461032,
+      "ratio": 1.0408744053625842,
+      "effect_size": 0.5635704541835228
+    },
+    "diameter": {
+      "region1_mean": 18.25400879671452,
+      "region2_mean": 18.929187959612236,
+      "difference": 0.6751791628977166,
+      "ratio": 1.036987993728766,
+      "effect_size": 0.46361536910908513
+    },
+    "compactness": {
+      "region1_mean": 0.5426736333820348,
+      "region2_mean": 0.5451325391306042,
+      "difference": 0.00245890574856944,
+      "ratio": 1.0045310949294608,
+      "effect_size": 0.12243889839152008
+    },
+    "best_silhouette_score": {
+      "region1_mean": 0.1153961316758033,
+      "region2_mean": 0.1419940315403632,
+      "difference": 0.02659789986455989,
+      "ratio": 1.2304921272342533,
+      "effect_size": 1.176909792156567
+    },
+    "cluster_cohesion": {
+      "region1_mean": 0.00300823920153347,
+      "region2_mean": 0.020494537299697795,
+      "difference": 0.017486298098164325,
+      "ratio": 6.812801751021185,
+      "effect_size": 0.17834719858330267
+    },
+    "manifold_curvature_mean": {
+      "region1_mean": 0.38094415997528036,
+      "region2_mean": 0.36720958042905905,
+      "difference": -0.013734579546221315,
+      "ratio": 0.9639459506424444,
+      "effect_size": -0.49689207954461473
+    },
+    "intrinsic_dimension": {
+      "region1_mean": 1.0,
+      "region2_mean": 1.0,
+      "difference": 0.0,
+      "ratio": 1.0,
+      "effect_size": NaN
+    },
+    "geometric_complexity": {
+      "region1_mean": 5.908266824753098,
+      "region2_mean": 5.643874277488846,
+      "difference": -0.26439254726425165,
+      "ratio": 0.9552504050499953,
+      "effect_size": -0.3700532219259305
+    },
+    "structural_regularity": {
+      "region1_mean": 0.35840327145534884,
+      "region2_mean": 0.37601343113838503,
+      "difference": 0.017610159683036197,
+      "ratio": 1.049135041685104,
+      "effect_size": 0.6086045120930319
+    },
+    "sphericity": {
+      "region1_mean": 0.7725350815620237,
+      "region2_mean": 0.796432616582875,
+      "difference": 0.023897535020851346,
+      "ratio": 1.03093391561265,
+      "effect_size": 0.3191573030752693
+    }
+  },
+  "fix_vs_pos_normal": {
+    "convex_hull_area": {
+      "region1_mean": 113.42239350789662,
+      "region2_mean": 111.45210525298396,
+      "difference": -1.97028825491266,
+      "ratio": 0.9826287543934128,
+      "effect_size": -0.17017766108652538
+    },
+    "effective_dim_80": {
+      "region1_mean": 12.2,
+      "region2_mean": 12.435897435897436,
+      "difference": 0.23589743589743684,
+      "ratio": 1.0193358554014293,
+      "effect_size": 0.08257090775136083
+    },
+    "pairwise_distance_mean": {
+      "region1_mean": 14.57715210865776,
+      "region2_mean": 14.50105343491593,
+      "difference": -0.07609867374183032,
+      "ratio": 0.9947795925312027,
+      "effect_size": -0.09732807680191605
+    },
+    "diameter": {
+      "region1_mean": 18.572518758118797,
+      "region2_mean": 18.29622957425525,
+      "difference": -0.27628918386354684,
+      "ratio": 0.9851237633698569,
+      "effect_size": -0.25498954424215214
+    },
+    "compactness": {
+      "region1_mean": 0.5449375709200741,
+      "region2_mean": 0.550803309863808,
+      "difference": 0.005865738943733878,
+      "ratio": 1.0107640567594378,
+      "effect_size": 0.31326660486078667
+    },
+    "best_silhouette_score": {
+      "region1_mean": 0.1561961131874438,
+      "region2_mean": 0.13521987652570705,
+      "difference": -0.020976236661736758,
+      "ratio": 0.8657057705618825,
+      "effect_size": -0.9280200013275443
+    },
+    "cluster_cohesion": {
+      "region1_mean": 0.0006886608996209424,
+      "region2_mean": 0.0007725345484188888,
+      "difference": 8.38736487979464e-05,
+      "ratio": 1.1217923782867776,
+      "effect_size": 0.22050224070538618
+    },
+    "manifold_curvature_mean": {
+      "region1_mean": 0.3566988440939352,
+      "region2_mean": 0.36220247168625924,
+      "difference": 0.005503627592324034,
+      "ratio": 1.0154293395772112,
+      "effect_size": 0.2083140922121801
+    },
+    "intrinsic_dimension": {
+      "region1_mean": 1.0,
+      "region2_mean": 1.0,
+      "difference": 0.0,
+      "ratio": 1.0,
+      "effect_size": NaN
+    },
+    "geometric_complexity": {
+      "region1_mean": 5.874948387112438,
+      "region2_mean": 5.8570066247293635,
+      "difference": -0.017941762383074433,
+      "ratio": 0.9969460561692027,
+      "effect_size": -0.05016838302424358
+    },
+    "structural_regularity": {
+      "region1_mean": 0.38548243595802445,
+      "region2_mean": 0.3737024961490473,
+      "difference": -0.011779939808977125,
+      "ratio": 0.9694410465688251,
+      "effect_size": -0.9823094258384739
+    },
+    "sphericity": {
+      "region1_mean": 0.8401073988249591,
+      "region2_mean": 0.8080142636582552,
+      "difference": -0.03209313516670387,
+      "ratio": 0.9617987709528664,
+      "effect_size": -0.8325046603591056
+    }
+  }
+}

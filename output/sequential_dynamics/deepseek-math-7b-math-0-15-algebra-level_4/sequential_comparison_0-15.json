@@ -1,0 +1,218 @@
+{
+  "error_vs_fix": {
+    "vector_change_mean": {
+      "region1_mean": 13.096333006818801,
+      "region2_mean": 13.437130225609856,
+      "difference": 0.34079721879105485,
+      "ratio": 1.0260223391245178,
+      "effect_size": 0.24737558996688042
+    },
+    "trajectory_smoothness": {
+      "region1_mean": 0.32351642925963536,
+      "region2_mean": 0.329913854650096,
+      "difference": 0.00639742539046062,
+      "ratio": 1.0197746538100123,
+      "effect_size": 0.18491022357572054
+    },
+    "semantic_drift_total": {
+      "region1_mean": 298.68930032917524,
+      "region2_mean": 308.2647063060559,
+      "difference": 9.575405976880688,
+      "ratio": 1.0320580816464733,
+      "effect_size": 0.07592517162923494
+    },
+    "progression_consistency": {
+      "region1_mean": -0.37905776794086204,
+      "region2_mean": -0.40437166854683965,
+      "difference": -0.0253139006059776,
+      "ratio": 1.0667811155631743,
+      "effect_size": -0.6705938792844426
+    },
+    "local_volatility_mean": {
+      "region1_mean": 1.4897427992970804,
+      "region2_mean": 1.445431580555592,
+      "difference": -0.04431121874148847,
+      "ratio": 0.9702557926358857,
+      "effect_size": -0.17388919487182594
+    },
+    "entropy_change_mean": {
+      "region1_mean": 0.2206191431948088,
+      "region2_mean": 0.20298577911208457,
+      "difference": -0.01763336408272423,
+      "ratio": 0.9200732818223585,
+      "effect_size": -0.1705487103804889
+    },
+    "entropy_trend_slope": {
+      "region1_mean": 0.0014581085630271308,
+      "region2_mean": -0.0001425485658877992,
+      "difference": -0.00160065712891493,
+      "ratio": -0.09776265602052213,
+      "effect_size": -0.14612496679087225
+    },
+    "uncertainty_oscillation_freq": {
+      "region1_mean": 0.22039244748437087,
+      "region2_mean": 0.22390427286079462,
+      "difference": 0.0035118253764237495,
+      "ratio": 1.0159344179735232,
+      "effect_size": 0.03355345112505011
+    },
+    "dynamic_complexity": {
+      "region1_mean": 18.35471611615329,
+      "region2_mean": 19.17153963851179,
+      "difference": 0.8168235223584972,
+      "ratio": 1.0445021060085828,
+      "effect_size": 0.3999374456180565
+    },
+    "stability_score": {
+      "region1_mean": 0.8978873801431569,
+      "region2_mean": 0.9028758191891725,
+      "difference": 0.004988439046015536,
+      "ratio": 1.005555751374098,
+      "effect_size": 0.3476578853045016
+    }
+  },
+  "error_vs_neg_normal": {
+    "vector_change_mean": {
+      "region1_mean": 13.096333006818801,
+      "region2_mean": 12.817633391048515,
+      "difference": -0.2786996157702859,
+      "ratio": 0.9787192631994638,
+      "effect_size": -0.2485954915143454
+    },
+    "trajectory_smoothness": {
+      "region1_mean": 0.32351642925963536,
+      "region2_mean": 0.3417436030700423,
+      "difference": 0.01822717381040695,
+      "ratio": 1.056340798061229,
+      "effect_size": 0.47339474540550713
+    },
+    "semantic_drift_total": {
+      "region1_mean": 298.68930032917524,
+      "region2_mean": 300.7719659007652,
+      "difference": 2.0826655715899847,
+      "ratio": 1.006972682212904,
+      "effect_size": 0.016618451172061694
+    },
+    "progression_consistency": {
+      "region1_mean": -0.37905776794086204,
+      "region2_mean": -0.39272012905735143,
+      "difference": -0.013662361116489385,
+      "ratio": 1.0360429524784753,
+      "effect_size": -0.38994759395656475
+    },
+    "local_volatility_mean": {
+      "region1_mean": 1.4897427992970804,
+      "region2_mean": 1.3255461502934067,
+      "difference": -0.1641966490036737,
+      "ratio": 0.8897818810863538,
+      "effect_size": -0.619991217654284
+    },
+    "entropy_change_mean": {
+      "region1_mean": 0.2206191431948088,
+      "region2_mean": 0.12861613493656068,
+      "difference": -0.09200300825824811,
+      "ratio": 0.5829781272561257,
+      "effect_size": -0.9581959228111029
+    },
+    "entropy_trend_slope": {
+      "region1_mean": 0.0014581085630271308,
+      "region2_mean": -0.002456581907264521,
+      "difference": -0.003914690470291652,
+      "ratio": -1.6847729788819654,
+      "effect_size": -0.36646026892506456
+    },
+    "uncertainty_oscillation_freq": {
+      "region1_mean": 0.22039244748437087,
+      "region2_mean": 0.1391011481580063,
+      "difference": -0.08129129932636456,
+      "ratio": 0.6311520641734816,
+      "effect_size": -0.8286147442722783
+    },
+    "dynamic_complexity": {
+      "region1_mean": 18.35471611615329,
+      "region2_mean": 18.013390081833606,
+      "difference": -0.34132603431968533,
+      "ratio": 0.9814039055597652,
+      "effect_size": -0.22765820616438878
+    },
+    "stability_score": {
+      "region1_mean": 0.8978873801431569,
+      "region2_mean": 0.9067143111277005,
+      "difference": 0.008826930984543568,
+      "ratio": 1.0098307774223714,
+      "effect_size": 0.5937648437937535
+    }
+  },
+  "fix_vs_pos_normal": {
+    "vector_change_mean": {
+      "region1_mean": 13.437130225609856,
+      "region2_mean": 13.29738171556726,
+      "difference": -0.1397485100425957,
+      "ratio": 0.9895998246875476,
+      "effect_size": -0.11951188515076878
+    },
+    "trajectory_smoothness": {
+      "region1_mean": 0.329913854650096,
+      "region2_mean": 0.3273951607598239,
+      "difference": -0.0025186938902720946,
+      "ratio": 0.9923656013387392,
+      "effect_size": -0.06605261423105753
+    },
+    "semantic_drift_total": {
+      "region1_mean": 308.2647063060559,
+      "region2_mean": 288.131674751173,
+      "difference": -20.133031554882905,
+      "ratio": 0.9346891449360598,
+      "effect_size": -0.2031301508717146
+    },
+    "progression_consistency": {
+      "region1_mean": -0.40437166854683965,
+      "region2_mean": -0.3844381722872098,
+      "difference": 0.019933496259629868,
+      "ratio": 0.9507050127145075,
+      "effect_size": 0.4644812091605443
+    },
+    "local_volatility_mean": {
+      "region1_mean": 1.445431580555592,
+      "region2_mean": 1.4351760944499727,
+      "difference": -0.010255486105619216,
+      "ratio": 0.9929048968878366,
+      "effect_size": -0.04058358193748674
+    },
+    "entropy_change_mean": {
+      "region1_mean": 0.20298577911208457,
+      "region2_mean": 0.17035461649990633,
+      "difference": -0.032631162612178244,
+      "ratio": 0.8392440950547576,
+      "effect_size": -0.2622727696906735
+    },
+    "entropy_trend_slope": {
+      "region1_mean": -0.0001425485658877992,
+      "region2_mean": -0.0005664939096858737,
+      "difference": -0.00042394534379807444,
+      "ratio": 3.974041451471103,
+      "effect_size": -0.039387236613459047
+    },
+    "uncertainty_oscillation_freq": {
+      "region1_mean": 0.22390427286079462,
+      "region2_mean": 0.1969394686854697,
+      "difference": -0.02696480417532493,
+      "ratio": 0.8795699437496245,
+      "effect_size": -0.21555618493268902
+    },
+    "dynamic_complexity": {
+      "region1_mean": 19.17153963851179,
+      "region2_mean": 18.63710964755811,
+      "difference": -0.5344299909536794,
+      "ratio": 0.9721237834294687,
+      "effect_size": -0.2949112993968567
+    },
+    "stability_score": {
+      "region1_mean": 0.9028758191891725,
+      "region2_mean": 0.9029136724212922,
+      "difference": 3.785323211968894e-05,
+      "ratio": 1.0000419251809776,
+      "effect_size": 0.0026946688568407714
+    }
+  }
+}

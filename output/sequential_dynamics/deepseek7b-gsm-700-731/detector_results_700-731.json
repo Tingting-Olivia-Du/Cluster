@@ -1,0 +1,293 @@
+{
+  "threshold": 0.4,
+  "error_entropy_values": [
+    0.3120143800997748,
+    0.7027274783445067,
+    0.35273331189797946,
+    0.43799188790547944,
+    0.08335885322127927,
+    0.15536723935744254,
+    0.6004747389562124,
+    0.7053898665225866,
+    0.43962663497621585,
+    0.477279406690798,
+    0.7206779753815354,
+    0.3080230185267071,
+    0.07115884896319284,
+    0.0,
+    0.6114163951255195,
+    0.5854643703475088,
+    0.5616817505706925,
+    0.6687861655871773,
+    0.724473612742642,
+    0.47205022765553567,
+    0.43692547958764527,
+    0.3578922543122781,
+    0.1786410098673654,
+    0.41468382282796046,
+    0.4293872833559355,
+    0.30574889541789235,
+    0.11512687934078304,
+    0.09964335861675555,
+    0.0,
+    0.08636768709209776,
+    0.2916258311756125,
+    0.08374970082987153,
+    0.5919071059233213,
+    0.3994372035925519,
+    0.4906115740229592,
+    0.27382480643143126,
+    0.24405106462425052,
+    0.39983918102875865,
+    0.3714974385996279
+  ],
+  "predictions": [
+    {
+      "key": "q_700_sampling0",
+      "pred_is_error": false,
+      "true_is_error": true
+    },
+    {
+      "key": "q_700_sampling2",
+      "pred_is_error": true,
+      "true_is_error": true
+    },
+    {
+      "key": "q_701_sampling1",
+      "pred_is_error": true,
+      "true_is_error": true
+    },
+    {
+      "key": "q_703_sampling1",
+      "pred_is_error": false,
+      "true_is_error": true
+    },
+    {
+      "key": "q_705_sampling1",
+      "pred_is_error": true,
+      "true_is_error": true
+    },
+    {
+      "key": "q_705_sampling2",
+      "pred_is_error": true,
+      "true_is_error": true
+    },
+    {
+      "key": "q_707_sampling0",
+      "pred_is_error": true,
+      "true_is_error": true
+    },
+    {
+      "key": "q_707_sampling2",
+      "pred_is_error": true,
+      "true_is_error": true
+    },
+    {
+      "key": "q_709_sampling0",
+      "pred_is_error": false,
+      "true_is_error": true
+    },
+    {
+      "key": "q_709_sampling2",
+      "pred_is_error": false,
+      "true_is_error": true
+    },
+    {
+      "key": "q_710_sampling1",
+      "pred_is_error": true,
+      "true_is_error": true
+    },
+    {
+      "key": "q_711_sampling0",
+      "pred_is_error": true,
+      "true_is_error": true
+    },
+    {
+      "key": "q_712_sampling0",
+      "pred_is_error": true,
+      "true_is_error": true
+    },
+    {
+      "key": "q_712_sampling1",
+      "pred_is_error": true,
+      "true_is_error": true
+    },
+    {
+      "key": "q_714_sampling0",
+      "pred_is_error": true,
+      "true_is_error": true
+    },
+    {
+      "key": "q_714_sampling1",
+      "pred_is_error": true,
+      "true_is_error": true
+    },
+    {
+      "key": "q_715_sampling1",
+      "pred_is_error": false,
+      "true_is_error": true
+    },
+    {
+      "key": "q_718_sampling2",
+      "pred_is_error": false,
+      "true_is_error": true
+    },
+    {
+      "key": "q_720_sampling1",
+      "pred_is_error": false,
+      "true_is_error": true
+    },
+    {
+      "key": "q_721_sampling2",
+      "pred_is_error": true,
+      "true_is_error": true
+    },
+    {
+      "key": "q_723_sampling2",
+      "pred_is_error": false,
+      "true_is_error": true
+    },
+    {
+      "key": "q_724_sampling0",
+      "pred_is_error": true,
+      "true_is_error": true
+    },
+    {
+      "key": "q_727_sampling0",
+      "pred_is_error": false,
+      "true_is_error": true
+    },
+    {
+      "key": "q_727_sampling1",
+      "pred_is_error": false,
+      "true_is_error": true
+    },
+    {
+      "key": "q_730_sampling2",
+      "pred_is_error": false,
+      "true_is_error": true
+    },
+    {
+      "key": "q_700_sampling1",
+      "pred_is_error": false,
+      "true_is_error": false
+    },
+    {
+      "key": "q_701_sampling0",
+      "pred_is_error": true,
+      "true_is_error": false
+    },
+    {
+      "key": "q_703_sampling0",
+      "pred_is_error": false,
+      "true_is_error": false
+    },
+    {
+      "key": "q_705_sampling0",
+      "pred_is_error": true,
+      "true_is_error": false
+    },
+    {
+      "key": "q_707_sampling1",
+      "pred_is_error": true,
+      "true_is_error": false
+    },
+    {
+      "key": "q_709_sampling1",
+      "pred_is_error": false,
+      "true_is_error": false
+    },
+    {
+      "key": "q_710_sampling0",
+      "pred_is_error": false,
+      "true_is_error": false
+    },
+    {
+      "key": "q_711_sampling1",
+      "pred_is_error": false,
+      "true_is_error": false
+    },
+    {
+      "key": "q_712_sampling2",
+      "pred_is_error": false,
+      "true_is_error": false
+    },
+    {
+      "key": "q_714_sampling2",
+      "pred_is_error": false,
+      "true_is_error": false
+    },
+    {
+      "key": "q_715_sampling0",
+      "pred_is_error": false,
+      "true_is_error": false
+    },
+    {
+      "key": "q_717_sampling0",
+      "pred_is_error": false,
+      "true_is_error": false
+    },
+    {
+      "key": "q_718_sampling0",
+      "pred_is_error": false,
+      "true_is_error": false
+    },
+    {
+      "key": "q_720_sampling0",
+      "pred_is_error": false,
+      "true_is_error": false
+    },
+    {
+      "key": "q_721_sampling0",
+      "pred_is_error": false,
+      "true_is_error": false
+    },
+    {
+      "key": "q_723_sampling0",
+      "pred_is_error": false,
+      "true_is_error": false
+    },
+    {
+      "key": "q_724_sampling1",
+      "pred_is_error": true,
+      "true_is_error": false
+    },
+    {
+      "key": "q_727_sampling2",
+      "pred_is_error": false,
+      "true_is_error": false
+    },
+    {
+      "key": "q_730_sampling0",
+      "pred_is_error": false,
+      "true_is_error": false
+    }
+  ],
+  "classification_report": {
+    "False": {
+      "precision": 0.5769230769230769,
+      "recall": 0.7894736842105263,
+      "f1-score": 0.6666666666666666,
+      "support": 19.0
+    },
+    "True": {
+      "precision": 0.7777777777777778,
+      "recall": 0.56,
+      "f1-score": 0.6511627906976745,
+      "support": 25.0
+    },
+    "accuracy": 0.6590909090909091,
+    "macro avg": {
+      "precision": 0.6773504273504274,
+      "recall": 0.6747368421052632,
+      "f1-score": 0.6589147286821706,
+      "support": 44.0
+    },
+    "weighted avg": {
+      "precision": 0.6910450660450661,
+      "recall": 0.6590909090909091,
+      "f1-score": 0.6578576462297392,
+      "support": 44.0
+    }
+  }
+}

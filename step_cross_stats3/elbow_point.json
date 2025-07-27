@@ -1,0 +1,112 @@
+{
+  "gsm_700_731": {
+    "error_regions": {
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 39
+    },
+    "fix_regions": {
+      "mean": 1.0263157894736843,
+      "std": 0.16007269816574266,
+      "count": 38
+    },
+    "neg_normal_regions": {
+      "mean": null,
+      "std": null,
+      "count": 0
+    },
+    "pos_normal_regions": {
+      "mean": null,
+      "std": null,
+      "count": 0
+    }
+  },
+  "gsm_901_950": {
+    "error_regions": {
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 13
+    },
+    "fix_regions": {
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 13
+    },
+    "neg_normal_regions": {
+      "mean": null,
+      "std": null,
+      "count": 0
+    },
+    "pos_normal_regions": {
+      "mean": null,
+      "std": null,
+      "count": 0
+    }
+  },
+  "algebra_level_3": {
+    "error_regions": {
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 7
+    },
+    "fix_regions": {
+      "mean": 1.2,
+      "std": 0.4,
+      "count": 5
+    },
+    "neg_normal_regions": {
+      "mean": null,
+      "std": null,
+      "count": 0
+    },
+    "pos_normal_regions": {
+      "mean": null,
+      "std": null,
+      "count": 0
+    }
+  },
+  "algebra_level_4": {
+    "error_regions": {
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 14
+    },
+    "fix_regions": {
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 15
+    },
+    "neg_normal_regions": {
+      "mean": null,
+      "std": null,
+      "count": 0
+    },
+    "pos_normal_regions": {
+      "mean": null,
+      "std": null,
+      "count": 0
+    }
+  },
+  "algebra_level_5": {
+    "error_regions": {
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 16
+    },
+    "fix_regions": {
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 14
+    },
+    "neg_normal_regions": {
+      "mean": null,
+      "std": null,
+      "count": 0
+    },
+    "pos_normal_regions": {
+      "mean": null,
+      "std": null,
+      "count": 0
+    }
+  }
+}

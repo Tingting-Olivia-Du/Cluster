@@ -1,0 +1,68 @@
+{
+  "easy": {
+    "error": {
+      "mean": 4096.0,
+      "std": 0.0,
+      "count": 5
+    },
+    "fix": {
+      "mean": 4096.0,
+      "std": 0.0,
+      "count": 5
+    },
+    "neg_normal": {
+      "mean": 4096.0,
+      "std": 0.0,
+      "count": 4
+    },
+    "pos_normal": {
+      "mean": 4096.0,
+      "std": 0.0,
+      "count": 5
+    }
+  },
+  "medium": {
+    "error": {
+      "mean": 4096.0,
+      "std": 0.0,
+      "count": 3
+    },
+    "fix": {
+      "mean": 4096.0,
+      "std": 0.0,
+      "count": 3
+    },
+    "neg_normal": {
+      "mean": 4096.0,
+      "std": 0.0,
+      "count": 3
+    },
+    "pos_normal": {
+      "mean": 4096.0,
+      "std": 0.0,
+      "count": 3
+    }
+  },
+  "hard": {
+    "error": {
+      "mean": 4096.0,
+      "std": 0.0,
+      "count": 3
+    },
+    "fix": {
+      "mean": 4096.0,
+      "std": 0.0,
+      "count": 3
+    },
+    "neg_normal": {
+      "mean": 4096.0,
+      "std": 0.0,
+      "count": 3
+    },
+    "pos_normal": {
+      "mean": 4096.0,
+      "std": 0.0,
+      "count": 1
+    }
+  }
+}

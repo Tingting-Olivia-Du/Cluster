@@ -1,0 +1,30 @@
+{
+  "error": {
+    "mean": 43.666666666666664,
+    "std": 26.5497436689865,
+    "min": 15.0,
+    "max": 79.0,
+    "count": 3
+  },
+  "fix": {
+    "mean": 4.0,
+    "std": 2.0,
+    "min": 2.0,
+    "max": 6.0,
+    "count": 2
+  },
+  "neg_normal": {
+    "mean": 31.681159420289855,
+    "std": 12.600313722369034,
+    "min": 5.0,
+    "max": 62.0,
+    "count": 69
+  },
+  "pos_normal": {
+    "mean": null,
+    "std": null,
+    "min": null,
+    "max": null,
+    "count": 0
+  }
+}

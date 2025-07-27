@@ -1,0 +1,112 @@
+{
+  "gsm_700_731": {
+    "error_regions": {
+      "mean": 12.051282051282051,
+      "std": 4.018857587059096,
+      "count": 39
+    },
+    "fix_regions": {
+      "mean": 12.81578947368421,
+      "std": 3.283573656198178,
+      "count": 38
+    },
+    "neg_normal_regions": {
+      "mean": null,
+      "std": null,
+      "count": 0
+    },
+    "pos_normal_regions": {
+      "mean": null,
+      "std": null,
+      "count": 0
+    }
+  },
+  "gsm_901_950": {
+    "error_regions": {
+      "mean": 13.153846153846153,
+      "std": 2.8781979898261087,
+      "count": 13
+    },
+    "fix_regions": {
+      "mean": 12.384615384615385,
+      "std": 3.4760380085215394,
+      "count": 13
+    },
+    "neg_normal_regions": {
+      "mean": null,
+      "std": null,
+      "count": 0
+    },
+    "pos_normal_regions": {
+      "mean": null,
+      "std": null,
+      "count": 0
+    }
+  },
+  "algebra_level_3": {
+    "error_regions": {
+      "mean": 13.857142857142858,
+      "std": 5.1110125199995196,
+      "count": 7
+    },
+    "fix_regions": {
+      "mean": 12.2,
+      "std": 2.315167380558045,
+      "count": 5
+    },
+    "neg_normal_regions": {
+      "mean": null,
+      "std": null,
+      "count": 0
+    },
+    "pos_normal_regions": {
+      "mean": null,
+      "std": null,
+      "count": 0
+    }
+  },
+  "algebra_level_4": {
+    "error_regions": {
+      "mean": 12.0,
+      "std": 4.326001122779063,
+      "count": 14
+    },
+    "fix_regions": {
+      "mean": 12.533333333333333,
+      "std": 3.263263533472111,
+      "count": 15
+    },
+    "neg_normal_regions": {
+      "mean": null,
+      "std": null,
+      "count": 0
+    },
+    "pos_normal_regions": {
+      "mean": null,
+      "std": null,
+      "count": 0
+    }
+  },
+  "algebra_level_5": {
+    "error_regions": {
+      "mean": 11.0,
+      "std": 2.598076211353316,
+      "count": 16
+    },
+    "fix_regions": {
+      "mean": 14.285714285714286,
+      "std": 5.586061370290615,
+      "count": 14
+    },
+    "neg_normal_regions": {
+      "mean": null,
+      "std": null,
+      "count": 0
+    },
+    "pos_normal_regions": {
+      "mean": null,
+      "std": null,
+      "count": 0
+    }
+  }
+}

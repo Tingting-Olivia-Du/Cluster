@@ -1,0 +1,44 @@
+{
+  "feature_importance": [
+    {
+      "metric": "structural_regularity",
+      "effect_size": 1.5678971444451588,
+      "direction": -1.5678971444451588
+    },
+    {
+      "metric": "sphericity",
+      "effect_size": 1.0013748525318003,
+      "direction": -1.0013748525318003
+    },
+    {
+      "metric": "manifold_curvature_mean",
+      "effect_size": 0.9938816597966712,
+      "direction": 0.9938816597966712
+    },
+    {
+      "metric": "convex_hull_area",
+      "effect_size": 0.8447120092672351,
+      "direction": -0.8447120092672351
+    },
+    {
+      "metric": "cluster_cohesion",
+      "effect_size": 0.4916903964430449,
+      "direction": 0.4916903964430449
+    },
+    {
+      "metric": "effective_dim_80",
+      "effect_size": 0.3925879257925077,
+      "direction": 0.3925879257925077
+    },
+    {
+      "metric": "compactness",
+      "effect_size": 0.1304954152036411,
+      "direction": -0.1304954152036411
+    },
+    {
+      "metric": "geometric_complexity",
+      "effect_size": 0.05024565056581207,
+      "direction": 0.05024565056581207
+    }
+  ]
+}

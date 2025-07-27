@@ -1,0 +1,91 @@
+{
+  "q_902": {
+    "sampling0": {
+      "first_error_sentence": "He fed an equal number of straws to the piglets, which means he fed 180 straws / 20 piglets = 9 straws to each piglet.",
+      "error_reason": "This mistakenly assumes the number of straws given to the piglets is 180, but 'equal number' means the same amount as the adult pigs, so it should be 180 straws in total, not divided among piglets yet. In reality, the piglets get the remaining straws (300 - 180 = 120), not another set of 180.",
+      "fix_sentence": "He fed an equal number of straws to the piglets, so the remaining straws are 300 - 180 = 120 straws.",
+      "fix_reason": "This correction recognizes that after adult pigs receive 180 straws, the remaining 120 straws go to the piglets, which is the 'equal amount' meant in the question. Only then should that total be divided among the 20 piglets.",
+      "correct_sampling_id": "sampling1",
+      "error_token_begin_index": 36,
+      "error_token_end_index": 74,
+      "fix_token_begin_index": 35,
+      "fix_token_end_index": 70
+    }
+  },
+  "q_906": {
+    "sampling2": {
+      "first_error_sentence": "At the third stop, 2 people got off the bus, so the number of passengers decreased by 2.",
+      "error_reason": "The answer immediately subtracts 2 people at the third stop, but omits handling the events at the second stop completely since it did not add the 5 people who got on at the second stop.",
+      "fix_sentence": "Then, 5 people got on the bus, so there are 4 + 5 = 9 people on the bus.",
+      "fix_reason": "Adding 5 people after subtracting 3 at the second stop ensures all passenger movements are accounted for, which corrects the count carried into the subsequent steps.",
+      "correct_sampling_id": "sampling0",
+      "error_token_begin_index": 83,
+      "error_token_end_index": 105,
+      "fix_token_begin_index": 42,
+      "fix_token_end_index": 67
+    }
+  },
+  "q_912": {
+    "sampling0": {
+      "first_error_sentence": "So, they can make 16 / 7 = 2 jars of jam from Betty's strawberries, 36 / 7 = 5 jars of jam from Matthew's strawberries, and 18 / 7 = 2 jars of jam from Natalie's strawberries.",
+      "error_reason": "This sentence incorrectly calculates the number of jars by dividing each person's strawberries individually, ignoring that the problem asks for the total number of jars made from all their strawberries combined.",
+      "fix_sentence": "One jar of jam used 7 strawberries, so they can make 70 / 7 = 10 jars of jam.",
+      "fix_reason": "This sentence correctly adds all the strawberries together first, then divides by 7 to get the total number of jars, as required by the problem.",
+      "correct_sampling_id": "sampling1",
+      "error_token_begin_index": 176,
+      "error_token_end_index": 235,
+      "fix_token_begin_index": 233,
+      "fix_token_end_index": 259
+    }
+  },
+  "q_922": {
+    "sampling0": {
+      "first_error_sentence": "In the new company, she's earned 20% more than she earned at the old company.",
+      "error_reason": "This incorrectly states that her total earnings in the new company are 20% higher than her TOTAL earnings at the old company, instead of her monthly salary being 20% higher.",
+      "fix_sentence": "She's now earning 20% more in the new company, which means she's earning $5000 + ($5000 * 20%) = $6000 per month.",
+      "fix_reason": "This correctly interprets the question as saying her monthly salary is 20% higher in the new company, not her total earnings.",
+      "correct_sampling_id": "sampling1",
+      "error_token_begin_index": 101,
+      "error_token_end_index": 122,
+      "fix_token_begin_index": 114,
+      "fix_token_end_index": 159
+    }
+  },
+  "q_943": {
+    "sampling1": {
+      "first_error_sentence": "He wants to reach a goal of $96, so we can set up the equation 12D = 96.",
+      "error_reason": "This equation ignores the cost of buying the donuts, using revenue only rather than profit.",
+      "fix_sentence": "Javier wants to raise $96, so we can set up the equation: 12x - 2.40x = 96.",
+      "fix_reason": "This equation correctly models Javier's profit (revenue minus cost) instead of just his revenue, which is necessary to determine how many dozens he must sell to actually net $96.",
+      "correct_sampling_id": "sampling0",
+      "error_token_begin_index": 96,
+      "error_token_end_index": 122,
+      "fix_token_begin_index": 117,
+      "fix_token_end_index": 149
+    }
+  },
+  "q_947": {
+    "sampling0": {
+      "first_error_sentence": "Therefore, the current practice can be represented as 20P.",
+      "error_reason": "This misinterprets the relationship; 20 days ago he had half as much practice as now, so 20P is half, not the total current amount.",
+      "fix_sentence": "40P = current practice",
+      "fix_reason": "This correctly sets current practice as double what it was 20 days ago, since 20P is half, so current is 40P.",
+      "correct_sampling_id": "sampling2",
+      "error_token_begin_index": 50,
+      "error_token_end_index": 63,
+      "fix_token_begin_index": 100,
+      "fix_token_end_index": 105
+    },
+    "sampling1": {
+      "first_error_sentence": "This means that Johnny has done 10 days worth of practice so far.",
+      "error_reason": "This incorrectly concludes that Johnny has only practiced for 10 days so far, based on misusing the expression (P * 20) / 2 = P * 10, which does not correctly represent his total amount of current practice.",
+      "fix_sentence": "40P = current practice",
+      "fix_reason": "This correctly establishes that Johnny’s current amount of practice is 40 days’ worth, derived from the information that 20 days ago he had half as much practice, forming a sound basis for the rest of the solution.",
+      "correct_sampling_id": "sampling2",
+      "error_token_begin_index": 63,
+      "error_token_end_index": 78,
+      "fix_token_begin_index": 100,
+      "fix_token_end_index": 105
+    }
+  }
+}

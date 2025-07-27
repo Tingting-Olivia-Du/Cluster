@@ -1,0 +1,337 @@
+{
+  "q_700": {
+    "sampling0": {
+      "first_error_sentence": "To find the cost of a single brown sock, divide the 45 cents cost of two white socks by 2: 45 cents / 2 = 22.5 cents.",
+      "error_reason": "The error is in assuming the cost of one brown sock is simply half the price of two white socks, when actually two white socks cost 25 cents more than a single brown sock.",
+      "fix_sentence": "If two white socks cost 45 cents, then a single brown sock costs 45 - 25 = 20 cents.",
+      "fix_reason": "This sentence correctly solves for the cost of a brown sock by using the given relationship between the prices, instead of dividing by 2.",
+      "correct_sampling_id": "sampling1",
+      "error_token_begin_index": 48,
+      "error_token_end_index": 87,
+      "fix_token_begin_index": 22,
+      "fix_token_end_index": 50
+    },
+    "sampling2": {
+      "first_error_sentence": "Let's denote the cost of a single brown sock as B, and the cost of two white socks as W.",
+      "error_reason": "Introducing unnecessary variables and equations makes the solution more complicated than needed for this straightforward arithmetic problem.",
+      "fix_sentence": "Two white socks cost 25 cents more than a single brown sock.",
+      "fix_reason": "Stating the relationship directly keeps the solution clear and concise, as in the correct answer, focusing immediately on the given information without extra variables.",
+      "correct_sampling_id": "sampling1",
+      "error_token_begin_index": 30,
+      "error_token_end_index": 53,
+      "fix_token_begin_index": 7,
+      "fix_token_end_index": 21
+    }
+  },
+  "q_701": {
+    "sampling1": {
+      "first_error_sentence": "Please enter your response here.",
+      "error_reason": "The sample answer does not attempt to solve the problem or show any calculation steps—it simply prompts for input.",
+      "fix_sentence": "First, let's find out how many total slices Kim bought. Since each pizza has 12 slices and Kim bought 3 pizzas, the total number of slices is 12 * 3 = 36 slices.",
+      "fix_reason": "This sentence initiates the correct mathematical process by identifying the first calculation: determining the total number of pizza slices, which is necessary to proceed with the solution.",
+      "correct_sampling_id": "sampling0",
+      "error_token_begin_index": 0,
+      "error_token_end_index": 5,
+      "fix_token_begin_index": 0,
+      "fix_token_end_index": 46
+    }
+  },
+  "q_703": {
+    "sampling1": {
+      "first_error_sentence": "Since each serving of guacamole requires 1 avocado, Georgie can make 9 servings of guacamole.",
+      "error_reason": "The sentence incorrectly states that each serving only requires 1 avocado, but the problem says each serving requires 3 avocados.",
+      "fix_sentence": "Since Georgie needs 3 avocados to make the guacamole recipe, she can make 9 / 3 = 3 servings of guacamole.",
+      "fix_reason": "This sentence correctly uses the information from the problem (3 avocados per serving) and performs the correct division to get the number of servings.",
+      "correct_sampling_id": "sampling0",
+      "error_token_begin_index": 269,
+      "error_token_end_index": 290,
+      "fix_token_begin_index": 120,
+      "fix_token_end_index": 151
+    }
+  },
+  "q_705": {
+    "sampling1": {
+      "first_error_sentence": "So, we can set up the equation:\n\n$51 = (initial amount) / 2",
+      "error_reason": "This incorrectly assumes that the $51 left is half of Isabel's initial amount, instead of correctly modeling the two-step process (spending half, then half again).",
+      "fix_sentence": "If she has $51 left, then x/4 = $51.",
+      "fix_reason": "Because after spending half, then half again, only a quarter of the initial amount remains. Equating x/4 to $51 properly models the situation.",
+      "correct_sampling_id": "sampling0",
+      "error_token_begin_index": 45,
+      "error_token_end_index": 66,
+      "fix_token_begin_index": 76,
+      "fix_token_end_index": 92
+    },
+    "sampling2": {
+      "first_error_sentence": "We can set up the equation:\n(Initial amount of money) / 2 - (half the initial amount spent on a toy) - (half the remaining amount spent on a book) = $51",
+      "error_reason": "This equation misrepresents the situation. After spending half, half of the remaining money is spent, not subtracted in this way. The process should be sequential, not additive/subtractive as shown.",
+      "fix_sentence": "Let's say she had x dollars at first.\nShe spent half the amount, so she had x/2 dollars left.\nShe then spent half of the remaining money, which is (x/2)/2 = x/4 dollars, to buy her brother a book.\nIf she has $51 left, then x/4 = $51.",
+      "fix_reason": "This sequence sets up the relationship accurately: after spending half, the remaining is halved again to buy the book, so the $51 is the final quarter of the starting amount. The equation x/4 = 51 correctly models the process.",
+      "correct_sampling_id": "sampling0",
+      "error_token_begin_index": 78,
+      "error_token_end_index": 120,
+      "fix_token_begin_index": 17,
+      "fix_token_end_index": 92
+    }
+  },
+  "q_707": {
+    "sampling0": {
+      "first_error_sentence": "So, each slice of bread is torn into 2 * 2 = 4 pieces.",
+      "error_reason": "This sentence only calculates the number of pieces for one slice of bread, not for both slices combined. It fails to multiply by the number of slices, leading to an undercount.",
+      "fix_sentence": "First, she tears 2 slices of bread into 2 halves each. This gives her 2 * 2 = 4 bread pieces.",
+      "fix_reason": "This sentence correctly calculates the total pieces after the first tear for both slices, laying the proper foundation for the next halving step and ultimately arriving at the correct total.",
+      "correct_sampling_id": "sampling1",
+      "error_token_begin_index": 24,
+      "error_token_end_index": 42,
+      "fix_token_begin_index": 19,
+      "fix_token_end_index": 47
+    },
+    "sampling2": {
+      "first_error_sentence": "The number of pieces of bread after each step is:",
+      "error_reason": "The counting starts from 4 pieces (after the first tear), but the next step mistakenly assumes each of those 4 pieces is torn again, resulting in 8, and then unnecessarily tears again to get 16 pieces, adding an extra tearing step not in the problem.",
+      "fix_sentence": "Then, she tears each of those 4 halves in half, resulting in 4 * 2 = 8 bread pieces.",
+      "fix_reason": "This correctly matches the two-step tearing process described: each original slice is torn in half (yielding 4 pieces), and then each half is torn in half again (yielding 8 in total), which is consistent with the problem's instructions and the correct answer.",
+      "correct_sampling_id": "sampling1",
+      "error_token_begin_index": 29,
+      "error_token_end_index": 39,
+      "fix_token_begin_index": 49,
+      "fix_token_end_index": 74
+    }
+  },
+  "q_709": {
+    "sampling0": {
+      "first_error_sentence": "There are 3 sons, so in total, they eat 3 * 2 = 6 meatballs.",
+      "error_reason": "This sentence correctly calculates the total number of meatballs eaten, but the answer then mistakenly reports this value as the final number of meatballs left, rather than subtracting it from the original total.",
+      "fix_sentence": "3 plates * 3 meatballs per plate - 6 meatballs eaten = 9 meatballs - 6 meatballs = 3 meatballs left",
+      "fix_reason": "This sentence correctly calculates the total number of meatballs left by subtracting the eaten meatballs from the total, providing the correct final answer.",
+      "correct_sampling_id": "sampling1",
+      "error_token_begin_index": 69,
+      "error_token_end_index": 91,
+      "fix_token_begin_index": 140,
+      "fix_token_end_index": 170
+    },
+    "sampling2": {
+      "first_error_sentence": "Example Question: Sarah has 3 packs of pencils. Each pack contains 12 pencils. She gives away 15 pencils to her classmates. How many pencils does she have left?",
+      "error_reason": "The answer provides an example about pencils and Sarah that is unrelated to the original meatball and spaghetti problem, so it addresses a different scenario entirely.",
+      "fix_sentence": "There are 3 meatballs on each spaghetti plate, so 3 plates have a total of 3 * 3 = 9 meatballs.",
+      "fix_reason": "This sentence sets up the correct problem context about meatballs and spaghetti plates, ensuring the reasoning steps align with the original math problem.",
+      "correct_sampling_id": "sampling1",
+      "error_token_begin_index": 0,
+      "error_token_end_index": 37,
+      "fix_token_begin_index": -1,
+      "fix_token_end_index": -1
+    }
+  },
+  "q_710": {
+    "sampling1": {
+      "first_error_sentence": "To calculate the total number of candies, you can simply multiply the number of candies Travis and his brother collected by 2 (since there were two people).",
+      "error_reason": "The total number of candies is already given as 68; multiplying by 2 would incorrectly double the amount.",
+      "fix_sentence": "Travis and his brother collected 68 pieces of candy altogether, and each of them ate 4 pieces of candy after the event.",
+      "fix_reason": "This sentence correctly uses the provided total (68) without unnecessary multiplication, accurately setting up the problem.",
+      "correct_sampling_id": "sampling0",
+      "error_token_begin_index": 6,
+      "error_token_end_index": 36,
+      "fix_token_begin_index": 2,
+      "fix_token_end_index": 28
+    }
+  },
+  "q_711": {
+    "sampling0": {
+      "first_error_sentence": "Here is a Python code solution:",
+      "error_reason": "Using a Python code solution is not inherently incorrect, but the problem asked for a math problem solution with clear logical steps, not for code. The earliest deviation from the expected answer format is choosing to use code rather than solving algebraically as shown in the correct answer.",
+      "fix_sentence": "Let's say Emily sold x oranges.",
+      "fix_reason": "This sentence correctly sets up the algebraic approach the problem expects, leading directly to clear logical steps and a solution.",
+      "correct_sampling_id": "sampling1",
+      "error_token_begin_index": 0,
+      "error_token_end_index": 6,
+      "fix_token_begin_index": 15,
+      "fix_token_end_index": 23
+    }
+  },
+  "q_712": {
+    "sampling0": {
+      "first_error_sentence": "I'm sorry, but I cannot answer that question. I am a language model and do not have the ability to perform arithmetic operations.",
+      "error_reason": "This is incorrect because it falsely claims the inability to do arithmetic, thus failing to attempt the problem or provide an answer.",
+      "fix_sentence": "Jimmy bought 3 pens for school for $1 each, so the total cost of the pens is 3 * $1 = $3.",
+      "fix_reason": "This sentence initiates the arithmetic process needed to solve the problem and correctly begins the calculation required to find the answer.",
+      "correct_sampling_id": "sampling2",
+      "error_token_begin_index": 0,
+      "error_token_end_index": 27,
+      "fix_token_begin_index": 36,
+      "fix_token_end_index": 64
+    },
+    "sampling1": {
+      "first_error_sentence": "6. Divide the change by the minimum number of coins to get the maximum number of coins: $25 / $0.25 (quarter) = 10 quarters",
+      "error_reason": "The problem only asks for the amount of change, not how it could be given in coins; this step is irrelevant and introduces unnecessary operations.",
+      "fix_sentence": "He paid with a $50 bill, so his change will be $50 - $25 = $25.",
+      "fix_reason": "This sentence correctly completes the required calculation by subtracting the total cost from the amount paid to find the change, which directly answers the original question.",
+      "correct_sampling_id": "sampling2",
+      "error_token_begin_index": 140,
+      "error_token_end_index": 175,
+      "fix_token_begin_index": 149,
+      "fix_token_end_index": 174
+    }
+  },
+  "q_714": {
+    "sampling0": {
+      "first_error_sentence": "To find out how much he makes per day, we need to divide the total monthly earnings by the number of days in a month.",
+      "error_reason": "This assumes the correct total monthly earnings have already been calculated, but the calculation for monthly earnings is missing and leads to a wrong final calculation in the answer.",
+      "fix_sentence": "Divide the total visits by the number of days in the month: 30000 visits / 30 days = 1000 visits per day.",
+      "fix_reason": "This step first finds the number of visits per day, which is necessary before calculating daily earnings. By breaking down the calculation into per-day visits first, it prevents errors in handling the total earnings and ensures the proper sequence of solving the problem.",
+      "correct_sampling_id": "sampling2",
+      "error_token_begin_index": 27,
+      "error_token_end_index": 53,
+      "fix_token_begin_index": 126,
+      "fix_token_end_index": 161
+    },
+    "sampling1": {
+      "first_error_sentence": "There are 30 days in a normal month, so the total earnings for the month is 30000 visits * $.01/visit = $<<=sum=30000*0.01=300>>300.",
+      "error_reason": "This calculates the monthly total earnings ($300) instead of the daily earnings as the question asks.",
+      "fix_sentence": "Divide the total visits by the number of days in the month: 30000 visits / 30 days = 1000 visits per day.",
+      "fix_reason": "By first finding the number of visits per day, we can then correctly compute John's daily earnings as required by the question.",
+      "correct_sampling_id": "sampling2",
+      "error_token_begin_index": 25,
+      "error_token_end_index": 81,
+      "fix_token_begin_index": 126,
+      "fix_token_end_index": 161
+    }
+  },
+  "q_715": {
+    "sampling1": {
+      "first_error_sentence": "Example Question: Sarah has 3 packs of pencils. Each pack contains 12 pencils. She gives away 15 pencils to her classmates. How many pencils does she have left?",
+      "error_reason": "The sample answer presents a completely unrelated question and context (about Sarah and pencils) instead of the bracelet business described in the original math problem.",
+      "fix_sentence": "You spend $1 on the string for each bracelet and $3 on beads for each bracelet, so the total cost per bracelet is 1 + 3 = $4.",
+      "fix_reason": "This sentence returns the solution to the context of the original question by calculating the total cost per bracelet, forming the foundation for solving the profit problem correctly.",
+      "correct_sampling_id": "sampling0",
+      "error_token_begin_index": 0,
+      "error_token_end_index": 37,
+      "fix_token_begin_index": 3,
+      "fix_token_end_index": 37
+    }
+  },
+  "q_717": {
+    "sampling1": {
+      "first_error_sentence": "He drank 8 shots of vodka, each containing 1.5 ounces, so he drank a total of 8 * 1.5 = 12 ounces of vodka.",
+      "error_reason": "This is incorrect because Jake splits the 8 shots with his friend, so he only drinks half of the shots, not all 8.",
+      "fix_sentence": "Jake splits 8 shots of vodka with his friend, so he drank 8 / 2 = 4 shots of vodka.",
+      "fix_reason": "This corrects the error by identifying that Jake only drank half (4 shots) of the total, matching the information in the problem.",
+      "correct_sampling_id": "sampling0",
+      "error_token_begin_index": -1,
+      "error_token_end_index": -1,
+      "fix_token_begin_index": 7,
+      "fix_token_end_index": 33
+    }
+  },
+  "q_718": {
+    "sampling2": {
+      "first_error_sentence": "jakes_snake_length = snake_length(70, 40)",
+      "error_reason": "This line assumes Jake's snake length is 40 inches without solving for the correct value using the actual relationship between snake lengths.",
+      "fix_sentence": "So, x + (x + 12) = 70.",
+      "fix_reason": "This sets up the correct equation to relate the lengths and allows solving for the unknown, leading to the correct answer.",
+      "correct_sampling_id": "sampling0",
+      "error_token_begin_index": 45,
+      "error_token_end_index": 62,
+      "fix_token_begin_index": 66,
+      "fix_token_end_index": 81
+    }
+  },
+  "q_720": {
+    "sampling1": {
+      "first_error_sentence": "The total selling price of the paintings is 10 * $36 = $360.",
+      "error_reason": "The mistake is calculating loss as the difference between total cost and total sale revenue, rather than summing up the individual losses per item as shown in the correct answer.",
+      "fix_sentence": "The total loss from the sale of the paintings is 10 * ($40 - $36) = 10 * $4 = $40.",
+      "fix_reason": "This fixes the error because it calculates the correct total loss by aggregating the loss per item for all the paintings instead of netting out total revenue from total cost, which could obscure the actual loss per item.",
+      "correct_sampling_id": "sampling0",
+      "error_token_begin_index": 168,
+      "error_token_end_index": 188,
+      "fix_token_begin_index": 182,
+      "fix_token_end_index": 215
+    }
+  },
+  "q_721": {
+    "sampling2": {
+      "first_error_sentence": "What is your answer?",
+      "error_reason": "The answer does not address the question or attempt any calculations; instead, it asks a question back to the user.",
+      "fix_sentence": "To buy one smartphone, you have to pay $300.",
+      "fix_reason": "This initiates the proper solution process by starting the necessary price breakdown for the products as required by the problem.",
+      "correct_sampling_id": "sampling0",
+      "error_token_begin_index": 0,
+      "error_token_end_index": 4,
+      "fix_token_begin_index": 5,
+      "fix_token_end_index": 18
+    }
+  },
+  "q_723": {
+    "sampling2": {
+      "first_error_sentence": "He ate 1 bag of chips for dinner.",
+      "error_reason": "This sentence is actually correct; there is no mistake in this step. The entire sample answer is correct and matches the correct answer. No error is present.",
+      "fix_sentence": "John eats a bag of chips for dinner, so he eats 1 bag.",
+      "fix_reason": "Both answers are correct and consistent. There is, in fact, no error to fix. The 'incorrect answer' is not actually incorrect—it mirrors the correct logic and calculations.",
+      "correct_sampling_id": "sampling0",
+      "error_token_begin_index": 33,
+      "error_token_end_index": 42,
+      "fix_token_begin_index": 7,
+      "fix_token_end_index": 22
+    }
+  },
+  "q_724": {
+    "sampling0": {
+      "first_error_sentence": "To find out how much she spent, we can set up an equation:",
+      "error_reason": "This sets up the equation incorrectly, equating 3/7 of the original amount (the amount spent) to the amount left ($24), rather than recognizing that $24 is what remains after spending 3/7 of her money.",
+      "fix_sentence": "We can set up the equation: x - (3/7)x = 24.",
+      "fix_reason": "This correctly expresses that the remaining amount after spending 3/7 of her money is 4/7 of her original amount, which equals $24.",
+      "correct_sampling_id": "sampling1",
+      "error_token_begin_index": 26,
+      "error_token_end_index": 40,
+      "fix_token_begin_index": 36,
+      "fix_token_end_index": 55
+    },
+    "sampling2": {
+      "first_error_sentence": "Combine the terms on the left side of the equation: (3/7)x = 24.",
+      "error_reason": "The answer incorrectly states that (3/7)x = 24, confusing the fraction of money spent with the fraction remaining.",
+      "fix_sentence": "Combine the terms on the left side of the equation: (4/7)x = 24.",
+      "fix_reason": "This correctly represents the fraction of money Jenny has left after spending 3/7, since 1 - 3/7 = 4/7.",
+      "correct_sampling_id": "sampling1",
+      "error_token_begin_index": -1,
+      "error_token_end_index": -1,
+      "fix_token_begin_index": 58,
+      "fix_token_end_index": 79
+    }
+  },
+  "q_727": {
+    "sampling0": {
+      "first_error_sentence": "Subtract the shells she had before from the shells she found on vacation and add the shells she found on the fourth day: 20 - 15 + 6 = 11.",
+      "error_reason": "The calculation incorrectly subtracts the shells Shara had before vacation, when it should have added all the shells found to her original count.",
+      "fix_sentence": "Add the shells she found to the total number of shells she had before the vacation: 20 + 15 + 6 = 41 shells.",
+      "fix_reason": "This sentence correctly adds the shells Shara found on vacation to the number she had before, which gives the correct total.",
+      "correct_sampling_id": "sampling2",
+      "error_token_begin_index": 68,
+      "error_token_end_index": 107,
+      "fix_token_begin_index": 62,
+      "fix_token_end_index": 94
+    },
+    "sampling1": {
+      "first_error_sentence": "On the fourth day, she found 6 more shells, so:",
+      "error_reason": "This sentence leads into a calculation that incorrectly adds the 6 shells found on the fourth day to the 15 shells already found, without properly separating or explaining these as sequential events.",
+      "fix_sentence": "Then she found 6 shells on the fourth day.",
+      "fix_reason": "This sentence clearly states what happened on the fourth day, maintaining accurate chronological steps and avoids premature addition, keeping the solution organized and correct.",
+      "correct_sampling_id": "sampling2",
+      "error_token_begin_index": 57,
+      "error_token_end_index": 70,
+      "fix_token_begin_index": 50,
+      "fix_token_end_index": 60
+    }
+  },
+  "q_730": {
+    "sampling2": {
+      "first_error_sentence": "Jack sold all the 3 books at $500 each.",
+      "error_reason": "This mistakenly assumes Jack sold each of the 3 books for $500 each, rather than selling all the books together for a total of $500.",
+      "fix_sentence": "He sells them back for $500, so he loses $720 - $500 = $220.",
+      "fix_reason": "This correctly interprets that Jack received a total of $500 for selling all the books and calculates the loss as the difference between his total spending and total received.",
+      "correct_sampling_id": "sampling0",
+      "error_token_begin_index": 142,
+      "error_token_end_index": 155,
+      "fix_token_begin_index": 67,
+      "fix_token_end_index": 94
+    }
+  }
+}

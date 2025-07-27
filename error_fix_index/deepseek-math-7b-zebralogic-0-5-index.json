@@ -1,0 +1,50 @@
+{
+  "q_1": {
+    "sampling0": {
+      "first_error_sentence": "Peter is the person with a bachelor's degree. Therefore, the person who lives in House 3 has a bachelor's degree.",
+      "error_reason": "This erroneously assumes Peter lives in House 3, but according to the clues (in particular, clue 1 and clue 9), Peter is in House 1 and Eric is in House 3.",
+      "fix_sentence": "Eric is in the third house, so the person in the third house is not Peter.",
+      "fix_reason": "This makes clear that Peter is not in House 3, so having a bachelor's degree in House 3 is incorrect; instead, we must determine Eric's and Arnold’s education separately.",
+      "correct_sampling_id": "sampling1",
+      "error_token_begin_index": 0,
+      "error_token_end_index": 27,
+      "fix_token_begin_index": 210,
+      "fix_token_end_index": 227
+    },
+    "sampling2": {
+      "first_error_sentence": "Education of the person who lives in House 3 is a bachelor.",
+      "error_reason": "This incorrectly assigns the bachelor's degree to the person in House 3, but the clues show Peter (with the bachelor's) is in House 1 and Eric (in House 3) cannot have the bachelor's.",
+      "fix_sentence": "Therefore, the person who lives in House 3 is Arnold, and their Education is \"associate\".",
+      "fix_reason": "This sentence correctly deduces from the clues that the person in House 3 (Eric) must have the 'associate' education level, by correctly assigning the bachelor's degree to Peter in House 1 and resolving all constraints.",
+      "correct_sampling_id": "sampling1",
+      "error_token_begin_index": 0,
+      "error_token_end_index": 13,
+      "fix_token_begin_index": 258,
+      "fix_token_end_index": 277
+    }
+  },
+  "q_2": {
+    "sampling0": {
+      "first_error_sentence": "The person who lives in House 2 loves the science fiction books.",
+      "error_reason": "Clue 4 explicitly states that the person who loves science fiction books is not in the second house, so House 2 cannot have 'science fiction' as the favorite book genre.",
+      "fix_sentence": "From clue 4, we can eliminate B2 = science fiction.",
+      "fix_reason": "This sentence correctly applies Clue 4 by ruling out 'science fiction' as the genre for House 2, ensuring that later deductions cannot incorrectly assign it to House 2.",
+      "correct_sampling_id": "sampling1",
+      "error_token_begin_index": 0,
+      "error_token_end_index": 13,
+      "fix_token_begin_index": 714,
+      "fix_token_end_index": 727
+    },
+    "sampling2": {
+      "first_error_sentence": "From clue 10, we know that the person in the second house is the Swedish person.",
+      "error_reason": "Clue 10 states 'The Swedish person is The person whose mother's name is Janelle.' It does NOT specify the house location of the Swedish person, so deducing that the Swedish person must be in the second house is not justified here.",
+      "fix_sentence": "From clue 10, we know that the Swedish person is the person whose mother's name is Janelle.",
+      "fix_reason": "This sentence correctly interprets the clue by linking the Swedish person to having mother Janelle, as in the correct answer, without making an unsupported assumption about which house the Swedish person occupies.",
+      "correct_sampling_id": "sampling1",
+      "error_token_begin_index": 261,
+      "error_token_end_index": 280,
+      "fix_token_begin_index": -1,
+      "fix_token_end_index": -1
+    }
+  }
+}
