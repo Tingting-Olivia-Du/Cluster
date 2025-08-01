@@ -1,0 +1,503 @@
+{
+  "pair_comparisons": [
+    {
+      "qid": "causal_q_0",
+      "true_answer": "Yes",
+      "positive_analysis": {
+        "cluster_cohesion": 4.6587186511161224e-05,
+        "optimal_clusters": 2,
+        "min_inertia": 21464.129682395025,
+        "best_silhouette_score": 0.18987253221484354,
+        "n_tokens": 139,
+        "centroid_distance_mean": 14.67784204796653,
+        "centroid_distance_std": 2.382442848203351,
+        "sample_type": "positive"
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0,
+        "optimal_clusters": 1,
+        "min_inertia": 0.0,
+        "best_silhouette_score": 0.0,
+        "n_tokens": 1,
+        "sample_type": "negative"
+      },
+      "comparison": {
+        "cohesion_difference": 4.6587186511161224e-05,
+        "positive_cohesion": 4.6587186511161224e-05,
+        "negative_cohesion": 0.0,
+        "positive_tokens": 139,
+        "negative_tokens": 1
+      }
+    },
+    {
+      "qid": "causal_q_1",
+      "true_answer": "No",
+      "positive_analysis": {
+        "cluster_cohesion": 0.00012178333404012643,
+        "optimal_clusters": 2,
+        "min_inertia": 8210.304181165788,
+        "best_silhouette_score": 0.21567279787207772,
+        "n_tokens": 57,
+        "centroid_distance_mean": 14.667303921248866,
+        "centroid_distance_std": 2.66272867152081,
+        "sample_type": "positive"
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0,
+        "optimal_clusters": 1,
+        "min_inertia": 0.0,
+        "best_silhouette_score": 0.0,
+        "n_tokens": 1,
+        "sample_type": "negative"
+      },
+      "comparison": {
+        "cohesion_difference": 0.00012178333404012643,
+        "positive_cohesion": 0.00012178333404012643,
+        "negative_cohesion": 0.0,
+        "positive_tokens": 57,
+        "negative_tokens": 1
+      }
+    },
+    {
+      "qid": "causal_q_3",
+      "true_answer": "No",
+      "positive_analysis": {
+        "cluster_cohesion": 5.861682856949803e-05,
+        "optimal_clusters": 2,
+        "min_inertia": 17058.947192713902,
+        "best_silhouette_score": 0.1969976323013435,
+        "n_tokens": 107,
+        "centroid_distance_mean": 14.441165960453796,
+        "centroid_distance_std": 2.600839534334964,
+        "sample_type": "positive"
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0,
+        "optimal_clusters": 1,
+        "min_inertia": 0.0,
+        "best_silhouette_score": 0.0,
+        "n_tokens": 1,
+        "sample_type": "negative"
+      },
+      "comparison": {
+        "cohesion_difference": 5.861682856949803e-05,
+        "positive_cohesion": 5.861682856949803e-05,
+        "negative_cohesion": 0.0,
+        "positive_tokens": 107,
+        "negative_tokens": 1
+      }
+    },
+    {
+      "qid": "causal_q_4",
+      "true_answer": "Yes",
+      "positive_analysis": {
+        "cluster_cohesion": 7.754117232662936e-05,
+        "optimal_clusters": 2,
+        "min_inertia": 12895.374532328005,
+        "best_silhouette_score": 0.21034378459911263,
+        "n_tokens": 83,
+        "centroid_distance_mean": 14.643006647234204,
+        "centroid_distance_std": 2.6023974526902487,
+        "sample_type": "positive"
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0,
+        "optimal_clusters": 1,
+        "min_inertia": 0.0,
+        "best_silhouette_score": 0.0,
+        "n_tokens": 1,
+        "sample_type": "negative"
+      },
+      "comparison": {
+        "cohesion_difference": 7.754117232662936e-05,
+        "positive_cohesion": 7.754117232662936e-05,
+        "negative_cohesion": 0.0,
+        "positive_tokens": 83,
+        "negative_tokens": 1
+      }
+    },
+    {
+      "qid": "causal_q_6",
+      "true_answer": "Yes",
+      "positive_analysis": {
+        "cluster_cohesion": 2.9510333577139026e-05,
+        "optimal_clusters": 4,
+        "min_inertia": 33885.43498000568,
+        "best_silhouette_score": 0.21632862312139114,
+        "n_tokens": 214,
+        "centroid_distance_mean": 15.03560724689362,
+        "centroid_distance_std": 2.779762872181574,
+        "sample_type": "positive"
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 4.9966998809944e-05,
+        "optimal_clusters": 2,
+        "min_inertia": 20012.2091944051,
+        "best_silhouette_score": 0.21850240395474055,
+        "n_tokens": 129,
+        "centroid_distance_mean": 14.220344773608272,
+        "centroid_distance_std": 2.6507975093797933,
+        "sample_type": "negative"
+      },
+      "comparison": {
+        "cohesion_difference": -2.0456665232804977e-05,
+        "positive_cohesion": 2.9510333577139026e-05,
+        "negative_cohesion": 4.9966998809944e-05,
+        "positive_tokens": 214,
+        "negative_tokens": 129
+      }
+    },
+    {
+      "qid": "causal_q_8",
+      "true_answer": "Yes",
+      "positive_analysis": {
+        "cluster_cohesion": 4.5632114711871213e-05,
+        "optimal_clusters": 2,
+        "min_inertia": 21913.390913376836,
+        "best_silhouette_score": 0.22649811704907902,
+        "n_tokens": 153,
+        "centroid_distance_mean": 14.094574723588254,
+        "centroid_distance_std": 2.458930688414355,
+        "sample_type": "positive"
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0,
+        "optimal_clusters": 1,
+        "min_inertia": 0.0,
+        "best_silhouette_score": 0.0,
+        "n_tokens": 1,
+        "sample_type": "negative"
+      },
+      "comparison": {
+        "cohesion_difference": 4.5632114711871213e-05,
+        "positive_cohesion": 4.5632114711871213e-05,
+        "negative_cohesion": 0.0,
+        "positive_tokens": 153,
+        "negative_tokens": 1
+      }
+    },
+    {
+      "qid": "causal_q_9",
+      "true_answer": "No",
+      "positive_analysis": {
+        "cluster_cohesion": 0.00010927581077750607,
+        "optimal_clusters": 2,
+        "min_inertia": 9150.156078229213,
+        "best_silhouette_score": 0.22762401239058122,
+        "n_tokens": 62,
+        "centroid_distance_mean": 14.91155310298404,
+        "centroid_distance_std": 2.541662647979223,
+        "sample_type": "positive"
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0,
+        "optimal_clusters": 1,
+        "min_inertia": 0.0,
+        "best_silhouette_score": 0.0,
+        "n_tokens": 1,
+        "sample_type": "negative"
+      },
+      "comparison": {
+        "cohesion_difference": 0.00010927581077750607,
+        "positive_cohesion": 0.00010927581077750607,
+        "negative_cohesion": 0.0,
+        "positive_tokens": 62,
+        "negative_tokens": 1
+      }
+    },
+    {
+      "qid": "causal_q_11",
+      "true_answer": "No",
+      "positive_analysis": {
+        "cluster_cohesion": 4.4097556297868313e-05,
+        "optimal_clusters": 2,
+        "min_inertia": 22675.99355595222,
+        "best_silhouette_score": 0.15937576231657688,
+        "n_tokens": 115,
+        "centroid_distance_mean": 15.958226214244476,
+        "centroid_distance_std": 2.3797185751582597,
+        "sample_type": "positive"
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0,
+        "optimal_clusters": 1,
+        "min_inertia": 0.0,
+        "best_silhouette_score": 0.0,
+        "n_tokens": 1,
+        "sample_type": "negative"
+      },
+      "comparison": {
+        "cohesion_difference": 4.4097556297868313e-05,
+        "positive_cohesion": 4.4097556297868313e-05,
+        "negative_cohesion": 0.0,
+        "positive_tokens": 115,
+        "negative_tokens": 1
+      }
+    },
+    {
+      "qid": "causal_q_13",
+      "true_answer": "Yes",
+      "positive_analysis": {
+        "cluster_cohesion": 8.282509559954278e-05,
+        "optimal_clusters": 2,
+        "min_inertia": 12072.635324672301,
+        "best_silhouette_score": 0.21630875855514642,
+        "n_tokens": 77,
+        "centroid_distance_mean": 14.910054013405777,
+        "centroid_distance_std": 2.6643606986727053,
+        "sample_type": "positive"
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0,
+        "optimal_clusters": 1,
+        "min_inertia": 0.0,
+        "best_silhouette_score": 0.0,
+        "n_tokens": 1,
+        "sample_type": "negative"
+      },
+      "comparison": {
+        "cohesion_difference": 8.282509559954278e-05,
+        "positive_cohesion": 8.282509559954278e-05,
+        "negative_cohesion": 0.0,
+        "positive_tokens": 77,
+        "negative_tokens": 1
+      }
+    },
+    {
+      "qid": "causal_q_17",
+      "true_answer": "No",
+      "positive_analysis": {
+        "cluster_cohesion": 9.940157858858708e-05,
+        "optimal_clusters": 2,
+        "min_inertia": 10059.20240522434,
+        "best_silhouette_score": 0.23725693496032094,
+        "n_tokens": 67,
+        "centroid_distance_mean": 14.985506001557956,
+        "centroid_distance_std": 2.87735910930208,
+        "sample_type": "positive"
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0,
+        "optimal_clusters": 1,
+        "min_inertia": 0.0,
+        "best_silhouette_score": 0.0,
+        "n_tokens": 1,
+        "sample_type": "negative"
+      },
+      "comparison": {
+        "cohesion_difference": 9.940157858858708e-05,
+        "positive_cohesion": 9.940157858858708e-05,
+        "negative_cohesion": 0.0,
+        "positive_tokens": 67,
+        "negative_tokens": 1
+      }
+    },
+    {
+      "qid": "causal_q_19",
+      "true_answer": "Yes",
+      "positive_analysis": {
+        "cluster_cohesion": 7.885661102153504e-05,
+        "optimal_clusters": 2,
+        "min_inertia": 12680.244946310322,
+        "best_silhouette_score": 0.24339628966114504,
+        "n_tokens": 88,
+        "centroid_distance_mean": 14.612274279701133,
+        "centroid_distance_std": 3.037489987698859,
+        "sample_type": "positive"
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0,
+        "optimal_clusters": 1,
+        "min_inertia": 0.0,
+        "best_silhouette_score": 0.0,
+        "n_tokens": 1,
+        "sample_type": "negative"
+      },
+      "comparison": {
+        "cohesion_difference": 7.885661102153504e-05,
+        "positive_cohesion": 7.885661102153504e-05,
+        "negative_cohesion": 0.0,
+        "positive_tokens": 88,
+        "negative_tokens": 1
+      }
+    },
+    {
+      "qid": "causal_q_20",
+      "true_answer": "No",
+      "positive_analysis": {
+        "cluster_cohesion": 0.00010023619833372394,
+        "optimal_clusters": 2,
+        "min_inertia": 9975.435824816745,
+        "best_silhouette_score": 0.20147480856695799,
+        "n_tokens": 63,
+        "centroid_distance_mean": 15.161632678777677,
+        "centroid_distance_std": 2.2501273940737234,
+        "sample_type": "positive"
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0,
+        "optimal_clusters": 1,
+        "min_inertia": 0.0,
+        "best_silhouette_score": 0.0,
+        "n_tokens": 1,
+        "sample_type": "negative"
+      },
+      "comparison": {
+        "cohesion_difference": 0.00010023619833372394,
+        "positive_cohesion": 0.00010023619833372394,
+        "negative_cohesion": 0.0,
+        "positive_tokens": 63,
+        "negative_tokens": 1
+      }
+    },
+    {
+      "qid": "causal_q_21",
+      "true_answer": "Yes",
+      "positive_analysis": {
+        "cluster_cohesion": 7.983712441402205e-05,
+        "optimal_clusters": 2,
+        "min_inertia": 12524.501229405085,
+        "best_silhouette_score": 0.24441885420184156,
+        "n_tokens": 87,
+        "centroid_distance_mean": 14.217784188460943,
+        "centroid_distance_std": 2.890130843886514,
+        "sample_type": "positive"
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0,
+        "optimal_clusters": 1,
+        "min_inertia": 0.0,
+        "best_silhouette_score": 0.0,
+        "n_tokens": 1,
+        "sample_type": "negative"
+      },
+      "comparison": {
+        "cohesion_difference": 7.983712441402205e-05,
+        "positive_cohesion": 7.983712441402205e-05,
+        "negative_cohesion": 0.0,
+        "positive_tokens": 87,
+        "negative_tokens": 1
+      }
+    },
+    {
+      "qid": "causal_q_22",
+      "true_answer": "Yes",
+      "positive_analysis": {
+        "cluster_cohesion": 3.1115985492718934e-05,
+        "optimal_clusters": 2,
+        "min_inertia": 32136.821899743387,
+        "best_silhouette_score": 0.1751924968623078,
+        "n_tokens": 204,
+        "centroid_distance_mean": 14.439852704306432,
+        "centroid_distance_std": 2.249147273216302,
+        "sample_type": "positive"
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0,
+        "optimal_clusters": 1,
+        "min_inertia": 0.0,
+        "best_silhouette_score": 0.0,
+        "n_tokens": 1,
+        "sample_type": "negative"
+      },
+      "comparison": {
+        "cohesion_difference": 3.1115985492718934e-05,
+        "positive_cohesion": 3.1115985492718934e-05,
+        "negative_cohesion": 0.0,
+        "positive_tokens": 204,
+        "negative_tokens": 1
+      }
+    }
+  ],
+  "summary_statistics": {
+    "total_pairs": 14,
+    "positive_stats": {
+      "cluster_cohesion": [
+        4.6587186511161224e-05,
+        0.00012178333404012643,
+        5.861682856949803e-05,
+        7.754117232662936e-05,
+        2.9510333577139026e-05,
+        4.5632114711871213e-05,
+        0.00010927581077750607,
+        4.4097556297868313e-05,
+        8.282509559954278e-05,
+        9.940157858858708e-05,
+        7.885661102153504e-05,
+        0.00010023619833372394,
+        7.983712441402205e-05,
+        3.1115985492718934e-05
+      ],
+      "optimal_clusters": [
+        2,
+        2,
+        2,
+        2,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "best_silhouette_score": [
+        0.18987253221484354,
+        0.21567279787207772,
+        0.1969976323013435,
+        0.21034378459911263,
+        0.21632862312139114,
+        0.22649811704907902,
+        0.22762401239058122,
+        0.15937576231657688,
+        0.21630875855514642,
+        0.23725693496032094,
+        0.24339628966114504,
+        0.20147480856695799,
+        0.24441885420184156,
+        0.1751924968623078
+      ],
+      "n_tokens": [
+        139,
+        57,
+        107,
+        83,
+        214,
+        153,
+        62,
+        115,
+        77,
+        67,
+        88,
+        63,
+        87,
+        204
+      ]
+    },
+    "negative_stats": {
+      "cluster_cohesion": [
+        4.9966998809944e-05
+      ],
+      "optimal_clusters": [
+        2
+      ],
+      "best_silhouette_score": [
+        0.21850240395474055
+      ],
+      "n_tokens": [
+        129
+      ]
+    }
+  },
+  "overall_comparison": {
+    "positive_mean": 7.180835216156639e-05,
+    "positive_std": 2.859496588880944e-05,
+    "negative_mean": 4.9966998809944e-05,
+    "negative_std": 0.0,
+    "mean_difference": 2.1841353351622386e-05,
+    "effect_size": 1.0802019575947632
+  }
+}

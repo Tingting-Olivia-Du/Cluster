@@ -1,0 +1,275 @@
+{
+  "summary": {
+    "total_problems": 10,
+    "overall_stats": {
+      "sampling0": {
+        "total_samples": 10,
+        "correct_samples": 0,
+        "accuracy": 0.0
+      },
+      "sampling1": {
+        "total_samples": 10,
+        "correct_samples": 0,
+        "accuracy": 0.0
+      },
+      "sampling2": {
+        "total_samples": 10,
+        "correct_samples": 0,
+        "accuracy": 0.0
+      }
+    },
+    "average_accuracy": 0.0
+  },
+  "detailed_results": [
+    {
+      "qid": "aime_q_0",
+      "question_id": "2022-I-2",
+      "year": 2022,
+      "problem_num": 2,
+      "true_answer": "227",
+      "question_text": "Find the three-digit positive integer $\\underline{a}\\,\\underline{b}\\,\\underline{c}$ whose representation in base nine is $\\underline{b}\\,\\underline{c}\\,\\underline{a}_{\\,\\text{nine}},$ where $a,$ $b,$ and $c$ are (not necessarily distinct) digits. ",
+      "samples": {
+        "sampling0": {
+          "final_result": "112",
+          "is_correct": false,
+          "whole_answer": "In base nine, the digits range from 0 to 8. Therefore, the digits $a$, $b$, and $c$ can take on values from 0 to 8.\n\nWe know that the number $\\underline{a}\\,\\underline{b}\\,\\underline{c}$ in base nine ..."
+        },
+        "sampling1": {
+          "final_result": "203",
+          "is_correct": false,
+          "whole_answer": "In base nine, the digits range from 0 to 8. We can express the number $\\underline{a}\\,\\underline{b}\\,\\underline{c}$ in base nine as $\\underline{b}\\,\\underline{c}\\,\\underline{a}_{\\,\\text{nine}}$, which..."
+        },
+        "sampling2": {
+          "final_result": "120",
+          "is_correct": false,
+          "whole_answer": "First, let's understand what base nine means. When we write a number in base nine, the rightmost digit represents the number of ones, the next digit to the left represents the number of nines, the nex..."
+        }
+      }
+    },
+    {
+      "qid": "aime_q_1",
+      "question_id": "2023-I-3",
+      "year": 2023,
+      "problem_num": 3,
+      "true_answer": "607",
+      "question_text": "A plane contains $40$ lines, no $2$ of which are parallel. Suppose that there are $3$ points where exactly $3$ lines intersect, $4$ points where exactly $4$ lines intersect, $5$ points where exactly $5$ lines intersect, $6$ points where exactly $6$ lines intersect, and no points where more than $6$ lines intersect. Find the number of points where exactly $2$ lines intersect.",
+      "samples": {
+        "sampling0": {
+          "final_result": "230",
+          "is_correct": false,
+          "whole_answer": "Let $N$ denote the number of points where exactly two lines intersect. We know that every intersection point of two lines is counted twice, once for each line. So, the number of intersection points of..."
+        },
+        "sampling1": {
+          "final_result": "22",
+          "is_correct": false,
+          "whole_answer": "Let's denote the number of points where exactly $2$ lines intersect as $P$.\n\nEach intersection of $2$ lines contributes $1$ point, so the total number of points is the sum of the products of the numbe..."
+        },
+        "sampling2": {
+          "final_result": "694",
+          "is_correct": false,
+          "whole_answer": "Let's denote the number of points where exactly $2$ lines intersect as $x$.\n\nFirst, let's count the total number of intersections. Each line intersects every other line exactly once, so each of the $4..."
+        }
+      }
+    },
+    {
+      "qid": "aime_q_2",
+      "question_id": "2023-I-2",
+      "year": 2023,
+      "problem_num": 2,
+      "true_answer": "881",
+      "question_text": "Positive real numbers $b \\not= 1$ and $n$ satisfy the equations \\[\\sqrt{\\log_b n} = \\log_b \\sqrt{n} \\qquad \\text{and} \\qquad b \\cdot \\log_b n = \\log_b (bn).\\] The value of $n$ is $\\frac{j}{k},$ where $j$ and $k$ are relatively prime positive integers. Find $j+k.$",
+      "samples": {
+        "sampling0": {
+          "final_result": "5",
+          "is_correct": false,
+          "whole_answer": "Let's solve this step by step.\n\nFirst, let's simplify the given equations.\n\nThe first equation is $\\sqrt{\\log_b n} = \\log_b \\sqrt{n}$. We can square both sides to get rid of the square root, which giv..."
+        },
+        "sampling1": {
+          "final_result": "1 + b",
+          "is_correct": false,
+          "whole_answer": "Let's solve this step by step.\n\nFirst, let's simplify the first equation $\\sqrt{\\log_b n} = \\log_b \\sqrt{n}$.\n\nWe know that $\\sqrt{n} = n^{\\frac{1}{2}}$ and $\\sqrt{\\log_b n} = \\frac{1}{2} \\log_b n$. S..."
+        },
+        "sampling2": {
+          "final_result": "5",
+          "is_correct": false,
+          "whole_answer": "Let's start by simplifying the given equations.\n\nThe first equation is $\\sqrt{\\log_b n} = \\log_b \\sqrt{n}$. \n\nSquaring both sides, we get $\\log_b n = \\log_b^2 \\sqrt{n}$.\n\nSince $\\log_b \\sqrt{n} = \\fra..."
+        }
+      }
+    },
+    {
+      "qid": "aime_q_3",
+      "question_id": "2023-II-4",
+      "year": 2023,
+      "problem_num": 4,
+      "true_answer": "273",
+      "question_text": "Let $x,y,$ and $z$ be real numbers satisfying the system of equations \\begin{align*} xy + 4z &= 60 \\\\ yz + 4x &= 60 \\\\ zx + 4y &= 60. \\end{align*} Let $S$ be the set of possible values of $x.$ Find the sum of the squares of the elements of $S.$",
+      "samples": {
+        "sampling0": {
+          "final_result": "\\frac{675}{2}",
+          "is_correct": false,
+          "whole_answer": "Subtracting the three equations, we get\n\\[xy - yz + 4z - 4x = 0 \\quad \\Rightarrow \\quad y(x - z) - 4(x - z) = 0.\\]\nThis factors as $(y - 4)(x - z) = 0,$ so either $y = 4$ or $x = z.$\n\nIf $y = 4,$ then..."
+        },
+        "sampling1": {
+          "final_result": "170",
+          "is_correct": false,
+          "whole_answer": "Let $a = x + y + z,$ $b = xy + xz + yz,$ and $c = xyz.$  Then\n\\begin{align*}\nxy + 4z &= 60, \\\\\nyz + 4x &= 60, \\\\\nxz + 4y &= 60\n\\end{align*}becomes\n\\begin{align*}\nxy + 4z &= c + 4a - b, \\\\\nyz + 4x &= c..."
+        },
+        "sampling2": {
+          "final_result": "0",
+          "is_correct": false,
+          "whole_answer": "We can rewrite the system of equations as\n\\begin{align*}\nxy + 4z &= 60 \\\\\nyz + 4x &= 60 \\\\\nzx + 4y &= 60.\n\\end{align*}\nMultiplying each equation by $x$, $y$, and $z$, respectively, we get\n\\begin{align..."
+        }
+      }
+    },
+    {
+      "qid": "aime_q_4",
+      "question_id": "2023-II-1",
+      "year": 2023,
+      "problem_num": 1,
+      "true_answer": "220",
+      "question_text": "The numbers of apples growing on each of six apple trees form an arithmetic sequence where the greatest number of apples growing on any of the six trees is double the least number of apples growing on any of the six trees. The total number of apples growing on all six trees is $990.$ Find the greatest number of apples growing on any of the six trees.",
+      "samples": {
+        "sampling0": {
+          "final_result": "2a = \\boxed{2 \\times 165 = 330}",
+          "is_correct": false,
+          "whole_answer": "Let's denote the least number of apples as $a$ and the greatest number of apples as $2a$. Since these numbers form an arithmetic sequence, the common difference between consecutive terms is the same. ..."
+        },
+        "sampling1": {
+          "final_result": "92",
+          "is_correct": false,
+          "whole_answer": "Let the least number of apples be $a$, so the greatest number of apples is $2a$.\nSince the numbers form an arithmetic sequence, the common difference is $a$.\nLet the total number of apples be $S$.\nThe..."
+        },
+        "sampling2": {
+          "final_result": "280",
+          "is_correct": false,
+          "whole_answer": "Let the number of apples growing on the tree with the least number of apples be $a$. Since the greatest number of apples growing on any tree is double the least number of apples, the number of apples ..."
+        }
+      }
+    },
+    {
+      "qid": "aime_q_5",
+      "question_id": "2022-I-1",
+      "year": 2022,
+      "problem_num": 1,
+      "true_answer": "116",
+      "question_text": "Quadratic polynomials $P(x)$ and $Q(x)$ have leading coefficients $2$ and $-2,$ respectively. The graphs of both polynomials pass through the two points $(16,54)$ and $(20,53).$ Find $P(0) + Q(0).$",
+      "samples": {
+        "sampling0": {
+          "final_result": "0",
+          "is_correct": false,
+          "whole_answer": "The quadratic polynomials $P(x)$ and $Q(x)$ can be written in the form $P(x) = 2x^2 + bx + c$ and $Q(x) = -2x^2 + dx + e$. \n\nWe are given that both polynomials pass through the points $(16,54)$ and $(..."
+        },
+        "sampling1": {
+          "final_result": "60",
+          "is_correct": false,
+          "whole_answer": "Let $P(x) = 2x^2 + ax + b$ and $Q(x) = -2x^2 + cx + d.$ Since the graphs of both polynomials pass through $(16,54),$ we have\n\\begin{align*}\n54 &= 2(16^2) + a(16) + b, \\\\\n54 &= -(2)(16^2) + c(16) + d.\n..."
+        },
+        "sampling2": {
+          "final_result": "-916",
+          "is_correct": false,
+          "whole_answer": "First, let's write the general form of the quadratic polynomials $P(x)$ and $Q(x)$. A quadratic polynomial has the form $ax^2 + bx + c$, so we can write $P(x) = 2x^2 + b_1x + c_1$ and $Q(x) = -2x^2 + ..."
+        }
+      }
+    },
+    {
+      "qid": "aime_q_6",
+      "question_id": "2022-II-1",
+      "year": 2022,
+      "problem_num": 1,
+      "true_answer": "154",
+      "question_text": "Adults made up $\\frac5{12}$ of the crowd of people at a concert. After a bus carrying $50$ more people arrived, adults made up $\\frac{11}{25}$ of the people at the concert. Find the minimum number of adults who could have been at the concert after the bus arrived.",
+      "samples": {
+        "sampling0": {
+          "final_result": "286",
+          "is_correct": false,
+          "whole_answer": "Let $x$ be the number of people at the concert before the bus arrived.\nThe number of adults at the concert before the bus arrived is $\\frac{5}{12}x$.\nAfter the bus arrived, the total number of people ..."
+        },
+        "sampling1": {
+          "final_result": "943",
+          "is_correct": false,
+          "whole_answer": "Let's denote the total number of people at the concert before the bus arrived as $T$. According to the problem, adults made up $\\frac{5}{12}$ of the crowd, so the number of adults before the bus arriv..."
+        },
+        "sampling2": {
+          "final_result": "395",
+          "is_correct": false,
+          "whole_answer": "Let's denote the total number of people at the concert before the bus arrived as $x$. According to the problem, adults made up $\\frac{5}{12}$ of the crowd, so the number of adults at the concert befor..."
+        }
+      }
+    },
+    {
+      "qid": "aime_q_7",
+      "question_id": "2023-II-2",
+      "year": 2023,
+      "problem_num": 2,
+      "true_answer": "585",
+      "question_text": "Recall that a palindrome is a number that reads the same forward and backward. Find the greatest integer less than $1000$ that is a palindrome both when written in base ten and when written in base eight, such as $292 = 444_{\\text{eight}}.$",
+      "samples": {
+        "sampling0": {
+          "final_result": "577",
+          "is_correct": false,
+          "whole_answer": "To find the greatest integer less than $1000$ that is a palindrome both in base ten and base eight, we need to consider the properties of palindromic numbers in these two bases.\n\nIn base ten, a palind..."
+        },
+        "sampling1": {
+          "final_result": null,
+          "is_correct": false,
+          "whole_answer": "First, let's understand the problem. We are asked to find the greatest integer less than 1000 that is a palindrome in both base 10 and base 8. A palindrome is a number that reads the same forwards and..."
+        },
+        "sampling2": {
+          "final_result": "365",
+          "is_correct": false,
+          "whole_answer": "Let $N$ be a three-digit palindrome. Then the hundreds digit is nonzero, so $N$ can be written in the form $$N = 8^2 \\cdot a + 8 \\cdot b + a = 65 \\cdot a + 8 \\cdot b,$$where $a$ and $b$ are the hundre..."
+        }
+      }
+    },
+    {
+      "qid": "aime_q_8",
+      "question_id": "2022-II-3",
+      "year": 2022,
+      "problem_num": 3,
+      "true_answer": "21",
+      "question_text": "A right square pyramid with volume $54$ has a base with side length $6.$ The five vertices of the pyramid all lie on a sphere with radius $\\frac mn$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+      "samples": {
+        "sampling0": {
+          "final_result": "$3 + 2 = \\boxed{5}$. The answer is 5",
+          "is_correct": false,
+          "whole_answer": "[asy] import three; currentprojection = perspective(6,1,-11); defaultpen(linewidth(0.7)); draw((-4,-4,0)--(4,-4,0)--(4,4,0)--(-4,4,0)--cycle); draw((0,0,0)--(0,8,0)--(0,0,6)); draw((0,8,0)--(0,4,6)--(..."
+        },
+        "sampling1": {
+          "final_result": "23",
+          "is_correct": false,
+          "whole_answer": "Let the apex of the pyramid be $A$ and the center of the base be $O$. [asy] size(120); import three; currentprojection = perspective(5,-45,12); triple A = (0,0,9), O = (0,0,0), B = (2,0,0), C = (0,2,0..."
+        },
+        "sampling2": {
+          "final_result": "11",
+          "is_correct": false,
+          "whole_answer": "We can solve this problem by first finding the height of the pyramid, then finding the center of the sphere, and finally finding the radius of the sphere.\n\nStep 1: Find the height of the pyramid.\n\nThe..."
+        }
+      }
+    },
+    {
+      "qid": "aime_q_9",
+      "question_id": "2023-I-5",
+      "year": 2023,
+      "problem_num": 5,
+      "true_answer": "106",
+      "question_text": "Let $P$ be a point on the circle circumscribing square $ABCD$ that satisfies $PA \\cdot PC = 56$ and $PB \\cdot PD = 90.$ Find the area of $ABCD.$",
+      "samples": {
+        "sampling0": {
+          "final_result": "140",
+          "is_correct": false,
+          "whole_answer": "[asy] size(150); pointpen = black; pathpen = black + linewidth(0.7); pair A=(1,1),B=(1,-1),C=(-1,-1),D=(-1,1),P=(0,0); D(D(MP(\"A\",A))--D(MP(\"B\",B,N))--D(MP(\"C\",C,N))--D(MP(\"D\",D))--cycle); D(D(MP(\"P\",..."
+        },
+        "sampling1": {
+          "final_result": "56",
+          "is_correct": false,
+          "whole_answer": "[asy] pointpen = black; pathpen = linewidth(0.7) + black;  path DABC = D(MP(\"A\",(0,0),W))--MP(\"B\",(1,0),E)--MP(\"C\",(1,1),N)--MP(\"D\",(0,1),W)--cycle; D((-1,0)--(2,0)); D((0,-1)--(0,2)); D(DABC);  MP(\"P..."
+        },
+        "sampling2": {
+          "final_result": "8\\sqrt{17}",
+          "is_correct": false,
+          "whole_answer": "Let $E$ be the midpoint of $\\overline{CD}$, and $O$ be the center of the circle. Then $OE \\perp CD$, and so $CE = DE$. Let $CE = DE = a$ and $CD = 2a$. Then\\[PA \\cdot PC = (CE + EA)(CE - EA) = (a + AB..."
+        }
+      }
+    }
+  ]
+}
