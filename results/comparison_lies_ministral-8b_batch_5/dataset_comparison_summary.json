@@ -1,0 +1,162 @@
+{
+  "datasets_compared": 3,
+  "analysis_type": "kmeans_cluster_count_and_cohesion",
+  "comparison_results": {
+    "bb": {
+      "display_name": "BB Lies",
+      "positive_negative_comparison": {
+        "clusters": {
+          "positive_mean_clusters": 5.0,
+          "negative_mean_clusters": 2.0,
+          "cluster_count_difference": 3.0,
+          "positive_cluster_distribution": {
+            "5": 1
+          },
+          "negative_cluster_distribution": {
+            "2": 1
+          }
+        },
+        "cohesion": {
+          "positive_mean_cohesion": 0.00030696889322056107,
+          "negative_mean_cohesion": 0.00033416659497666055,
+          "cohesion_difference": -2.7197701756099483e-05,
+          "effect_size": 0.0
+        }
+      },
+      "all_samples_analysis": {
+        "basic_stats": {
+          "total_samples_analyzed": 45,
+          "mean_tokens_per_sample": 115.84444444444445,
+          "mean_samples_per_question": 3.0
+        },
+        "clusters": {
+          "mean_clusters": 4.222222222222222,
+          "cluster_distribution": {
+            "2": 7,
+            "3": 6,
+            "4": 2,
+            "5": 30
+          },
+          "cluster_stats": {
+            "min": 2,
+            "max": 5,
+            "std": 1.1716823401301393
+          }
+        },
+        "cohesion": {
+          "mean_cohesion": 0.00032691680071885137,
+          "cohesion_stats": {
+            "min": 0.00030696889322056107,
+            "max": 0.0003509748998106807,
+            "std": 1.0367815376503172e-05
+          }
+        }
+      }
+    },
+    "bbh": {
+      "display_name": "BBH Lies",
+      "positive_negative_comparison": {
+        "clusters": {
+          "positive_mean_clusters": 5.0,
+          "negative_mean_clusters": 4.666666666666667,
+          "cluster_count_difference": 0.33333333333333304,
+          "positive_cluster_distribution": {
+            "5": 9
+          },
+          "negative_cluster_distribution": {
+            "2": 1,
+            "5": 8
+          }
+        },
+        "cohesion": {
+          "positive_mean_cohesion": 0.0003196100045196413,
+          "negative_mean_cohesion": 0.00033017082866602276,
+          "cohesion_difference": -1.0560824146381464e-05,
+          "effect_size": -0.8977118043535774
+        }
+      },
+      "all_samples_analysis": {
+        "basic_stats": {
+          "total_samples_analyzed": 45,
+          "mean_tokens_per_sample": 154.7111111111111,
+          "mean_samples_per_question": 3.0
+        },
+        "clusters": {
+          "mean_clusters": 4.711111111111111,
+          "cluster_distribution": {
+            "2": 3,
+            "3": 1,
+            "4": 2,
+            "5": 39
+          },
+          "cluster_stats": {
+            "min": 2,
+            "max": 5,
+            "std": 0.8061492065429802
+          }
+        },
+        "cohesion": {
+          "mean_cohesion": 0.00032405817073165435,
+          "cohesion_stats": {
+            "min": 0.0003031676792232139,
+            "max": 0.0003501084011620374,
+            "std": 1.0741884237426035e-05
+          }
+        }
+      }
+    },
+    "bbeh": {
+      "display_name": "BBEH Lies",
+      "positive_negative_comparison": {
+        "clusters": {
+          "positive_mean_clusters": 4.75,
+          "negative_mean_clusters": 4.25,
+          "cluster_count_difference": 0.5,
+          "positive_cluster_distribution": {
+            "4": 1,
+            "5": 3
+          },
+          "negative_cluster_distribution": {
+            "3": 1,
+            "4": 1,
+            "5": 2
+          }
+        },
+        "cohesion": {
+          "positive_mean_cohesion": 0.00030563238641870543,
+          "negative_mean_cohesion": 0.0003077489649570421,
+          "cohesion_difference": -2.1165785383366813e-06,
+          "effect_size": -0.2285260042115111
+        }
+      },
+      "all_samples_analysis": {
+        "basic_stats": {
+          "total_samples_analyzed": 45,
+          "mean_tokens_per_sample": 587.9333333333333,
+          "mean_samples_per_question": 3.0
+        },
+        "clusters": {
+          "mean_clusters": 4.8,
+          "cluster_distribution": {
+            "3": 2,
+            "4": 5,
+            "5": 38
+          },
+          "cluster_stats": {
+            "min": 3,
+            "max": 5,
+            "std": 0.4988876515698589
+          }
+        },
+        "cohesion": {
+          "mean_cohesion": 0.00031220347470613187,
+          "cohesion_stats": {
+            "min": 0.0002906792848382637,
+            "max": 0.00034754898463998574,
+            "std": 1.3084464742261954e-05
+          }
+        }
+      }
+    }
+  }
+}

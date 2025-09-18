@@ -1,0 +1,286 @@
+{
+  "pair_comparisons": [
+    {
+      "qid": "mistral-nemo-12b_bbh_lies_q_105",
+      "positive_analysis": {
+        "cluster_cohesion": 0.00025423821842083253,
+        "optimal_clusters": 5,
+        "min_inertia": 3932.3189408396947,
+        "best_silhouette_score": 0.11238473653793335,
+        "n_tokens": 131,
+        "centroid_distance_mean": 70.90354919433594,
+        "centroid_distance_std": 9.62735652923584
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.00024434417615003365,
+        "optimal_clusters": 5,
+        "min_inertia": 4091.587823275862,
+        "best_silhouette_score": 0.09416168183088303,
+        "n_tokens": 116,
+        "centroid_distance_mean": 71.00648498535156,
+        "centroid_distance_std": 8.836256980895996
+      },
+      "cohesion_difference": 9.894042270798878e-06
+    },
+    {
+      "qid": "mistral-nemo-12b_bbh_lies_q_106",
+      "positive_analysis": {
+        "cluster_cohesion": 0.00024247932511941837,
+        "optimal_clusters": 2,
+        "min_inertia": 4123.062946428571,
+        "best_silhouette_score": 0.10128907859325409,
+        "n_tokens": 140,
+        "centroid_distance_mean": 70.85492706298828,
+        "centroid_distance_std": 9.979000091552734
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.00024515885937527855,
+        "optimal_clusters": 5,
+        "min_inertia": 4077.987814465409,
+        "best_silhouette_score": 0.09669435769319534,
+        "n_tokens": 159,
+        "centroid_distance_mean": 70.92850494384766,
+        "centroid_distance_std": 9.441807746887207
+      },
+      "cohesion_difference": -2.6795342558601795e-06
+    },
+    {
+      "qid": "mistral-nemo-12b_bbh_lies_q_109",
+      "positive_analysis": {
+        "cluster_cohesion": 0.00024350702498300672,
+        "optimal_clusters": 5,
+        "min_inertia": 4105.657703488372,
+        "best_silhouette_score": 0.07614345103502274,
+        "n_tokens": 172,
+        "centroid_distance_mean": 71.03121185302734,
+        "centroid_distance_std": 8.635268211364746
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.00025010563263897596,
+        "optimal_clusters": 5,
+        "min_inertia": 3997.3105916030536,
+        "best_silhouette_score": 0.10427715629339218,
+        "n_tokens": 131,
+        "centroid_distance_mean": 70.86653137207031,
+        "centroid_distance_std": 9.8961820602417
+      },
+      "cohesion_difference": -6.598607655969237e-06
+    },
+    {
+      "qid": "mistral-nemo-12b_bbh_lies_q_110",
+      "positive_analysis": {
+        "cluster_cohesion": 0.00024994911704385997,
+        "optimal_clusters": 5,
+        "min_inertia": 3999.8142930327867,
+        "best_silhouette_score": 0.09506750851869583,
+        "n_tokens": 122,
+        "centroid_distance_mean": 70.96012115478516,
+        "centroid_distance_std": 9.201240539550781
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0002549592264424588,
+        "optimal_clusters": 5,
+        "min_inertia": 3921.1957720588234,
+        "best_silhouette_score": 0.10981245338916779,
+        "n_tokens": 136,
+        "centroid_distance_mean": 71.12481689453125,
+        "centroid_distance_std": 7.826986789703369
+      },
+      "cohesion_difference": -5.010109398598803e-06
+    },
+    {
+      "qid": "mistral-nemo-12b_bbh_lies_q_111",
+      "positive_analysis": {
+        "cluster_cohesion": 0.00023628514777301724,
+        "optimal_clusters": 4,
+        "min_inertia": 4231.174596774194,
+        "best_silhouette_score": 0.09347828477621078,
+        "n_tokens": 155,
+        "centroid_distance_mean": 70.94798278808594,
+        "centroid_distance_std": 9.294269561767578
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0002381380671187759,
+        "optimal_clusters": 5,
+        "min_inertia": 4198.244631901841,
+        "best_silhouette_score": 0.08304624259471893,
+        "n_tokens": 163,
+        "centroid_distance_mean": 70.93365478515625,
+        "centroid_distance_std": 9.403008460998535
+      },
+      "cohesion_difference": -1.8529193457586686e-06
+    },
+    {
+      "qid": "mistral-nemo-12b_bbh_lies_q_112",
+      "positive_analysis": {
+        "cluster_cohesion": 0.0002583425636978488,
+        "optimal_clusters": 5,
+        "min_inertia": 3869.829435483871,
+        "best_silhouette_score": 0.1285124570131302,
+        "n_tokens": 155,
+        "centroid_distance_mean": 70.97250366210938,
+        "centroid_distance_std": 9.105134010314941
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0002540168213980307,
+        "optimal_clusters": 5,
+        "min_inertia": 3935.747159090909,
+        "best_silhouette_score": 0.11094052344560623,
+        "n_tokens": 154,
+        "centroid_distance_mean": 71.09317016601562,
+        "centroid_distance_std": 8.109360694885254
+      },
+      "cohesion_difference": 4.32574229981814e-06
+    },
+    {
+      "qid": "mistral-nemo-12b_bbh_lies_q_113",
+      "positive_analysis": {
+        "cluster_cohesion": 0.0002541565745994264,
+        "optimal_clusters": 5,
+        "min_inertia": 3933.5824579831933,
+        "best_silhouette_score": 0.09676298499107361,
+        "n_tokens": 119,
+        "centroid_distance_mean": 71.00603485107422,
+        "centroid_distance_std": 8.839874267578125
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.00024389142315161917,
+        "optimal_clusters": 5,
+        "min_inertia": 4099.185185185185,
+        "best_silhouette_score": 0.09217894822359085,
+        "n_tokens": 108,
+        "centroid_distance_mean": 71.03165435791016,
+        "centroid_distance_std": 8.631606101989746
+      },
+      "cohesion_difference": 1.0265151447807255e-05
+    },
+    {
+      "qid": "mistral-nemo-12b_bbh_lies_q_114",
+      "positive_analysis": {
+        "cluster_cohesion": 0.0002391255923403656,
+        "optimal_clusters": 5,
+        "min_inertia": 4180.902866242038,
+        "best_silhouette_score": 0.10851989686489105,
+        "n_tokens": 157,
+        "centroid_distance_mean": 70.8390121459961,
+        "centroid_distance_std": 10.091261863708496
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.00024208372276692252,
+        "optimal_clusters": 5,
+        "min_inertia": 4129.802304964539,
+        "best_silhouette_score": 0.09476043283939362,
+        "n_tokens": 141,
+        "centroid_distance_mean": 70.817626953125,
+        "centroid_distance_std": 10.24032211303711
+      },
+      "cohesion_difference": -2.9581304265569053e-06
+    },
+    {
+      "qid": "mistral-nemo-12b_bbh_lies_q_115",
+      "positive_analysis": {
+        "cluster_cohesion": 0.0002405438240779492,
+        "optimal_clusters": 2,
+        "min_inertia": 4156.246621621622,
+        "best_silhouette_score": 0.1420292854309082,
+        "n_tokens": 185,
+        "centroid_distance_mean": 70.7847900390625,
+        "centroid_distance_std": 10.46489143371582
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.00024164434556835874,
+        "optimal_clusters": 4,
+        "min_inertia": 4137.313262195122,
+        "best_silhouette_score": 0.08893169462680817,
+        "n_tokens": 164,
+        "centroid_distance_mean": 70.83991241455078,
+        "centroid_distance_std": 10.084948539733887
+      },
+      "cohesion_difference": -1.10052149040953e-06
+    },
+    {
+      "qid": "mistral-nemo-12b_bbh_lies_q_117",
+      "positive_analysis": {
+        "cluster_cohesion": 0.00024394346303922365,
+        "optimal_clusters": 5,
+        "min_inertia": 4098.310502283105,
+        "best_silhouette_score": 0.1018611267209053,
+        "n_tokens": 219,
+        "centroid_distance_mean": 70.8800048828125,
+        "centroid_distance_std": 9.799187660217285
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0002476804644435744,
+        "optimal_clusters": 5,
+        "min_inertia": 4036.4601293103447,
+        "best_silhouette_score": 0.10200070589780807,
+        "n_tokens": 174,
+        "centroid_distance_mean": 70.82731628417969,
+        "centroid_distance_std": 10.173038482666016
+      },
+      "cohesion_difference": -3.7370014043507246e-06
+    },
+    {
+      "qid": "mistral-nemo-12b_bbh_lies_q_118",
+      "positive_analysis": {
+        "cluster_cohesion": 0.0002437778341242319,
+        "optimal_clusters": 5,
+        "min_inertia": 4101.0956790123455,
+        "best_silhouette_score": 0.08477998524904251,
+        "n_tokens": 162,
+        "centroid_distance_mean": 70.90354919433594,
+        "centroid_distance_std": 9.627381324768066
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0002526211445957438,
+        "optimal_clusters": 3,
+        "min_inertia": 3957.496829710145,
+        "best_silhouette_score": 0.12913379073143005,
+        "n_tokens": 138,
+        "centroid_distance_mean": 70.89324188232422,
+        "centroid_distance_std": 9.70300579071045
+      },
+      "cohesion_difference": -8.843310471511913e-06
+    }
+  ],
+  "summary_statistics": {
+    "total_pairs": 15,
+    "valid_pairs": 11,
+    "positive_stats": {
+      "cluster_cohesion": [
+        0.00025423821842083253,
+        0.00024247932511941837,
+        0.00024350702498300672,
+        0.00024994911704385997,
+        0.00023628514777301724,
+        0.0002583425636978488,
+        0.0002541565745994264,
+        0.0002391255923403656,
+        0.0002405438240779492,
+        0.00024394346303922365,
+        0.0002437778341242319
+      ]
+    },
+    "negative_stats": {
+      "cluster_cohesion": [
+        0.00024434417615003365,
+        0.00024515885937527855,
+        0.00025010563263897596,
+        0.0002549592264424588,
+        0.0002381380671187759,
+        0.0002540168213980307,
+        0.00024389142315161917,
+        0.00024208372276692252,
+        0.00024164434556835874,
+        0.0002476804644435744,
+        0.0002526211445957438
+      ]
+    }
+  },
+  "overall_comparison": {
+    "positive_mean": 0.00024603169865628914,
+    "negative_mean": 0.0002467858076045248,
+    "mean_difference": -7.541089482356327e-07,
+    "effect_size": -0.12452799853610745
+  }
+}

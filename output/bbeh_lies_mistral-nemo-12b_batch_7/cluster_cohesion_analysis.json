@@ -1,0 +1,13 @@
+{
+  "pair_comparisons": [],
+  "summary_statistics": {
+    "total_pairs": 15,
+    "valid_pairs": 0,
+    "positive_stats": {
+      "cluster_cohesion": []
+    },
+    "negative_stats": {
+      "cluster_cohesion": []
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "pair_comparisons": [
+    {
+      "qid": "mistral_bb_lies_q_62",
+      "positive_analysis": {
+        "cluster_cohesion": 0.00029808956119974555,
+        "optimal_clusters": 5,
+        "min_inertia": 3353.6964743589742,
+        "best_silhouette_score": 0.08793768286705017,
+        "n_tokens": 195,
+        "centroid_distance_mean": 63.727394104003906,
+        "centroid_distance_std": 5.900775909423828
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.000299086904634206,
+        "optimal_clusters": 5,
+        "min_inertia": 3342.5098110465115,
+        "best_silhouette_score": 0.0961703509092331,
+        "n_tokens": 172,
+        "centroid_distance_mean": 63.7260856628418,
+        "centroid_distance_std": 5.914888381958008
+      },
+      "cohesion_difference": -9.973434344604263e-07
+    },
+    {
+      "qid": "mistral_bb_lies_q_66",
+      "positive_analysis": {
+        "cluster_cohesion": 0.00030091752186307775,
+        "optimal_clusters": 2,
+        "min_inertia": 3322.169730392157,
+        "best_silhouette_score": 0.08449643850326538,
+        "n_tokens": 102,
+        "centroid_distance_mean": 63.626731872558594,
+        "centroid_distance_std": 6.902089595794678
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.00029683818226628313,
+        "optimal_clusters": 5,
+        "min_inertia": 3367.8388480392155,
+        "best_silhouette_score": 0.07827691733837128,
+        "n_tokens": 102,
+        "centroid_distance_mean": 63.669960021972656,
+        "centroid_distance_std": 6.491215705871582
+      },
+      "cohesion_difference": 4.079339596794627e-06
+    },
+    {
+      "qid": "mistral_bb_lies_q_68",
+      "positive_analysis": {
+        "cluster_cohesion": 0.0003029698800409568,
+        "optimal_clusters": 5,
+        "min_inertia": 3299.6581375838928,
+        "best_silhouette_score": 0.09385146200656891,
+        "n_tokens": 149,
+        "centroid_distance_mean": 63.77953338623047,
+        "centroid_distance_std": 5.307661533355713
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.00029811926020009694,
+        "optimal_clusters": 5,
+        "min_inertia": 3353.3622754491016,
+        "best_silhouette_score": 0.0848090872168541,
+        "n_tokens": 167,
+        "centroid_distance_mean": 63.79301452636719,
+        "centroid_distance_std": 5.143077373504639
+      },
+      "cohesion_difference": 4.850619840859882e-06
+    },
+    {
+      "qid": "mistral_bb_lies_q_69",
+      "positive_analysis": {
+        "cluster_cohesion": 0.0003091505752495176,
+        "optimal_clusters": 2,
+        "min_inertia": 3233.6697048611113,
+        "best_silhouette_score": 0.10097665339708328,
+        "n_tokens": 72,
+        "centroid_distance_mean": 63.61245346069336,
+        "centroid_distance_std": 7.0324907302856445
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0003073261934267303,
+        "optimal_clusters": 5,
+        "min_inertia": 3252.8716887417218,
+        "best_silhouette_score": 0.100054532289505,
+        "n_tokens": 151,
+        "centroid_distance_mean": 63.71665954589844,
+        "centroid_distance_std": 6.01559591293335
+      },
+      "cohesion_difference": 1.824381822787297e-06
+    },
+    {
+      "qid": "mistral_bb_lies_q_70",
+      "positive_analysis": {
+        "cluster_cohesion": 0.0002937612043760889,
+        "optimal_clusters": 2,
+        "min_inertia": 3403.125477099237,
+        "best_silhouette_score": 0.08515314757823944,
+        "n_tokens": 262,
+        "centroid_distance_mean": 63.74203872680664,
+        "centroid_distance_std": 5.740426063537598
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0002991028053729918,
+        "optimal_clusters": 5,
+        "min_inertia": 3342.332065217391,
+        "best_silhouette_score": 0.09086989611387253,
+        "n_tokens": 230,
+        "centroid_distance_mean": 63.77222442626953,
+        "centroid_distance_std": 5.394818305969238
+      },
+      "cohesion_difference": -5.3416009969029215e-06
+    },
+    {
+      "qid": "mistral_bb_lies_q_71",
+      "positive_analysis": {
+        "cluster_cohesion": 0.00031857907885343684,
+        "optimal_clusters": 3,
+        "min_inertia": 3137.9380733944954,
+        "best_silhouette_score": 0.12665536999702454,
+        "n_tokens": 109,
+        "centroid_distance_mean": 63.72201919555664,
+        "centroid_distance_std": 5.958550453186035
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0003038279273399811,
+        "optimal_clusters": 5,
+        "min_inertia": 3290.336674528302,
+        "best_silhouette_score": 0.09081709384918213,
+        "n_tokens": 106,
+        "centroid_distance_mean": 63.80369186401367,
+        "centroid_distance_std": 5.008915424346924
+      },
+      "cohesion_difference": 1.475115151345572e-05
+    },
+    {
+      "qid": "mistral_bb_lies_q_73",
+      "positive_analysis": {
+        "cluster_cohesion": 0.000308653771610436,
+        "optimal_clusters": 5,
+        "min_inertia": 3238.876171875,
+        "best_silhouette_score": 0.08443306386470795,
+        "n_tokens": 80,
+        "centroid_distance_mean": 63.62733840942383,
+        "centroid_distance_std": 6.8965373039245605
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0002997110702030168,
+        "optimal_clusters": 5,
+        "min_inertia": 3335.546759259259,
+        "best_silhouette_score": 0.076908178627491,
+        "n_tokens": 135,
+        "centroid_distance_mean": 63.6851692199707,
+        "centroid_distance_std": 6.340250015258789
+      },
+      "cohesion_difference": 8.94270140741919e-06
+    }
+  ],
+  "summary_statistics": {
+    "total_pairs": 15,
+    "valid_pairs": 7,
+    "positive_stats": {
+      "cluster_cohesion": [
+        0.00029808956119974555,
+        0.00030091752186307775,
+        0.0003029698800409568,
+        0.0003091505752495176,
+        0.0002937612043760889,
+        0.00031857907885343684,
+        0.000308653771610436
+      ]
+    },
+    "negative_stats": {
+      "cluster_cohesion": [
+        0.000299086904634206,
+        0.00029683818226628313,
+        0.00029811926020009694,
+        0.0003073261934267303,
+        0.0002991028053729918,
+        0.0003038279273399811,
+        0.0002997110702030168
+      ]
+    }
+  },
+  "overall_comparison": {
+    "positive_mean": 0.00030458879902760846,
+    "negative_mean": 0.00030057319192047235,
+    "mean_difference": 4.01560710713611e-06,
+    "effect_size": 0.6788165161542397
+  }
+}

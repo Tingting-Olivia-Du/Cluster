@@ -1,0 +1,94 @@
+{
+  "pair_comparisons": [
+    {
+      "qid": "mistral_bbeh_lies_q_65",
+      "positive_analysis": {
+        "cluster_cohesion": 0.0002797697112857089,
+        "optimal_clusters": 3,
+        "min_inertia": 3573.368345323741,
+        "best_silhouette_score": 0.04203100502490997,
+        "n_tokens": 695,
+        "centroid_distance_mean": 63.56221389770508,
+        "centroid_distance_std": 7.473001480102539
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.00028494903472802113,
+        "optimal_clusters": 5,
+        "min_inertia": 3508.3995,
+        "best_silhouette_score": 0.05994834005832672,
+        "n_tokens": 1000,
+        "centroid_distance_mean": 63.522178649902344,
+        "centroid_distance_std": 7.80592679977417
+      },
+      "cohesion_difference": -5.1793234423122255e-06
+    },
+    {
+      "qid": "mistral_bbeh_lies_q_67",
+      "positive_analysis": {
+        "cluster_cohesion": 0.0002909542171222606,
+        "optimal_clusters": 2,
+        "min_inertia": 3435.9668530351437,
+        "best_silhouette_score": 0.07140162587165833,
+        "n_tokens": 313,
+        "centroid_distance_mean": 63.57340621948242,
+        "centroid_distance_std": 7.37708044052124
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.00029690722931536586,
+        "optimal_clusters": 5,
+        "min_inertia": 3367.055410122164,
+        "best_silhouette_score": 0.08660423755645752,
+        "n_tokens": 573,
+        "centroid_distance_mean": 63.654335021972656,
+        "centroid_distance_std": 6.642690181732178
+      },
+      "cohesion_difference": -5.9530121931052516e-06
+    },
+    {
+      "qid": "mistral_bbeh_lies_q_72",
+      "positive_analysis": {
+        "cluster_cohesion": 0.0003022710022149003,
+        "optimal_clusters": 5,
+        "min_inertia": 3307.2895569620255,
+        "best_silhouette_score": 0.0887850746512413,
+        "n_tokens": 948,
+        "centroid_distance_mean": 63.579978942871094,
+        "centroid_distance_std": 7.320257186889648
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0002847474277603827,
+        "optimal_clusters": 3,
+        "min_inertia": 3510.884226190476,
+        "best_silhouette_score": 0.05557463690638542,
+        "n_tokens": 210,
+        "centroid_distance_mean": 63.44505310058594,
+        "centroid_distance_std": 8.409811019897461
+      },
+      "cohesion_difference": 1.752357445451762e-05
+    }
+  ],
+  "summary_statistics": {
+    "total_pairs": 15,
+    "valid_pairs": 3,
+    "positive_stats": {
+      "cluster_cohesion": [
+        0.0002797697112857089,
+        0.0002909542171222606,
+        0.0003022710022149003
+      ]
+    },
+    "negative_stats": {
+      "cluster_cohesion": [
+        0.00028494903472802113,
+        0.00029690722931536586,
+        0.0002847474277603827
+      ]
+    }
+  },
+  "overall_comparison": {
+    "positive_mean": 0.00029099831020762326,
+    "negative_mean": 0.0002888678972679232,
+    "mean_difference": 2.1304129397000477e-06,
+    "effect_size": 0.2788873008449936
+  }
+}

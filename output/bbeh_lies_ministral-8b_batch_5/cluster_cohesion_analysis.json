@@ -1,0 +1,118 @@
+{
+  "pair_comparisons": [
+    {
+      "qid": "ministral-8b_bbeh_lies_q_78",
+      "positive_analysis": {
+        "cluster_cohesion": 0.0003031318881954988,
+        "optimal_clusters": 5,
+        "min_inertia": 3297.894108280255,
+        "best_silhouette_score": 0.09739315509796143,
+        "n_tokens": 471,
+        "centroid_distance_mean": 63.596988677978516,
+        "centroid_distance_std": 7.170969486236572
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.00030505441083527305,
+        "optimal_clusters": 5,
+        "min_inertia": 3277.103723404255,
+        "best_silhouette_score": 0.09759720414876938,
+        "n_tokens": 282,
+        "centroid_distance_mean": 63.56513214111328,
+        "centroid_distance_std": 7.448162078857422
+      },
+      "cohesion_difference": -1.922522639774245e-06
+    },
+    {
+      "qid": "ministral-8b_bbeh_lies_q_79",
+      "positive_analysis": {
+        "cluster_cohesion": 0.00031655485801956965,
+        "optimal_clusters": 4,
+        "min_inertia": 3158.01011994003,
+        "best_silhouette_score": 0.1261509507894516,
+        "n_tokens": 667,
+        "centroid_distance_mean": 63.63157272338867,
+        "centroid_distance_std": 6.857331275939941
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.00030738838609252445,
+        "optimal_clusters": 3,
+        "min_inertia": 3252.2133458646617,
+        "best_silhouette_score": 0.08699662238359451,
+        "n_tokens": 133,
+        "centroid_distance_mean": 63.90410614013672,
+        "centroid_distance_std": 3.5020618438720703
+      },
+      "cohesion_difference": 9.166471927045199e-06
+    },
+    {
+      "qid": "ministral-8b_bbeh_lies_q_83",
+      "positive_analysis": {
+        "cluster_cohesion": 0.00030932855543564614,
+        "optimal_clusters": 5,
+        "min_inertia": 3231.8085539714866,
+        "best_silhouette_score": 0.11257147043943405,
+        "n_tokens": 491,
+        "centroid_distance_mean": 63.553646087646484,
+        "centroid_distance_std": 7.545474052429199
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0003232073725631487,
+        "optimal_clusters": 5,
+        "min_inertia": 3092.9888285024153,
+        "best_silhouette_score": 0.12690691649913788,
+        "n_tokens": 414,
+        "centroid_distance_mean": 63.366249084472656,
+        "centroid_distance_std": 8.984354972839355
+      },
+      "cohesion_difference": -1.3878817127502534e-05
+    },
+    {
+      "qid": "ministral-8b_bbeh_lies_q_84",
+      "positive_analysis": {
+        "cluster_cohesion": 0.0002935142440241072,
+        "optimal_clusters": 5,
+        "min_inertia": 3405.9896788990827,
+        "best_silhouette_score": 0.08175454288721085,
+        "n_tokens": 872,
+        "centroid_distance_mean": 63.62250900268555,
+        "centroid_distance_std": 6.9409260749816895
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0002953456903372222,
+        "optimal_clusters": 4,
+        "min_inertia": 3384.862847222222,
+        "best_silhouette_score": 0.08052018284797668,
+        "n_tokens": 864,
+        "centroid_distance_mean": 63.564117431640625,
+        "centroid_distance_std": 7.456708908081055
+      },
+      "cohesion_difference": -1.8314463131149819e-06
+    }
+  ],
+  "summary_statistics": {
+    "total_pairs": 15,
+    "valid_pairs": 4,
+    "positive_stats": {
+      "cluster_cohesion": [
+        0.0003031318881954988,
+        0.00031655485801956965,
+        0.00030932855543564614,
+        0.0002935142440241072
+      ]
+    },
+    "negative_stats": {
+      "cluster_cohesion": [
+        0.00030505441083527305,
+        0.00030738838609252445,
+        0.0003232073725631487,
+        0.0002953456903372222
+      ]
+    }
+  },
+  "overall_comparison": {
+    "positive_mean": 0.00030563238641870543,
+    "negative_mean": 0.0003077489649570421,
+    "mean_difference": -2.1165785383366813e-06,
+    "effect_size": -0.2285260042115111
+  }
+}

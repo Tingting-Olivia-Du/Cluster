@@ -1,0 +1,214 @@
+{
+  "pair_comparisons": [
+    {
+      "qid": "mistral-nemo-12b_bb_lies_q_106",
+      "positive_analysis": {
+        "cluster_cohesion": 0.000249495003337473,
+        "optimal_clusters": 2,
+        "min_inertia": 4007.096301020408,
+        "best_silhouette_score": 0.16272689402103424,
+        "n_tokens": 98,
+        "centroid_distance_mean": 70.92750549316406,
+        "centroid_distance_std": 9.449319839477539
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0002582765528474183,
+        "optimal_clusters": 3,
+        "min_inertia": 3870.81875,
+        "best_silhouette_score": 0.12705983221530914,
+        "n_tokens": 85,
+        "centroid_distance_mean": 71.12040710449219,
+        "centroid_distance_std": 7.866881370544434
+      },
+      "cohesion_difference": -8.781549509945274e-06
+    },
+    {
+      "qid": "mistral-nemo-12b_bb_lies_q_107",
+      "positive_analysis": {
+        "cluster_cohesion": 0.00026241988623665373,
+        "optimal_clusters": 5,
+        "min_inertia": 3809.686813186813,
+        "best_silhouette_score": 0.11672450602054596,
+        "n_tokens": 91,
+        "centroid_distance_mean": 70.99050903320312,
+        "centroid_distance_std": 8.963689804077148
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0002503279567635086,
+        "optimal_clusters": 4,
+        "min_inertia": 3993.7595663265306,
+        "best_silhouette_score": 0.10625378787517548,
+        "n_tokens": 98,
+        "centroid_distance_mean": 70.95133209228516,
+        "centroid_distance_std": 9.268685340881348
+      },
+      "cohesion_difference": 1.2091929473145142e-05
+    },
+    {
+      "qid": "mistral-nemo-12b_bb_lies_q_108",
+      "positive_analysis": {
+        "cluster_cohesion": 0.00026155016824629,
+        "optimal_clusters": 5,
+        "min_inertia": 3822.3582746478874,
+        "best_silhouette_score": 0.11124514043331146,
+        "n_tokens": 71,
+        "centroid_distance_mean": 71.21026611328125,
+        "centroid_distance_std": 7.007077217102051
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0002626956070777367,
+        "optimal_clusters": 2,
+        "min_inertia": 3805.687181122449,
+        "best_silhouette_score": 0.17973366379737854,
+        "n_tokens": 98,
+        "centroid_distance_mean": 70.95301818847656,
+        "centroid_distance_std": 9.255709648132324
+      },
+      "cohesion_difference": -1.1454388314466888e-06
+    },
+    {
+      "qid": "mistral-nemo-12b_bb_lies_q_111",
+      "positive_analysis": {
+        "cluster_cohesion": 0.00026460142980836034,
+        "optimal_clusters": 5,
+        "min_inertia": 3778.2690716911766,
+        "best_silhouette_score": 0.11106427013874054,
+        "n_tokens": 68,
+        "centroid_distance_mean": 71.23736572265625,
+        "centroid_distance_std": 6.725848197937012
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.00024982779430937055,
+        "optimal_clusters": 4,
+        "min_inertia": 4001.7571902654868,
+        "best_silhouette_score": 0.08834254741668701,
+        "n_tokens": 113,
+        "centroid_distance_mean": 70.88716888427734,
+        "centroid_distance_std": 9.74726676940918
+      },
+      "cohesion_difference": 1.4773635498989792e-05
+    },
+    {
+      "qid": "mistral-nemo-12b_bb_lies_q_112",
+      "positive_analysis": {
+        "cluster_cohesion": 0.00025724387658554286,
+        "optimal_clusters": 2,
+        "min_inertia": 3886.3617256637167,
+        "best_silhouette_score": 0.15504354238510132,
+        "n_tokens": 113,
+        "centroid_distance_mean": 70.9780502319336,
+        "centroid_distance_std": 9.0618257522583
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.00024160029351865447,
+        "optimal_clusters": 5,
+        "min_inertia": 4138.067819148936,
+        "best_silhouette_score": 0.09035336226224899,
+        "n_tokens": 141,
+        "centroid_distance_mean": 70.96808624267578,
+        "centroid_distance_std": 9.139509201049805
+      },
+      "cohesion_difference": 1.564358306688839e-05
+    },
+    {
+      "qid": "mistral-nemo-12b_bb_lies_q_113",
+      "positive_analysis": {
+        "cluster_cohesion": 0.00024393744659784581,
+        "optimal_clusters": 2,
+        "min_inertia": 4098.411607142857,
+        "best_silhouette_score": 0.08926551789045334,
+        "n_tokens": 70,
+        "centroid_distance_mean": 71.07173156738281,
+        "centroid_distance_std": 8.295173645019531
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0002549856912047391,
+        "optimal_clusters": 3,
+        "min_inertia": 3920.7886904761904,
+        "best_silhouette_score": 0.1148892343044281,
+        "n_tokens": 105,
+        "centroid_distance_mean": 70.8502197265625,
+        "centroid_distance_std": 10.012320518493652
+      },
+      "cohesion_difference": -1.10482446068933e-05
+    },
+    {
+      "qid": "mistral-nemo-12b_bb_lies_q_114",
+      "positive_analysis": {
+        "cluster_cohesion": 0.00024725797073506906,
+        "optimal_clusters": 2,
+        "min_inertia": 4043.3590029761904,
+        "best_silhouette_score": 0.08883725106716156,
+        "n_tokens": 84,
+        "centroid_distance_mean": 71.02993774414062,
+        "centroid_distance_std": 8.645719528198242
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.00024865717355742315,
+        "optimal_clusters": 2,
+        "min_inertia": 4020.60125,
+        "best_silhouette_score": 0.09986283630132675,
+        "n_tokens": 100,
+        "centroid_distance_mean": 70.94735717773438,
+        "centroid_distance_std": 9.299126625061035
+      },
+      "cohesion_difference": -1.3992028223540906e-06
+    },
+    {
+      "qid": "mistral-nemo-12b_bb_lies_q_116",
+      "positive_analysis": {
+        "cluster_cohesion": 0.0002535083468396088,
+        "optimal_clusters": 5,
+        "min_inertia": 3943.643292682927,
+        "best_silhouette_score": 0.09576374292373657,
+        "n_tokens": 123,
+        "centroid_distance_mean": 71.13542938232422,
+        "centroid_distance_std": 7.729787826538086
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0002718317309310204,
+        "optimal_clusters": 5,
+        "min_inertia": 3677.746394230769,
+        "best_silhouette_score": 0.12710538506507874,
+        "n_tokens": 65,
+        "centroid_distance_mean": 71.06089782714844,
+        "centroid_distance_std": 8.387398719787598
+      },
+      "cohesion_difference": -1.832338409141161e-05
+    }
+  ],
+  "summary_statistics": {
+    "total_pairs": 15,
+    "valid_pairs": 8,
+    "positive_stats": {
+      "cluster_cohesion": [
+        0.000249495003337473,
+        0.00026241988623665373,
+        0.00026155016824629,
+        0.00026460142980836034,
+        0.00025724387658554286,
+        0.00024393744659784581,
+        0.00024725797073506906,
+        0.0002535083468396088
+      ]
+    },
+    "negative_stats": {
+      "cluster_cohesion": [
+        0.0002582765528474183,
+        0.0002503279567635086,
+        0.0002626956070777367,
+        0.00024982779430937055,
+        0.00024160029351865447,
+        0.0002549856912047391,
+        0.00024865717355742315,
+        0.0002718317309310204
+      ]
+    }
+  },
+  "overall_comparison": {
+    "positive_mean": 0.0002550017660483554,
+    "negative_mean": 0.0002547753500262339,
+    "mean_difference": 2.2641602212151784e-07,
+    "effect_size": 0.028202259049839532
+  }
+}

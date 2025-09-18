@@ -1,0 +1,144 @@
+{
+  "pair_comparisons": [
+    {
+      "qid": "mistral-nemo-12b_bbeh_lies_q_91",
+      "target_answer": "no, yes, yes",
+      "original_question": "In this question, assume each person either always tells the truth or always lies. The person at the campground says the person at the train station tells the truth. The person at the movie theater thinks their friend is lying. The person at the movie theater says the person at the campground tells the truth. Mateo is at the library. The person at the movie theater thinks their neighbor is telling the truth. Olivia is at the train station. The person at the vineyard says the person at the movie theater tells the truth. The person at the aquarium thinks their friend is lying. The person at the movie theater saw a firetruck. The person at the movie theater says the person at the cafe tells the truth. The person at the campground saw a firetruck. Beatriz is at the cafe. Grace is at the shopping mall. Kehinde is at the movie theater. The person at the campground tells the truth. Charlie is at the campground. The person at the aquarium says the person at the movie theater lies. Zara is at the aquarium. The person at the movie theater says the person at the shopping mall tells the truth. Maya is at the vineyard. The person at the aquarium says the person at the library lies. Does the person at the aquarium tell the truth? Does the person at the movie theater tell the truth? Does the person at the campground tell the truth? Your answer should be a list of three words, yes or no (for example, yes, no, yes).",
+      "positive_analysis": {
+        "cluster_cohesion": 0.8733156031200319,
+        "optimal_clusters": 4,
+        "min_inertia": 32.78387972525172,
+        "best_silhouette_score": 0.781574873099179,
+        "n_tokens": 226,
+        "feature_variance": 0.4345266343382061,
+        "centroid_distance_mean": 1.2569269019052383,
+        "centroid_distance_std": 0.7699142387032017,
+        "sample_type": "positive",
+        "feature_mean": 0.4482622679891414,
+        "feature_std": 0.7432504644614523,
+        "prob_variance": 0.06468479496706082,
+        "info_content_mean": 0.38179062515818357
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.8716073365241387,
+        "optimal_clusters": 5,
+        "min_inertia": 29.313819378330567,
+        "best_silhouette_score": 0.8225252254199603,
+        "n_tokens": 199,
+        "feature_variance": 0.4146577924578649,
+        "centroid_distance_mean": 1.1952726619215324,
+        "centroid_distance_std": 0.8028774663373834,
+        "sample_type": "negative",
+        "feature_mean": 0.4192719889842371,
+        "feature_std": 0.7147759724927873,
+        "prob_variance": 0.07422015287926564,
+        "info_content_mean": 0.40220095598982486
+      },
+      "comparison": {
+        "cohesion_difference": 0.001708266595893182,
+        "positive_cohesion": 0.8733156031200319,
+        "negative_cohesion": 0.8716073365241387,
+        "positive_tokens": 226,
+        "negative_tokens": 199
+      }
+    },
+    {
+      "qid": "mistral-nemo-12b_bbeh_lies_q_104",
+      "target_answer": "no, no, yes",
+      "original_question": "In this question, assume each person either always tells the truth or always lies. Miranda says Marlon lies. Obadiah says Ocean tells the truth. Raymond says only one of Jim, Ozzy and Max lies. Delfina says only one of Phoebe, Olivia and Othello tells the truth. Tamika says only one of Kandi, Marsha and Miranda tells the truth. Oswald says Miles tells the truth. Ocean says Obadiah tells the truth. Marsha says Marlon tells the truth. Orion says Lalit lies. Micah says Mitchell lies. Lalit says Orion lies. Gwenn says either exactly one of Sherrie, Mickey and Melinda tells the truth, or all three of them. Mickey says Melinda tells the truth. Leda says exactly one of Ryan, Maverick and Mavis tell the truth. Orhan says Opal lies. Nicole says Osmond lies. Olivia says Orlando tells the truth. Lorine says exactly one of Dallas, Opal and Orhan tell the truth. Malcolm says Natasha lies. Phoebe says exactly two of Vina, Mitchell and Micah tells the truth. Opal says Orhan lies. Milo says Michelle tells the truth. Mitchell says Micah lies. Millie says Bahar tells the truth. Murray says Osmond tells the truth. Mariana says Onyx lies. Dallas says only one of Amberly, Owen and Mason tells the truth. Kandi says exactly one of Audrie, Ophelia and Moses tell the truth. Kristian says Tamika, Oswald and Miriam all tell the truth. Merlin says Maxwell lies. Miriam says Miles lies. Fletcher says either exactly one of Lorine, Michelle and Milo tells the truth, or all three of them. Amberly says exactly one of Antwan, Oleg and Milton tell the truth. Mason says Octavius lies. Max says Ofelia lies. Mackenzie says Natasha tells the truth. Ophelia says Moses lies. Oscar says Osvaldo lies. Yoland says exactly one of Gwenn, Mariana and Onyx tells the truth.Vina says exactly two of Fletcher, Oscar and Osvaldo tells the truth. Othello says Orlando lies. Maverick says Mavis lies. Antwan tells the truth. Oleg says Milton lies. Mateo says Millicent tells the truth. Bahar says Millie tells the truth. Ryan says exactly one of Raymond, Orion and Lalit tells the truth.Milton says Oleg lies. Sherrie says only one of Delbert, Mackenzie and Malcolm lies. Willian says either all three of Yoland, Ocean and Obadiah tell the truth or only one of them. Mavis says Maverick lies. Virginia says Maxwell tells the truth. Osvaldo says Oscar lies. Onyx says Mariana lies. Michelle says Milo tells the truth. Rashida says only one of Leda, Virginia and Merlin tells the truth. Audrie says only one of Rashida, Mateo and Madeleine lies. Melinda says Mickey tells the truth. Madeleine says Millicent lies. Delbert says only one of Kristian, Murray and Nicole lies. Jim says either exactly two of Delfina, Bahar and Millie tell the truth or none of them. Moses says Ophelia lies. Ozzy says Ofelia tells the truth. Owen says Octavius tells the truth. Do Sherrie, Gwenn, and Willian tell the truth? Your answer should be a list of three words separated by commas. Each of them must be either yes (if the person tells the truth), no (if the person lies), or unknown (if the person's truth cannot be determined). For example, <unknown, no, yes> or <yes, yes, yes>.",
+      "positive_analysis": {
+        "cluster_cohesion": 0.8268454980505482,
+        "optimal_clusters": 4,
+        "min_inertia": 71.82961545862,
+        "best_silhouette_score": 0.7845947487517144,
+        "n_tokens": 343,
+        "feature_variance": 0.46261084496587124,
+        "centroid_distance_mean": 1.2555812240552615,
+        "centroid_distance_std": 0.8582365726472198,
+        "sample_type": "positive",
+        "feature_mean": 0.43241951601301776,
+        "feature_std": 0.7450269976814285,
+        "prob_variance": 0.08948151171426391,
+        "info_content_mean": 0.5160937133632387
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.9292043856146215,
+        "optimal_clusters": 5,
+        "min_inertia": 76.18949660741293,
+        "best_silhouette_score": 0.9232032419411994,
+        "n_tokens": 1000,
+        "feature_variance": 0.20845416616533896,
+        "centroid_distance_mean": 0.6123124311820158,
+        "centroid_distance_std": 0.8169114501870139,
+        "sample_type": "negative",
+        "feature_mean": 0.31767119198153126,
+        "feature_std": 0.5620119944453047,
+        "prob_variance": 0.031125320322923585,
+        "info_content_mean": 0.15067198390117642
+      },
+      "comparison": {
+        "cohesion_difference": -0.1023588875640733,
+        "positive_cohesion": 0.8268454980505482,
+        "negative_cohesion": 0.9292043856146215,
+        "positive_tokens": 343,
+        "negative_tokens": 1000
+      }
+    }
+  ],
+  "summary_statistics": {
+    "total_pairs": 2,
+    "valid_pairs": 2,
+    "positive_stats": {
+      "cluster_cohesion": [
+        0.8733156031200319,
+        0.8268454980505482
+      ],
+      "optimal_clusters": [
+        4,
+        4
+      ],
+      "best_silhouette_score": [
+        0.781574873099179,
+        0.7845947487517144
+      ],
+      "n_tokens": [
+        226,
+        343
+      ],
+      "feature_variance": [
+        0.4345266343382061,
+        0.46261084496587124
+      ]
+    },
+    "negative_stats": {
+      "cluster_cohesion": [
+        0.8716073365241387,
+        0.9292043856146215
+      ],
+      "optimal_clusters": [
+        5,
+        5
+      ],
+      "best_silhouette_score": [
+        0.8225252254199603,
+        0.9232032419411994
+      ],
+      "n_tokens": [
+        199,
+        1000
+      ],
+      "feature_variance": [
+        0.4146577924578649,
+        0.20845416616533896
+      ]
+    }
+  },
+  "overall_comparison": {
+    "positive_mean": 0.85008055058529,
+    "positive_std": 0.02323505253474184,
+    "negative_mean": 0.9004058610693801,
+    "negative_std": 0.0287985245452414,
+    "mean_difference": -0.05032531048409017,
+    "effect_size": -1.9233769996804093
+  }
+}

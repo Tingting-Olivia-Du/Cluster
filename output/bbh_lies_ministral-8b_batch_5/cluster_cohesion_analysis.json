@@ -1,0 +1,238 @@
+{
+  "pair_comparisons": [
+    {
+      "qid": "ministral-8b_bbh_lies_q_75",
+      "positive_analysis": {
+        "cluster_cohesion": 0.00030958946122753667,
+        "optimal_clusters": 5,
+        "min_inertia": 3229.0841121495328,
+        "best_silhouette_score": 0.10748545080423355,
+        "n_tokens": 214,
+        "centroid_distance_mean": 63.65218734741211,
+        "centroid_distance_std": 6.6632256507873535
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0003324903749880998,
+        "optimal_clusters": 5,
+        "min_inertia": 3006.605859375,
+        "best_silhouette_score": 0.12871813774108887,
+        "n_tokens": 160,
+        "centroid_distance_mean": 63.558929443359375,
+        "centroid_distance_std": 7.500846862792969
+      },
+      "cohesion_difference": -2.290091376056316e-05
+    },
+    {
+      "qid": "ministral-8b_bbh_lies_q_76",
+      "positive_analysis": {
+        "cluster_cohesion": 0.00032414819650358897,
+        "optimal_clusters": 5,
+        "min_inertia": 3084.0086805555557,
+        "best_silhouette_score": 0.13203494250774384,
+        "n_tokens": 180,
+        "centroid_distance_mean": 63.584495544433594,
+        "centroid_distance_std": 7.280951023101807
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0003356645686029676,
+        "optimal_clusters": 5,
+        "min_inertia": 2978.164599236641,
+        "best_silhouette_score": 0.1393020898103714,
+        "n_tokens": 131,
+        "centroid_distance_mean": 63.450618743896484,
+        "centroid_distance_std": 8.367704391479492
+      },
+      "cohesion_difference": -1.1516372099378642e-05
+    },
+    {
+      "qid": "ministral-8b_bbh_lies_q_77",
+      "positive_analysis": {
+        "cluster_cohesion": 0.00031397064234328626,
+        "optimal_clusters": 5,
+        "min_inertia": 3184.011160714286,
+        "best_silhouette_score": 0.10970000922679901,
+        "n_tokens": 168,
+        "centroid_distance_mean": 63.64625930786133,
+        "centroid_distance_std": 6.719664096832275
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.00032729269820271756,
+        "optimal_clusters": 5,
+        "min_inertia": 3054.369109947644,
+        "best_silhouette_score": 0.14480091631412506,
+        "n_tokens": 191,
+        "centroid_distance_mean": 63.43535232543945,
+        "centroid_distance_std": 8.48274040222168
+      },
+      "cohesion_difference": -1.3322055859431303e-05
+    },
+    {
+      "qid": "ministral-8b_bbh_lies_q_83",
+      "positive_analysis": {
+        "cluster_cohesion": 0.0003062385065941845,
+        "optimal_clusters": 5,
+        "min_inertia": 3264.428672316384,
+        "best_silhouette_score": 0.09292513877153397,
+        "n_tokens": 177,
+        "centroid_distance_mean": 63.568565368652344,
+        "centroid_distance_std": 7.418759346008301
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0003124187123279099,
+        "optimal_clusters": 2,
+        "min_inertia": 3199.8326023391814,
+        "best_silhouette_score": 0.10472789406776428,
+        "n_tokens": 171,
+        "centroid_distance_mean": 63.46575164794922,
+        "centroid_distance_std": 8.252189636230469
+      },
+      "cohesion_difference": -6.18020573372541e-06
+    },
+    {
+      "qid": "ministral-8b_bbh_lies_q_84",
+      "positive_analysis": {
+        "cluster_cohesion": 0.000334830434454903,
+        "optimal_clusters": 5,
+        "min_inertia": 2985.5863347457625,
+        "best_silhouette_score": 0.1374654620885849,
+        "n_tokens": 118,
+        "centroid_distance_mean": 63.5853157043457,
+        "centroid_distance_std": 7.273733139038086
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.000340109721618502,
+        "optimal_clusters": 5,
+        "min_inertia": 2939.227627840909,
+        "best_silhouette_score": 0.14905045926570892,
+        "n_tokens": 88,
+        "centroid_distance_mean": 63.530418395996094,
+        "centroid_distance_std": 7.738620758056641
+      },
+      "cohesion_difference": -5.279287163599013e-06
+    },
+    {
+      "qid": "ministral-8b_bbh_lies_q_86",
+      "positive_analysis": {
+        "cluster_cohesion": 0.00030486953945376826,
+        "optimal_clusters": 5,
+        "min_inertia": 3279.0915492957747,
+        "best_silhouette_score": 0.08978395909070969,
+        "n_tokens": 213,
+        "centroid_distance_mean": 63.625667572021484,
+        "centroid_distance_std": 6.911890983581543
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.000320458656452047,
+        "optimal_clusters": 5,
+        "min_inertia": 3119.52734375,
+        "best_silhouette_score": 0.12397588789463043,
+        "n_tokens": 144,
+        "centroid_distance_mean": 63.55207061767578,
+        "centroid_distance_std": 7.558671951293945
+      },
+      "cohesion_difference": -1.558911699827873e-05
+    },
+    {
+      "qid": "ministral-8b_bbh_lies_q_87",
+      "positive_analysis": {
+        "cluster_cohesion": 0.0003463972401762104,
+        "optimal_clusters": 5,
+        "min_inertia": 2885.8590277777776,
+        "best_silhouette_score": 0.1571962833404541,
+        "n_tokens": 135,
+        "centroid_distance_mean": 63.53137969970703,
+        "centroid_distance_std": 7.730733394622803
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0003363404025827898,
+        "optimal_clusters": 5,
+        "min_inertia": 2972.1783405172414,
+        "best_silhouette_score": 0.12184911966323853,
+        "n_tokens": 58,
+        "centroid_distance_mean": 63.65178680419922,
+        "centroid_distance_std": 6.667078971862793
+      },
+      "cohesion_difference": 1.0056837593420552e-05
+    },
+    {
+      "qid": "ministral-8b_bbh_lies_q_88",
+      "positive_analysis": {
+        "cluster_cohesion": 0.0003311798122527033,
+        "optimal_clusters": 5,
+        "min_inertia": 3018.5077205882353,
+        "best_silhouette_score": 0.13665728271007538,
+        "n_tokens": 170,
+        "centroid_distance_mean": 63.513160705566406,
+        "centroid_distance_std": 7.878989219665527
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.0003287637264950478,
+        "optimal_clusters": 5,
+        "min_inertia": 3040.698093220339,
+        "best_silhouette_score": 0.12721678614616394,
+        "n_tokens": 118,
+        "centroid_distance_mean": 63.63262176513672,
+        "centroid_distance_std": 6.847585678100586
+      },
+      "cohesion_difference": 2.416085757655519e-06
+    },
+    {
+      "qid": "ministral-8b_bbh_lies_q_89",
+      "positive_analysis": {
+        "cluster_cohesion": 0.00030526620767059036,
+        "optimal_clusters": 5,
+        "min_inertia": 3274.829341317365,
+        "best_silhouette_score": 0.09559743106365204,
+        "n_tokens": 167,
+        "centroid_distance_mean": 63.62270736694336,
+        "centroid_distance_std": 6.939042091369629
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.00033799859672412313,
+        "optimal_clusters": 5,
+        "min_inertia": 2957.5921648550725,
+        "best_silhouette_score": 0.15580439567565918,
+        "n_tokens": 138,
+        "centroid_distance_mean": 63.501712799072266,
+        "centroid_distance_std": 7.970705509185791
+      },
+      "cohesion_difference": -3.273238905353277e-05
+    }
+  ],
+  "summary_statistics": {
+    "total_pairs": 15,
+    "valid_pairs": 9,
+    "positive_stats": {
+      "cluster_cohesion": [
+        0.00030958946122753667,
+        0.00032414819650358897,
+        0.00031397064234328626,
+        0.0003062385065941845,
+        0.000334830434454903,
+        0.00030486953945376826,
+        0.0003463972401762104,
+        0.0003311798122527033,
+        0.00030526620767059036
+      ]
+    },
+    "negative_stats": {
+      "cluster_cohesion": [
+        0.0003324903749880998,
+        0.0003356645686029676,
+        0.00032729269820271756,
+        0.0003124187123279099,
+        0.000340109721618502,
+        0.000320458656452047,
+        0.0003363404025827898,
+        0.0003287637264950478,
+        0.00033799859672412313
+      ]
+    }
+  },
+  "overall_comparison": {
+    "positive_mean": 0.0003196100045196413,
+    "negative_mean": 0.00033017082866602276,
+    "mean_difference": -1.0560824146381464e-05,
+    "effect_size": -0.8977118043535774
+  }
+}

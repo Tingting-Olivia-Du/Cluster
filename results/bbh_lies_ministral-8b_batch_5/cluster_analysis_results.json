@@ -1,0 +1,2216 @@
+{
+  "positive_negative_comparison": {
+    "pair_comparisons": [
+      {
+        "qid": "ministral-8b_bbh_lies_q_75",
+        "positive_analysis": {
+          "optimal_clusters": 5,
+          "n_tokens": 214,
+          "silhouette_scores": [
+            0.0,
+            0.09175007045269012,
+            0.06963758915662766,
+            0.0927562564611435,
+            0.10748545080423355
+          ],
+          "best_silhouette": 0.10748545080423355,
+          "cluster_cohesion": 0.00030958946122753667,
+          "log_cohesion": -8.080263456790812,
+          "optimal_inertia": 3229.0841121495328,
+          "centroid_distance_mean": 63.65218734741211,
+          "centroid_distance_std": 6.6632256507873535,
+          "inertias": [
+            876544.0,
+            817684.0,
+            769666.5,
+            725810.375,
+            691024.0
+          ]
+        },
+        "negative_analysis": {
+          "optimal_clusters": 5,
+          "n_tokens": 160,
+          "silhouette_scores": [
+            0.0,
+            0.072010338306427,
+            0.09894941002130508,
+            0.12361235916614532,
+            0.12871813774108887
+          ],
+          "best_silhouette": 0.12871813774108887,
+          "cluster_cohesion": 0.0003324903749880998,
+          "log_cohesion": -8.00889964569156,
+          "optimal_inertia": 3006.605859375,
+          "centroid_distance_mean": 63.558929443359375,
+          "centroid_distance_std": 7.500846862792969,
+          "inertias": [
+            655360.0,
+            602905.5,
+            558961.8125,
+            511808.1875,
+            481056.9375
+          ]
+        },
+        "cluster_count_difference": 0,
+        "cohesion_difference": -2.290091376056316e-05,
+        "log_cohesion_difference": -0.0713638110992516
+      },
+      {
+        "qid": "ministral-8b_bbh_lies_q_76",
+        "positive_analysis": {
+          "optimal_clusters": 5,
+          "n_tokens": 180,
+          "silhouette_scores": [
+            0.0,
+            0.08144552260637283,
+            0.09315970540046692,
+            0.10570776462554932,
+            0.13203494250774384
+          ],
+          "best_silhouette": 0.13203494250774384,
+          "cluster_cohesion": 0.00032414819650358897,
+          "log_cohesion": -8.034309750129875,
+          "optimal_inertia": 3084.0086805555557,
+          "centroid_distance_mean": 63.584495544433594,
+          "centroid_distance_std": 7.280951023101807,
+          "inertias": [
+            737279.9375,
+            675410.25,
+            620821.75,
+            587157.75,
+            555121.5625
+          ]
+        },
+        "negative_analysis": {
+          "optimal_clusters": 5,
+          "n_tokens": 131,
+          "silhouette_scores": [
+            0.0,
+            0.11585374176502228,
+            0.09622544795274734,
+            0.10308897495269775,
+            0.1393020898103714
+          ],
+          "best_silhouette": 0.1393020898103714,
+          "cluster_cohesion": 0.0003356645686029676,
+          "log_cohesion": -7.999398204371387,
+          "optimal_inertia": 2978.164599236641,
+          "centroid_distance_mean": 63.450618743896484,
+          "centroid_distance_std": 8.367704391479492,
+          "inertias": [
+            536576.0,
+            489741.125,
+            453060.9375,
+            423972.96875,
+            390139.5625
+          ]
+        },
+        "cluster_count_difference": 0,
+        "cohesion_difference": -1.1516372099378642e-05,
+        "log_cohesion_difference": -0.034911545758488316
+      },
+      {
+        "qid": "ministral-8b_bbh_lies_q_77",
+        "positive_analysis": {
+          "optimal_clusters": 5,
+          "n_tokens": 168,
+          "silhouette_scores": [
+            0.0,
+            0.0788927972316742,
+            0.09825238585472107,
+            0.0887870341539383,
+            0.10970000922679901
+          ],
+          "best_silhouette": 0.10970000922679901,
+          "cluster_cohesion": 0.00031397064234328626,
+          "log_cohesion": -8.066211072149036,
+          "optimal_inertia": 3184.011160714286,
+          "centroid_distance_mean": 63.64625930786133,
+          "centroid_distance_std": 6.719664096832275,
+          "inertias": [
+            688128.0,
+            638717.75,
+            602394.3125,
+            569739.3125,
+            534913.875
+          ]
+        },
+        "negative_analysis": {
+          "optimal_clusters": 5,
+          "n_tokens": 191,
+          "silhouette_scores": [
+            0.0,
+            0.0792960450053215,
+            0.09222222119569778,
+            0.120169997215271,
+            0.14480091631412506
+          ],
+          "best_silhouette": 0.14480091631412506,
+          "cluster_cohesion": 0.00032729269820271756,
+          "log_cohesion": -8.024655685894146,
+          "optimal_inertia": 3054.369109947644,
+          "centroid_distance_mean": 63.43535232543945,
+          "centroid_distance_std": 8.48274040222168,
+          "inertias": [
+            782336.0,
+            715808.125,
+            673529.1875,
+            617256.125,
+            583384.5
+          ]
+        },
+        "cluster_count_difference": 0,
+        "cohesion_difference": -1.3322055859431303e-05,
+        "log_cohesion_difference": -0.04155538625489008
+      },
+      {
+        "qid": "ministral-8b_bbh_lies_q_83",
+        "positive_analysis": {
+          "optimal_clusters": 5,
+          "n_tokens": 177,
+          "silhouette_scores": [
+            0.0,
+            0.08887910842895508,
+            0.05708598718047142,
+            0.08589360862970352,
+            0.09292513877153397
+          ],
+          "best_silhouette": 0.09292513877153397,
+          "cluster_cohesion": 0.0003062385065941845,
+          "log_cohesion": -8.091146326297963,
+          "optimal_inertia": 3264.428672316384,
+          "centroid_distance_mean": 63.568565368652344,
+          "centroid_distance_std": 7.418759346008301,
+          "inertias": [
+            724992.0,
+            671388.5,
+            640766.625,
+            607720.0625,
+            577803.875
+          ]
+        },
+        "negative_analysis": {
+          "optimal_clusters": 2,
+          "n_tokens": 171,
+          "silhouette_scores": [
+            0.0,
+            0.10472789406776428,
+            0.09455947577953339,
+            0.0751027911901474,
+            0.09236101806163788
+          ],
+          "best_silhouette": 0.10472789406776428,
+          "cluster_cohesion": 0.0002626620685444316,
+          "log_cohesion": -8.244642262469233,
+          "optimal_inertia": 3806.1732456140353,
+          "centroid_distance_mean": 63.46575164794922,
+          "centroid_distance_std": 8.252189636230469,
+          "inertias": [
+            700416.0,
+            650855.625,
+            610748.625,
+            578060.4375,
+            547171.375
+          ]
+        },
+        "cluster_count_difference": 3,
+        "cohesion_difference": 4.357643804975286e-05,
+        "log_cohesion_difference": 0.15349593617126978
+      },
+      {
+        "qid": "ministral-8b_bbh_lies_q_84",
+        "positive_analysis": {
+          "optimal_clusters": 5,
+          "n_tokens": 118,
+          "silhouette_scores": [
+            0.0,
+            0.10042139887809753,
+            0.11398874223232269,
+            0.11138607561588287,
+            0.1374654620885849
+          ],
+          "best_silhouette": 0.1374654620885849,
+          "cluster_cohesion": 0.000334830434454903,
+          "log_cohesion": -8.001886320090623,
+          "optimal_inertia": 2985.5863347457625,
+          "centroid_distance_mean": 63.5853157043457,
+          "centroid_distance_std": 7.273733139038086,
+          "inertias": [
+            483327.9375,
+            440418.25,
+            405518.90625,
+            376959.96875,
+            352299.1875
+          ]
+        },
+        "negative_analysis": {
+          "optimal_clusters": 5,
+          "n_tokens": 88,
+          "silhouette_scores": [
+            0.0,
+            0.10647379606962204,
+            0.11895012855529785,
+            0.13431642949581146,
+            0.14905045926570892
+          ],
+          "best_silhouette": 0.14905045926570892,
+          "cluster_cohesion": 0.000340109721618502,
+          "log_cohesion": -7.986242281771293,
+          "optimal_inertia": 2939.227627840909,
+          "centroid_distance_mean": 63.530418395996094,
+          "centroid_distance_std": 7.738620758056641,
+          "inertias": [
+            360448.0,
+            329954.5,
+            295992.84375,
+            277126.71875,
+            258652.03125
+          ]
+        },
+        "cluster_count_difference": 0,
+        "cohesion_difference": -5.279287163599013e-06,
+        "log_cohesion_difference": -0.015644038319329923
+      },
+      {
+        "qid": "ministral-8b_bbh_lies_q_86",
+        "positive_analysis": {
+          "optimal_clusters": 5,
+          "n_tokens": 213,
+          "silhouette_scores": [
+            0.0,
+            0.06672283262014389,
+            0.060956139117479324,
+            0.07526076585054398,
+            0.08978395909070969
+          ],
+          "best_silhouette": 0.08978395909070969,
+          "cluster_cohesion": 0.00030486953945376826,
+          "log_cohesion": -8.095626612359338,
+          "optimal_inertia": 3279.0915492957747,
+          "centroid_distance_mean": 63.625667572021484,
+          "centroid_distance_std": 6.911890983581543,
+          "inertias": [
+            872448.0,
+            813236.375,
+            769168.75,
+            729441.75,
+            698446.5
+          ]
+        },
+        "negative_analysis": {
+          "optimal_clusters": 5,
+          "n_tokens": 144,
+          "silhouette_scores": [
+            0.0,
+            0.07379862666130066,
+            0.08626804500818253,
+            0.09574416279792786,
+            0.12397588789463043
+          ],
+          "best_silhouette": 0.12397588789463043,
+          "cluster_cohesion": 0.000320458656452047,
+          "log_cohesion": -8.045757286953876,
+          "optimal_inertia": 3119.52734375,
+          "centroid_distance_mean": 63.55207061767578,
+          "centroid_distance_std": 7.558671951293945,
+          "inertias": [
+            589824.0,
+            546485.0625,
+            508943.9375,
+            476208.1875,
+            449211.9375
+          ]
+        },
+        "cluster_count_difference": 0,
+        "cohesion_difference": -1.558911699827873e-05,
+        "log_cohesion_difference": -0.04986932540546185
+      },
+      {
+        "qid": "ministral-8b_bbh_lies_q_87",
+        "positive_analysis": {
+          "optimal_clusters": 5,
+          "n_tokens": 135,
+          "silhouette_scores": [
+            0.0,
+            0.09214868396520615,
+            0.126401886343956,
+            0.13747720420360565,
+            0.1571962833404541
+          ],
+          "best_silhouette": 0.1571962833404541,
+          "cluster_cohesion": 0.0003463972401762104,
+          "log_cohesion": -7.967924348466478,
+          "optimal_inertia": 2885.8590277777776,
+          "centroid_distance_mean": 63.53137969970703,
+          "centroid_distance_std": 7.730733394622803,
+          "inertias": [
+            552960.0,
+            500121.4375,
+            450690.375,
+            419476.4375,
+            389590.96875
+          ]
+        },
+        "negative_analysis": {
+          "optimal_clusters": 5,
+          "n_tokens": 58,
+          "silhouette_scores": [
+            0.0,
+            0.08822118490934372,
+            0.11055773496627808,
+            0.11975952982902527,
+            0.12184911966323853
+          ],
+          "best_silhouette": 0.12184911966323853,
+          "cluster_cohesion": 0.0003363404025827898,
+          "log_cohesion": -7.997386807918523,
+          "optimal_inertia": 2972.1783405172414,
+          "centroid_distance_mean": 63.65178680419922,
+          "centroid_distance_std": 6.667078971862793,
+          "inertias": [
+            237568.0,
+            213367.3125,
+            195280.078125,
+            181397.625,
+            172386.34375
+          ]
+        },
+        "cluster_count_difference": 0,
+        "cohesion_difference": 1.0056837593420552e-05,
+        "log_cohesion_difference": 0.029462459452044953
+      },
+      {
+        "qid": "ministral-8b_bbh_lies_q_88",
+        "positive_analysis": {
+          "optimal_clusters": 5,
+          "n_tokens": 170,
+          "silhouette_scores": [
+            0.0,
+            0.08829347044229507,
+            0.09936095774173737,
+            0.10270453244447708,
+            0.13665728271007538
+          ],
+          "best_silhouette": 0.13665728271007538,
+          "cluster_cohesion": 0.0003311798122527033,
+          "log_cohesion": -8.012849090654187,
+          "optimal_inertia": 3018.5077205882353,
+          "centroid_distance_mean": 63.513160705566406,
+          "centroid_distance_std": 7.878989219665527,
+          "inertias": [
+            696320.0,
+            639832.5,
+            599600.1875,
+            551072.75,
+            513146.3125
+          ]
+        },
+        "negative_analysis": {
+          "optimal_clusters": 5,
+          "n_tokens": 118,
+          "silhouette_scores": [
+            0.0,
+            0.10126076638698578,
+            0.09595058858394623,
+            0.11025004833936691,
+            0.12721678614616394
+          ],
+          "best_silhouette": 0.12721678614616394,
+          "cluster_cohesion": 0.0003287637264950478,
+          "log_cohesion": -8.020171221746853,
+          "optimal_inertia": 3040.698093220339,
+          "centroid_distance_mean": 63.63262176513672,
+          "centroid_distance_std": 6.847585678100586,
+          "inertias": [
+            483328.0,
+            440614.53125,
+            408066.3125,
+            378896.625,
+            358802.375
+          ]
+        },
+        "cluster_count_difference": 0,
+        "cohesion_difference": 2.416085757655519e-06,
+        "log_cohesion_difference": 0.0073221310926658845
+      },
+      {
+        "qid": "ministral-8b_bbh_lies_q_89",
+        "positive_analysis": {
+          "optimal_clusters": 5,
+          "n_tokens": 167,
+          "silhouette_scores": [
+            0.0,
+            0.08456838130950928,
+            0.0892801582813263,
+            0.07849046587944031,
+            0.09559743106365204
+          ],
+          "best_silhouette": 0.09559743106365204,
+          "cluster_cohesion": 0.00030526620767059036,
+          "log_cohesion": -8.094326350001072,
+          "optimal_inertia": 3274.829341317365,
+          "centroid_distance_mean": 63.62270736694336,
+          "centroid_distance_std": 6.939042091369629,
+          "inertias": [
+            684031.9375,
+            640361.0,
+            600105.875,
+            572361.0,
+            546896.5
+          ]
+        },
+        "negative_analysis": {
+          "optimal_clusters": 5,
+          "n_tokens": 138,
+          "silhouette_scores": [
+            0.0,
+            0.10532432049512863,
+            0.12830576300621033,
+            0.12619729340076447,
+            0.15580439567565918
+          ],
+          "best_silhouette": 0.15580439567565918,
+          "cluster_cohesion": 0.00033799859672412313,
+          "log_cohesion": -7.992468814193652,
+          "optimal_inertia": 2957.5921648550725,
+          "centroid_distance_mean": 63.501712799072266,
+          "centroid_distance_std": 7.970705509185791,
+          "inertias": [
+            565248.0,
+            509329.65625,
+            465989.6875,
+            433622.0625,
+            408147.71875
+          ]
+        },
+        "cluster_count_difference": 0,
+        "cohesion_difference": -3.273238905353277e-05,
+        "log_cohesion_difference": -0.10185753580742052
+      }
+    ],
+    "summary": {
+      "total_pairs": 15,
+      "valid_pairs": 9,
+      "positive_stats": {
+        "optimal_clusters": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "n_tokens": [
+          214,
+          180,
+          168,
+          177,
+          118,
+          213,
+          135,
+          170,
+          167
+        ],
+        "cluster_cohesion": [
+          0.00030958946122753667,
+          0.00032414819650358897,
+          0.00031397064234328626,
+          0.0003062385065941845,
+          0.000334830434454903,
+          0.00030486953945376826,
+          0.0003463972401762104,
+          0.0003311798122527033,
+          0.00030526620767059036
+        ],
+        "log_cohesion": [
+          -8.080263456790812,
+          -8.034309750129875,
+          -8.066211072149036,
+          -8.091146326297963,
+          -8.001886320090623,
+          -8.095626612359338,
+          -7.967924348466478,
+          -8.012849090654187,
+          -8.094326350001072
+        ]
+      },
+      "negative_stats": {
+        "optimal_clusters": [
+          5,
+          5,
+          5,
+          2,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "n_tokens": [
+          160,
+          131,
+          191,
+          171,
+          88,
+          144,
+          58,
+          118,
+          138
+        ],
+        "cluster_cohesion": [
+          0.0003324903749880998,
+          0.0003356645686029676,
+          0.00032729269820271756,
+          0.0002626620685444316,
+          0.000340109721618502,
+          0.000320458656452047,
+          0.0003363404025827898,
+          0.0003287637264950478,
+          0.00033799859672412313
+        ],
+        "log_cohesion": [
+          -8.00889964569156,
+          -7.999398204371387,
+          -8.024655685894146,
+          -8.244642262469233,
+          -7.986242281771293,
+          -8.045757286953876,
+          -7.997386807918523,
+          -8.020171221746853,
+          -7.992468814193652
+        ]
+      }
+    },
+    "overall_statistics": {
+      "clusters": {
+        "positive_mean_clusters": 5.0,
+        "negative_mean_clusters": 4.666666666666667,
+        "cluster_count_difference": 0.33333333333333304,
+        "positive_cluster_distribution": {
+          "5": 9
+        },
+        "negative_cluster_distribution": {
+          "2": 1,
+          "5": 8
+        }
+      },
+      "cohesion": {
+        "positive_mean_cohesion": 0.0003196100045196413,
+        "negative_mean_cohesion": 0.0003246423126900807,
+        "cohesion_difference": -5.0323081704393914e-06,
+        "effect_size": -0.2656704701620224
+      },
+      "log_cohesion": {
+        "positive_mean_log_cohesion": -8.049393702993264,
+        "negative_mean_log_cohesion": -8.035513579001169,
+        "log_cohesion_difference": -0.01388012399209515,
+        "log_effect_size": -0.22332411118799197
+      }
+    }
+  },
+  "all_samples_analysis": {
+    "question_analyses": [
+      {
+        "qid": "ministral-8b_bbh_lies_q_75",
+        "n_samples": 3,
+        "sample_analyses": [
+          {
+            "sample_id": "sampling0",
+            "is_correct": false,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 160,
+              "silhouette_scores": [
+                0.0,
+                0.072010338306427,
+                0.09894941002130508,
+                0.12361235916614532,
+                0.12871813774108887
+              ],
+              "best_silhouette": 0.12871813774108887,
+              "cluster_cohesion": 0.0003324903749880998,
+              "log_cohesion": -8.00889964569156,
+              "optimal_inertia": 3006.605859375,
+              "centroid_distance_mean": 63.558929443359375,
+              "centroid_distance_std": 7.500846862792969,
+              "inertias": [
+                655360.0,
+                602905.5,
+                558961.8125,
+                511808.1875,
+                481056.9375
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling1",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 214,
+              "silhouette_scores": [
+                0.0,
+                0.09175007045269012,
+                0.06963758915662766,
+                0.0927562564611435,
+                0.10748545080423355
+              ],
+              "best_silhouette": 0.10748545080423355,
+              "cluster_cohesion": 0.00030958946122753667,
+              "log_cohesion": -8.080263456790812,
+              "optimal_inertia": 3229.0841121495328,
+              "centroid_distance_mean": 63.65218734741211,
+              "centroid_distance_std": 6.6632256507873535,
+              "inertias": [
+                876544.0,
+                817684.0,
+                769666.5,
+                725810.375,
+                691024.0
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling2",
+            "is_correct": false,
+            "metrics": {
+              "optimal_clusters": 2,
+              "n_tokens": 191,
+              "silhouette_scores": [
+                0.0,
+                0.15694616734981537,
+                0.1049734503030777,
+                0.10356172919273376,
+                0.11453616619110107
+              ],
+              "best_silhouette": 0.15694616734981537,
+              "cluster_cohesion": 0.00026658027232710096,
+              "log_cohesion": -8.229835150230288,
+              "optimal_inertia": 3750.2153141361255,
+              "centroid_distance_mean": 63.562591552734375,
+              "centroid_distance_std": 7.469729900360107,
+              "inertias": [
+                782336.0,
+                716291.125,
+                660993.0625,
+                622414.375,
+                581524.75
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "qid": "ministral-8b_bbh_lies_q_76",
+        "n_samples": 3,
+        "sample_analyses": [
+          {
+            "sample_id": "sampling0",
+            "is_correct": false,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 131,
+              "silhouette_scores": [
+                0.0,
+                0.11585374176502228,
+                0.09622544795274734,
+                0.10308897495269775,
+                0.1393020898103714
+              ],
+              "best_silhouette": 0.1393020898103714,
+              "cluster_cohesion": 0.0003356645686029676,
+              "log_cohesion": -7.999398204371387,
+              "optimal_inertia": 2978.164599236641,
+              "centroid_distance_mean": 63.450618743896484,
+              "centroid_distance_std": 8.367704391479492,
+              "inertias": [
+                536576.0,
+                489741.125,
+                453060.9375,
+                423972.96875,
+                390139.5625
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling1",
+            "is_correct": false,
+            "metrics": {
+              "optimal_clusters": 4,
+              "n_tokens": 118,
+              "silhouette_scores": [
+                0.0,
+                0.09043676406145096,
+                0.09614410996437073,
+                0.11865051835775375,
+                0.1163182333111763
+              ],
+              "best_silhouette": 0.11865051835775375,
+              "cluster_cohesion": 0.00030937283342747247,
+              "log_cohesion": -8.080963427728555,
+              "optimal_inertia": 3231.3458686440677,
+              "centroid_distance_mean": 63.7885856628418,
+              "centroid_distance_std": 5.197638511657715,
+              "inertias": [
+                483328.0,
+                441258.5,
+                403750.375,
+                381298.8125,
+                360666.90625
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling2",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 180,
+              "silhouette_scores": [
+                0.0,
+                0.08144552260637283,
+                0.09315970540046692,
+                0.10570776462554932,
+                0.13203494250774384
+              ],
+              "best_silhouette": 0.13203494250774384,
+              "cluster_cohesion": 0.00032414819650358897,
+              "log_cohesion": -8.034309750129875,
+              "optimal_inertia": 3084.0086805555557,
+              "centroid_distance_mean": 63.584495544433594,
+              "centroid_distance_std": 7.280951023101807,
+              "inertias": [
+                737279.9375,
+                675410.25,
+                620821.75,
+                587157.75,
+                555121.5625
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "qid": "ministral-8b_bbh_lies_q_77",
+        "n_samples": 3,
+        "sample_analyses": [
+          {
+            "sample_id": "sampling0",
+            "is_correct": false,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 191,
+              "silhouette_scores": [
+                0.0,
+                0.0792960450053215,
+                0.09222222119569778,
+                0.120169997215271,
+                0.14480091631412506
+              ],
+              "best_silhouette": 0.14480091631412506,
+              "cluster_cohesion": 0.00032729269820271756,
+              "log_cohesion": -8.024655685894146,
+              "optimal_inertia": 3054.369109947644,
+              "centroid_distance_mean": 63.43535232543945,
+              "centroid_distance_std": 8.48274040222168,
+              "inertias": [
+                782336.0,
+                715808.125,
+                673529.1875,
+                617256.125,
+                583384.5
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling1",
+            "is_correct": false,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 124,
+              "silhouette_scores": [
+                0.0,
+                0.10098230093717575,
+                0.10617707669734955,
+                0.11561324447393417,
+                0.13644133508205414
+              ],
+              "best_silhouette": 0.13644133508205414,
+              "cluster_cohesion": 0.0003324619055462991,
+              "log_cohesion": -8.008985274217551,
+              "optimal_inertia": 3006.8634072580644,
+              "centroid_distance_mean": 63.54131317138672,
+              "centroid_distance_std": 7.648645401000977,
+              "inertias": [
+                507903.96875,
+                463962.875,
+                427159.46875,
+                400353.59375,
+                372851.0625
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling2",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 168,
+              "silhouette_scores": [
+                0.0,
+                0.0788927972316742,
+                0.09825238585472107,
+                0.0887870341539383,
+                0.10970000922679901
+              ],
+              "best_silhouette": 0.10970000922679901,
+              "cluster_cohesion": 0.00031397064234328626,
+              "log_cohesion": -8.066211072149036,
+              "optimal_inertia": 3184.011160714286,
+              "centroid_distance_mean": 63.64625930786133,
+              "centroid_distance_std": 6.719664096832275,
+              "inertias": [
+                688128.0,
+                638717.75,
+                602394.3125,
+                569739.3125,
+                534913.875
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "qid": "ministral-8b_bbh_lies_q_78",
+        "n_samples": 3,
+        "sample_analyses": [
+          {
+            "sample_id": "sampling0",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 215,
+              "silhouette_scores": [
+                0.0,
+                0.06643226742744446,
+                0.0749795064330101,
+                0.09023220837116241,
+                0.09434989839792252
+              ],
+              "best_silhouette": 0.09434989839792252,
+              "cluster_cohesion": 0.0003031676792232139,
+              "log_cohesion": -8.10122450874615,
+              "optimal_inertia": 3297.5046511627907,
+              "centroid_distance_mean": 63.67955017089844,
+              "centroid_distance_std": 6.3964691162109375,
+              "inertias": [
+                880640.0,
+                821054.25,
+                776600.875,
+                734230.8125,
+                708963.5
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling1",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 188,
+              "silhouette_scores": [
+                0.0,
+                0.08862315118312836,
+                0.10998512804508209,
+                0.12330231815576553,
+                0.1408161073923111
+              ],
+              "best_silhouette": 0.1408161073923111,
+              "cluster_cohesion": 0.000330958784738707,
+              "log_cohesion": -8.013516707745866,
+              "optimal_inertia": 3020.5242686170213,
+              "centroid_distance_mean": 63.64093780517578,
+              "centroid_distance_std": 6.769911766052246,
+              "inertias": [
+                770048.0,
+                707797.0,
+                655290.5,
+                607519.4375,
+                567858.5625
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling2",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 167,
+              "silhouette_scores": [
+                0.0,
+                0.07516903430223465,
+                0.08908035606145859,
+                0.11161171644926071,
+                0.13012081384658813
+              ],
+              "best_silhouette": 0.13012081384658813,
+              "cluster_cohesion": 0.0003207273019715967,
+              "log_cohesion": -8.044919322454685,
+              "optimal_inertia": 3116.9135479041915,
+              "centroid_distance_mean": 63.694541931152344,
+              "centroid_distance_std": 6.245484828948975,
+              "inertias": [
+                684032.0,
+                632165.0625,
+                589752.375,
+                552146.0,
+                520524.5625
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "qid": "ministral-8b_bbh_lies_q_79",
+        "n_samples": 3,
+        "sample_analyses": [
+          {
+            "sample_id": "sampling0",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 120,
+              "silhouette_scores": [
+                0.0,
+                0.07406846433877945,
+                0.11231508105993271,
+                0.13236591219902039,
+                0.13928590714931488
+              ],
+              "best_silhouette": 0.13928590714931488,
+              "cluster_cohesion": 0.00033489962866259403,
+              "log_cohesion": -8.001679686965584,
+              "optimal_inertia": 2984.969270833333,
+              "centroid_distance_mean": 63.60111618041992,
+              "centroid_distance_std": 7.1342620849609375,
+              "inertias": [
+                491520.0,
+                446134.9375,
+                405374.21875,
+                381019.78125,
+                358196.3125
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling1",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 182,
+              "silhouette_scores": [
+                0.0,
+                0.0977441594004631,
+                0.09498804807662964,
+                0.09756892919540405,
+                0.12075168639421463
+              ],
+              "best_silhouette": 0.12075168639421463,
+              "cluster_cohesion": 0.0003155778184339494,
+              "log_cohesion": -8.061105255258681,
+              "optimal_inertia": 3167.790521978022,
+              "centroid_distance_mean": 63.63752365112305,
+              "centroid_distance_std": 6.8018879890441895,
+              "inertias": [
+                745472.0,
+                690672.8125,
+                641153.625,
+                606249.5,
+                576537.875
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling2",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 133,
+              "silhouette_scores": [
+                0.0,
+                0.09602747112512589,
+                0.1344265192747116,
+                0.14456482231616974,
+                0.16821151971817017
+              ],
+              "best_silhouette": 0.16821151971817017,
+              "cluster_cohesion": 0.0003501084011620374,
+              "log_cohesion": -7.957267733827591,
+              "optimal_inertia": 2855.2582236842104,
+              "centroid_distance_mean": 63.5622444152832,
+              "centroid_distance_std": 7.472674369812012,
+              "inertias": [
+                544768.0,
+                491091.3125,
+                449503.65625,
+                413472.4375,
+                379749.34375
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "qid": "ministral-8b_bbh_lies_q_80",
+        "n_samples": 3,
+        "sample_analyses": [
+          {
+            "sample_id": "sampling0",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 86,
+              "silhouette_scores": [
+                0.0,
+                0.08636142313480377,
+                0.09957872331142426,
+                0.10485708713531494,
+                0.1307150423526764
+              ],
+              "best_silhouette": 0.1307150423526764,
+              "cluster_cohesion": 0.00032974519754636983,
+              "log_cohesion": -8.017190330395968,
+              "optimal_inertia": 3031.6446220930234,
+              "centroid_distance_mean": 63.72291564941406,
+              "centroid_distance_std": 5.948915004730225,
+              "inertias": [
+                352255.96875,
+                319754.5625,
+                295871.34375,
+                280455.84375,
+                260721.4375
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling1",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 184,
+              "silhouette_scores": [
+                0.0,
+                0.1131201907992363,
+                0.10118250548839569,
+                0.1085733100771904,
+                0.13427305221557617
+              ],
+              "best_silhouette": 0.13427305221557617,
+              "cluster_cohesion": 0.0003276922915953828,
+              "log_cohesion": -8.023435525284468,
+              "optimal_inertia": 3050.6433423913045,
+              "centroid_distance_mean": 63.44810485839844,
+              "centroid_distance_std": 8.386751174926758,
+              "inertias": [
+                753664.0,
+                694422.5625,
+                647202.3125,
+                601939.75,
+                561318.375
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling2",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 142,
+              "silhouette_scores": [
+                0.0,
+                0.0871160700917244,
+                0.08534923195838928,
+                0.07794356346130371,
+                0.11430566757917404
+              ],
+              "best_silhouette": 0.11430566757917404,
+              "cluster_cohesion": 0.000316962472731392,
+              "log_cohesion": -8.056727173645575,
+              "optimal_inertia": 3153.947623239437,
+              "centroid_distance_mean": 63.61627960205078,
+              "centroid_distance_std": 6.997763156890869,
+              "inertias": [
+                581632.0,
+                540880.8125,
+                506521.03125,
+                477181.5625,
+                447860.5625
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "qid": "ministral-8b_bbh_lies_q_81",
+        "n_samples": 3,
+        "sample_analyses": [
+          {
+            "sample_id": "sampling0",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 3,
+              "n_tokens": 126,
+              "silhouette_scores": [
+                0.0,
+                0.09367185086011887,
+                0.11559588462114334,
+                0.10167429596185684,
+                0.1102391928434372
+              ],
+              "best_silhouette": 0.11559588462114334,
+              "cluster_cohesion": 0.0002862393824498911,
+              "log_cohesion": -8.158682095661856,
+              "optimal_inertia": 3492.5793650793653,
+              "centroid_distance_mean": 63.59360122680664,
+              "centroid_distance_std": 7.200957298278809,
+              "inertias": [
+                516096.0,
+                471427.0,
+                440065.0,
+                410750.9375,
+                388937.9375
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling1",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 137,
+              "silhouette_scores": [
+                0.0,
+                0.09742332994937897,
+                0.07323260605335236,
+                0.11884094774723053,
+                0.1191643476486206
+              ],
+              "best_silhouette": 0.1191643476486206,
+              "cluster_cohesion": 0.00032250606041412457,
+              "log_cohesion": -8.039388629923232,
+              "optimal_inertia": 3099.7169251824816,
+              "centroid_distance_mean": 63.53590393066406,
+              "centroid_distance_std": 7.693405628204346,
+              "inertias": [
+                561152.0,
+                512508.5,
+                480634.125,
+                445972.0,
+                424661.21875
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling2",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 4,
+              "n_tokens": 140,
+              "silhouette_scores": [
+                0.0,
+                0.06217246875166893,
+                0.08124016970396042,
+                0.10912558436393738,
+                0.10631716251373291
+              ],
+              "best_silhouette": 0.10912558436393738,
+              "cluster_cohesion": 0.00030242355350240565,
+              "log_cohesion": -8.103682028125897,
+              "optimal_inertia": 3305.6207589285714,
+              "centroid_distance_mean": 63.54705810546875,
+              "centroid_distance_std": 7.600831985473633,
+              "inertias": [
+                573440.0,
+                532296.3125,
+                496735.375,
+                462786.90625,
+                437876.71875
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "qid": "ministral-8b_bbh_lies_q_82",
+        "n_samples": 3,
+        "sample_analyses": [
+          {
+            "sample_id": "sampling0",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 177,
+              "silhouette_scores": [
+                0.0,
+                0.09774859994649887,
+                0.11473525315523148,
+                0.11426673829555511,
+                0.13227833807468414
+              ],
+              "best_silhouette": 0.13227833807468414,
+              "cluster_cohesion": 0.0003261639833191078,
+              "log_cohesion": -8.028110286751582,
+              "optimal_inertia": 3064.942443502825,
+              "centroid_distance_mean": 63.56257629394531,
+              "centroid_distance_std": 7.4698872566223145,
+              "inertias": [
+                724992.0,
+                660327.5625,
+                615689.125,
+                576699.6875,
+                542494.8125
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling1",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 115,
+              "silhouette_scores": [
+                0.0,
+                0.10983281582593918,
+                0.08687344193458557,
+                0.10006020218133926,
+                0.1162608340382576
+              ],
+              "best_silhouette": 0.1162608340382576,
+              "cluster_cohesion": 0.00032246096601243893,
+              "log_cohesion": -8.039528464674193,
+              "optimal_inertia": 3100.1505434782607,
+              "centroid_distance_mean": 63.477516174316406,
+              "centroid_distance_std": 8.161188125610352,
+              "inertias": [
+                471040.0,
+                424223.625,
+                392974.4375,
+                370653.125,
+                356517.3125
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling2",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 257,
+              "silhouette_scores": [
+                0.0,
+                0.1134941577911377,
+                0.12322802096605301,
+                0.11863750964403152,
+                0.15075471997261047
+              ],
+              "best_silhouette": 0.15075471997261047,
+              "cluster_cohesion": 0.00033396954314720813,
+              "log_cohesion": -8.00446075732748,
+              "optimal_inertia": 2993.285019455253,
+              "centroid_distance_mean": 63.387413024902344,
+              "centroid_distance_std": 8.833775520324707,
+              "inertias": [
+                1052672.0,
+                956717.875,
+                888162.625,
+                834129.125,
+                769274.25
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "qid": "ministral-8b_bbh_lies_q_83",
+        "n_samples": 3,
+        "sample_analyses": [
+          {
+            "sample_id": "sampling0",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 177,
+              "silhouette_scores": [
+                0.0,
+                0.08887910842895508,
+                0.05708598718047142,
+                0.08589360862970352,
+                0.09292513877153397
+              ],
+              "best_silhouette": 0.09292513877153397,
+              "cluster_cohesion": 0.0003062385065941845,
+              "log_cohesion": -8.091146326297963,
+              "optimal_inertia": 3264.428672316384,
+              "centroid_distance_mean": 63.568565368652344,
+              "centroid_distance_std": 7.418759346008301,
+              "inertias": [
+                724992.0,
+                671388.5,
+                640766.625,
+                607720.0625,
+                577803.875
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling1",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 179,
+              "silhouette_scores": [
+                0.0,
+                0.06114325672388077,
+                0.08365095406770706,
+                0.08412262797355652,
+                0.10349471122026443
+              ],
+              "best_silhouette": 0.10349471122026443,
+              "cluster_cohesion": 0.0003133240619751494,
+              "log_cohesion": -8.068272561247124,
+              "optimal_inertia": 3190.5837988826815,
+              "centroid_distance_mean": 63.549198150634766,
+              "centroid_distance_std": 7.582808494567871,
+              "inertias": [
+                733184.0,
+                679553.625,
+                640972.6875,
+                604630.1875,
+                571114.5
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling2",
+            "is_correct": false,
+            "metrics": {
+              "optimal_clusters": 2,
+              "n_tokens": 171,
+              "silhouette_scores": [
+                0.0,
+                0.10472789406776428,
+                0.09455947577953339,
+                0.0751027911901474,
+                0.09236101806163788
+              ],
+              "best_silhouette": 0.10472789406776428,
+              "cluster_cohesion": 0.0002626620685444316,
+              "log_cohesion": -8.244642262469233,
+              "optimal_inertia": 3806.1732456140353,
+              "centroid_distance_mean": 63.46575164794922,
+              "centroid_distance_std": 8.252189636230469,
+              "inertias": [
+                700416.0,
+                650855.625,
+                610748.625,
+                578060.4375,
+                547171.375
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "qid": "ministral-8b_bbh_lies_q_84",
+        "n_samples": 3,
+        "sample_analyses": [
+          {
+            "sample_id": "sampling0",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 118,
+              "silhouette_scores": [
+                0.0,
+                0.10042139887809753,
+                0.11398874223232269,
+                0.11138607561588287,
+                0.1374654620885849
+              ],
+              "best_silhouette": 0.1374654620885849,
+              "cluster_cohesion": 0.000334830434454903,
+              "log_cohesion": -8.001886320090623,
+              "optimal_inertia": 2985.5863347457625,
+              "centroid_distance_mean": 63.5853157043457,
+              "centroid_distance_std": 7.273733139038086,
+              "inertias": [
+                483327.9375,
+                440418.25,
+                405518.90625,
+                376959.96875,
+                352299.1875
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling1",
+            "is_correct": false,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 88,
+              "silhouette_scores": [
+                0.0,
+                0.10647379606962204,
+                0.11895012855529785,
+                0.13431642949581146,
+                0.14905045926570892
+              ],
+              "best_silhouette": 0.14905045926570892,
+              "cluster_cohesion": 0.000340109721618502,
+              "log_cohesion": -7.986242281771293,
+              "optimal_inertia": 2939.227627840909,
+              "centroid_distance_mean": 63.530418395996094,
+              "centroid_distance_std": 7.738620758056641,
+              "inertias": [
+                360448.0,
+                329954.5,
+                295992.84375,
+                277126.71875,
+                258652.03125
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling2",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 181,
+              "silhouette_scores": [
+                0.0,
+                0.0676211342215538,
+                0.0824831947684288,
+                0.09072036296129227,
+                0.10836781561374664
+              ],
+              "best_silhouette": 0.10836781561374664,
+              "cluster_cohesion": 0.0003104164328628531,
+              "log_cohesion": -8.077595830132392,
+              "optimal_inertia": 3220.4789364640883,
+              "centroid_distance_mean": 63.742332458496094,
+              "centroid_distance_std": 5.737184047698975,
+              "inertias": [
+                741376.0,
+                687861.1875,
+                647786.375,
+                612734.75,
+                582906.6875
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "qid": "ministral-8b_bbh_lies_q_85",
+        "n_samples": 3,
+        "sample_analyses": [
+          {
+            "sample_id": "sampling0",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 147,
+              "silhouette_scores": [
+                0.0,
+                0.07363978773355484,
+                0.09704623371362686,
+                0.10123822838068008,
+                0.1209501177072525
+              ],
+              "best_silhouette": 0.1209501177072525,
+              "cluster_cohesion": 0.0003233922971997211,
+              "log_cohesion": -8.036644429287605,
+              "optimal_inertia": 3091.219600340136,
+              "centroid_distance_mean": 63.662841796875,
+              "centroid_distance_std": 6.560748100280762,
+              "inertias": [
+                602112.0,
+                556212.125,
+                521948.6875,
+                482965.6875,
+                454409.28125
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling1",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 216,
+              "silhouette_scores": [
+                0.0,
+                0.0822935700416565,
+                0.08925557136535645,
+                0.12005134671926498,
+                0.12523342669010162
+              ],
+              "best_silhouette": 0.12523342669010162,
+              "cluster_cohesion": 0.00032232167105879683,
+              "log_cohesion": -8.039960532623299,
+              "optimal_inertia": 3101.490740740741,
+              "centroid_distance_mean": 63.75338363647461,
+              "centroid_distance_std": 5.613041877746582,
+              "inertias": [
+                884736.0,
+                821669.25,
+                767289.3125,
+                706314.0,
+                669922.0
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling2",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 2,
+              "n_tokens": 165,
+              "silhouette_scores": [
+                0.0,
+                0.12593971192836761,
+                0.11041733622550964,
+                0.10428422689437866,
+                0.10765134543180466
+              ],
+              "best_silhouette": 0.12593971192836761,
+              "cluster_cohesion": 0.0002612652323073461,
+              "log_cohesion": -8.249974450902288,
+              "optimal_inertia": 3826.5280303030304,
+              "centroid_distance_mean": 63.639678955078125,
+              "centroid_distance_std": 6.7816619873046875,
+              "inertias": [
+                675840.0,
+                631377.125,
+                587908.6875,
+                552723.5,
+                525537.875
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "qid": "ministral-8b_bbh_lies_q_86",
+        "n_samples": 3,
+        "sample_analyses": [
+          {
+            "sample_id": "sampling0",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 213,
+              "silhouette_scores": [
+                0.0,
+                0.06672283262014389,
+                0.060956139117479324,
+                0.07526076585054398,
+                0.08978395909070969
+              ],
+              "best_silhouette": 0.08978395909070969,
+              "cluster_cohesion": 0.00030486953945376826,
+              "log_cohesion": -8.095626612359338,
+              "optimal_inertia": 3279.0915492957747,
+              "centroid_distance_mean": 63.625667572021484,
+              "centroid_distance_std": 6.911890983581543,
+              "inertias": [
+                872448.0,
+                813236.375,
+                769168.75,
+                729441.75,
+                698446.5
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling1",
+            "is_correct": false,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 144,
+              "silhouette_scores": [
+                0.0,
+                0.07379862666130066,
+                0.08626804500818253,
+                0.09574416279792786,
+                0.12397588789463043
+              ],
+              "best_silhouette": 0.12397588789463043,
+              "cluster_cohesion": 0.000320458656452047,
+              "log_cohesion": -8.045757286953876,
+              "optimal_inertia": 3119.52734375,
+              "centroid_distance_mean": 63.55207061767578,
+              "centroid_distance_std": 7.558671951293945,
+              "inertias": [
+                589824.0,
+                546485.0625,
+                508943.9375,
+                476208.1875,
+                449211.9375
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling2",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 141,
+              "silhouette_scores": [
+                0.0,
+                0.08068035542964935,
+                0.08376774936914444,
+                0.08897429704666138,
+                0.11170530319213867
+              ],
+              "best_silhouette": 0.11170530319213867,
+              "cluster_cohesion": 0.0003171908587731603,
+              "log_cohesion": -8.056006887114554,
+              "optimal_inertia": 3151.675975177305,
+              "centroid_distance_mean": 63.58847427368164,
+              "centroid_distance_std": 7.246133327484131,
+              "inertias": [
+                577536.0,
+                531101.6875,
+                496161.90625,
+                469293.875,
+                444386.3125
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "qid": "ministral-8b_bbh_lies_q_87",
+        "n_samples": 3,
+        "sample_analyses": [
+          {
+            "sample_id": "sampling0",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 135,
+              "silhouette_scores": [
+                0.0,
+                0.09214868396520615,
+                0.126401886343956,
+                0.13747720420360565,
+                0.1571962833404541
+              ],
+              "best_silhouette": 0.1571962833404541,
+              "cluster_cohesion": 0.0003463972401762104,
+              "log_cohesion": -7.967924348466478,
+              "optimal_inertia": 2885.8590277777776,
+              "centroid_distance_mean": 63.53137969970703,
+              "centroid_distance_std": 7.730733394622803,
+              "inertias": [
+                552960.0,
+                500121.4375,
+                450690.375,
+                419476.4375,
+                389590.96875
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling1",
+            "is_correct": false,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 58,
+              "silhouette_scores": [
+                0.0,
+                0.08822118490934372,
+                0.11055773496627808,
+                0.11975952982902527,
+                0.12184911966323853
+              ],
+              "best_silhouette": 0.12184911966323853,
+              "cluster_cohesion": 0.0003363404025827898,
+              "log_cohesion": -7.997386807918523,
+              "optimal_inertia": 2972.1783405172414,
+              "centroid_distance_mean": 63.65178680419922,
+              "centroid_distance_std": 6.667078971862793,
+              "inertias": [
+                237568.0,
+                213367.3125,
+                195280.078125,
+                181397.625,
+                172386.34375
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling2",
+            "is_correct": false,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 150,
+              "silhouette_scores": [
+                0.0,
+                0.10407616198062897,
+                0.08356581628322601,
+                0.09364642947912216,
+                0.1253800094127655
+              ],
+              "best_silhouette": 0.1253800094127655,
+              "cluster_cohesion": 0.0003174386300195231,
+              "log_cohesion": -8.055226049591786,
+              "optimal_inertia": 3149.2152083333335,
+              "centroid_distance_mean": 63.508514404296875,
+              "centroid_distance_std": 7.916377067565918,
+              "inertias": [
+                614400.0,
+                568305.25,
+                525522.8125,
+                497401.875,
+                472382.28125
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "qid": "ministral-8b_bbh_lies_q_88",
+        "n_samples": 3,
+        "sample_analyses": [
+          {
+            "sample_id": "sampling0",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 170,
+              "silhouette_scores": [
+                0.0,
+                0.08829347044229507,
+                0.09936095774173737,
+                0.10270453244447708,
+                0.13665728271007538
+              ],
+              "best_silhouette": 0.13665728271007538,
+              "cluster_cohesion": 0.0003311798122527033,
+              "log_cohesion": -8.012849090654187,
+              "optimal_inertia": 3018.5077205882353,
+              "centroid_distance_mean": 63.513160705566406,
+              "centroid_distance_std": 7.878989219665527,
+              "inertias": [
+                696320.0,
+                639832.5,
+                599600.1875,
+                551072.75,
+                513146.3125
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling1",
+            "is_correct": false,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 118,
+              "silhouette_scores": [
+                0.0,
+                0.10126076638698578,
+                0.09595058858394623,
+                0.11025004833936691,
+                0.12721678614616394
+              ],
+              "best_silhouette": 0.12721678614616394,
+              "cluster_cohesion": 0.0003287637264950478,
+              "log_cohesion": -8.020171221746853,
+              "optimal_inertia": 3040.698093220339,
+              "centroid_distance_mean": 63.63262176513672,
+              "centroid_distance_std": 6.847585678100586,
+              "inertias": [
+                483328.0,
+                440614.53125,
+                408066.3125,
+                378896.625,
+                358802.375
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling2",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 126,
+              "silhouette_scores": [
+                0.0,
+                0.10041015595197678,
+                0.09625586122274399,
+                0.1013469323515892,
+                0.11791087687015533
+              ],
+              "best_silhouette": 0.11791087687015533,
+              "cluster_cohesion": 0.0003247297663636983,
+              "log_cohesion": -8.032517209624217,
+              "optimal_inertia": 3078.4836309523807,
+              "centroid_distance_mean": 63.59807586669922,
+              "centroid_distance_std": 7.161308765411377,
+              "inertias": [
+                516096.0,
+                473074.59375,
+                437455.3125,
+                408144.40625,
+                387888.9375
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "qid": "ministral-8b_bbh_lies_q_89",
+        "n_samples": 3,
+        "sample_analyses": [
+          {
+            "sample_id": "sampling0",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 167,
+              "silhouette_scores": [
+                0.0,
+                0.08456838130950928,
+                0.0892801582813263,
+                0.07849046587944031,
+                0.09559743106365204
+              ],
+              "best_silhouette": 0.09559743106365204,
+              "cluster_cohesion": 0.00030526620767059036,
+              "log_cohesion": -8.094326350001072,
+              "optimal_inertia": 3274.829341317365,
+              "centroid_distance_mean": 63.62270736694336,
+              "centroid_distance_std": 6.939042091369629,
+              "inertias": [
+                684031.9375,
+                640361.0,
+                600105.875,
+                572361.0,
+                546896.5
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling1",
+            "is_correct": false,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 138,
+              "silhouette_scores": [
+                0.0,
+                0.10532432049512863,
+                0.12830576300621033,
+                0.12619729340076447,
+                0.15580439567565918
+              ],
+              "best_silhouette": 0.15580439567565918,
+              "cluster_cohesion": 0.00033799859672412313,
+              "log_cohesion": -7.992468814193652,
+              "optimal_inertia": 2957.5921648550725,
+              "centroid_distance_mean": 63.501712799072266,
+              "centroid_distance_std": 7.970705509185791,
+              "inertias": [
+                565248.0,
+                509329.65625,
+                465989.6875,
+                433622.0625,
+                408147.71875
+              ]
+            }
+          },
+          {
+            "sample_id": "sampling2",
+            "is_correct": true,
+            "metrics": {
+              "optimal_clusters": 5,
+              "n_tokens": 114,
+              "silhouette_scores": [
+                0.0,
+                0.1077631413936615,
+                0.10924103856086731,
+                0.11084603518247604,
+                0.12108085304498672
+              ],
+              "best_silhouette": 0.12108085304498672,
+              "cluster_cohesion": 0.0003256284593560697,
+              "log_cohesion": -8.029753521770825,
+              "optimal_inertia": 3069.9846491228072,
+              "centroid_distance_mean": 63.541297912597656,
+              "centroid_distance_std": 7.648749828338623,
+              "inertias": [
+                466944.0,
+                425815.6875,
+                389559.03125,
+                363556.90625,
+                349978.25
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_questions": 15,
+      "valid_questions": 15,
+      "all_stats": {
+        "optimal_clusters": [
+          5,
+          5,
+          2,
+          5,
+          4,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          3,
+          5,
+          4,
+          5,
+          5,
+          5,
+          5,
+          5,
+          2,
+          5,
+          5,
+          5,
+          5,
+          5,
+          2,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "n_tokens": [
+          160,
+          214,
+          191,
+          131,
+          118,
+          180,
+          191,
+          124,
+          168,
+          215,
+          188,
+          167,
+          120,
+          182,
+          133,
+          86,
+          184,
+          142,
+          126,
+          137,
+          140,
+          177,
+          115,
+          257,
+          177,
+          179,
+          171,
+          118,
+          88,
+          181,
+          147,
+          216,
+          165,
+          213,
+          144,
+          141,
+          135,
+          58,
+          150,
+          170,
+          118,
+          126,
+          167,
+          138,
+          114
+        ],
+        "samples_per_question": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "cluster_cohesion": [
+          0.0003324903749880998,
+          0.00030958946122753667,
+          0.00026658027232710096,
+          0.0003356645686029676,
+          0.00030937283342747247,
+          0.00032414819650358897,
+          0.00032729269820271756,
+          0.0003324619055462991,
+          0.00031397064234328626,
+          0.0003031676792232139,
+          0.000330958784738707,
+          0.0003207273019715967,
+          0.00033489962866259403,
+          0.0003155778184339494,
+          0.0003501084011620374,
+          0.00032974519754636983,
+          0.0003276922915953828,
+          0.000316962472731392,
+          0.0002862393824498911,
+          0.00032250606041412457,
+          0.00030242355350240565,
+          0.0003261639833191078,
+          0.00032246096601243893,
+          0.00033396954314720813,
+          0.0003062385065941845,
+          0.0003133240619751494,
+          0.0002626620685444316,
+          0.000334830434454903,
+          0.000340109721618502,
+          0.0003104164328628531,
+          0.0003233922971997211,
+          0.00032232167105879683,
+          0.0002612652323073461,
+          0.00030486953945376826,
+          0.000320458656452047,
+          0.0003171908587731603,
+          0.0003463972401762104,
+          0.0003363404025827898,
+          0.0003174386300195231,
+          0.0003311798122527033,
+          0.0003287637264950478,
+          0.0003247297663636983,
+          0.00030526620767059036,
+          0.00033799859672412313,
+          0.0003256284593560697
+        ],
+        "log_cohesion": [
+          -8.00889964569156,
+          -8.080263456790812,
+          -8.229835150230288,
+          -7.999398204371387,
+          -8.080963427728555,
+          -8.034309750129875,
+          -8.024655685894146,
+          -8.008985274217551,
+          -8.066211072149036,
+          -8.10122450874615,
+          -8.013516707745866,
+          -8.044919322454685,
+          -8.001679686965584,
+          -8.061105255258681,
+          -7.957267733827591,
+          -8.017190330395968,
+          -8.023435525284468,
+          -8.056727173645575,
+          -8.158682095661856,
+          -8.039388629923232,
+          -8.103682028125897,
+          -8.028110286751582,
+          -8.039528464674193,
+          -8.00446075732748,
+          -8.091146326297963,
+          -8.068272561247124,
+          -8.244642262469233,
+          -8.001886320090623,
+          -7.986242281771293,
+          -8.077595830132392,
+          -8.036644429287605,
+          -8.039960532623299,
+          -8.249974450902288,
+          -8.095626612359338,
+          -8.045757286953876,
+          -8.056006887114554,
+          -7.967924348466478,
+          -7.997386807918523,
+          -8.055226049591786,
+          -8.012849090654187,
+          -8.020171221746853,
+          -8.032517209624217,
+          -8.094326350001072,
+          -7.992468814193652,
+          -8.029753521770825
+        ]
+      }
+    },
+    "overall_statistics": {
+      "basic_stats": {
+        "total_samples_analyzed": 45,
+        "mean_tokens_per_sample": 154.7111111111111,
+        "mean_samples_per_question": 3.0
+      },
+      "clusters": {
+        "mean_clusters": 4.711111111111111,
+        "cluster_distribution": {
+          "2": 3,
+          "3": 1,
+          "4": 2,
+          "5": 39
+        },
+        "cluster_stats": {
+          "min": 2,
+          "max": 5,
+          "std": 0.8061492065429802
+        }
+      },
+      "cohesion": {
+        "mean_cohesion": 0.0003187999186892246,
+        "cohesion_stats": {
+          "min": 0.0002612652323073461,
+          "max": 0.0003501084011620374,
+          "std": 1.9317188348499925e-05
+        }
+      },
+      "log_cohesion": {
+        "mean_log_cohesion": -8.052907097093538,
+        "log_cohesion_stats": {
+          "min": -8.249974450902288,
+          "max": -7.957267733827591,
+          "std": 0.06368387505313908
+        }
+      }
+    }
+  }
+}

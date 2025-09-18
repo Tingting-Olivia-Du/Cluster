@@ -18,8 +18,8 @@ warnings.filterwarnings('ignore')
 # ============================================================================
 
 # 本地相对路径配置
-INPUT_PATH = "./logits/bb_causal_judgment_experiment_26-50.json"
-OUTPUT_DIR = "./output/bb_26-50_causal_judgment_analysis"
+INPUT_PATH = "./logits/bb_lies_mistral_batch_4.json"
+OUTPUT_DIR = "./output/bb_lies_mistral_batch_4"
 VISUALIZATION_DIR = f"{OUTPUT_DIR}/visualizations"
 
 # Create directories

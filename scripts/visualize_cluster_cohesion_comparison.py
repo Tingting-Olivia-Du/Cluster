@@ -206,7 +206,7 @@ def create_visualizations():
     # 保存图片
     output_dir = Path('output/visualizations')
     output_dir.mkdir(exist_ok=True)
-    plt.savefig(output_dir / 'cluster_cohesion_comparison.png', dpi=300, bbox_inches='tight')
+    plt.savefig(output_dir / 'cluster_cohesion_comparison_causal_judgment.png', dpi=300, bbox_inches='tight')
     plt.show()
     
     # 打印统计摘要

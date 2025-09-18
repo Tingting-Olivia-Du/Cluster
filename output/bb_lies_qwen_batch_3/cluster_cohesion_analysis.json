@@ -1,0 +1,152 @@
+{
+  "pair_comparisons": [
+    {
+      "qid": "qwen_bb_lies_q_49",
+      "true_answer": "",
+      "positive_analysis": {
+        "cluster_cohesion": 2.481661775936861e-07,
+        "optimal_clusters": 2,
+        "min_inertia": 4029556.974806967,
+        "best_silhouette_score": 0.20708611415179076,
+        "n_tokens": 96,
+        "centroid_distance_mean": 262.81204916284696,
+        "centroid_distance_std": 31.576875191124724,
+        "sample_type": "positive"
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 2.7550687315662777e-07,
+        "optimal_clusters": 2,
+        "min_inertia": 3629672.5124698407,
+        "best_silhouette_score": 0.20713486108944376,
+        "n_tokens": 86,
+        "centroid_distance_mean": 263.2269877707294,
+        "centroid_distance_std": 30.03072604632102,
+        "sample_type": "negative"
+      },
+      "comparison": {
+        "cohesion_difference": -2.7340695562941655e-08,
+        "positive_cohesion": 2.481661775936861e-07,
+        "negative_cohesion": 2.7550687315662777e-07,
+        "positive_tokens": 96,
+        "negative_tokens": 86
+      }
+    },
+    {
+      "qid": "qwen_bb_lies_q_51",
+      "true_answer": "",
+      "positive_analysis": {
+        "cluster_cohesion": 2.0921377651211283e-07,
+        "optimal_clusters": 2,
+        "min_inertia": 4779798.957112782,
+        "best_silhouette_score": 0.19371885313930962,
+        "n_tokens": 117,
+        "centroid_distance_mean": 257.9049802703014,
+        "centroid_distance_std": 30.513180089222402,
+        "sample_type": "positive"
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 2.3615973757871913e-07,
+        "optimal_clusters": 2,
+        "min_inertia": 4234421.049468403,
+        "best_silhouette_score": 0.16780671723546592,
+        "n_tokens": 94,
+        "centroid_distance_mean": 260.86887762609337,
+        "centroid_distance_std": 31.50197942113486,
+        "sample_type": "negative"
+      },
+      "comparison": {
+        "cohesion_difference": -2.6945961066606303e-08,
+        "positive_cohesion": 2.0921377651211283e-07,
+        "negative_cohesion": 2.3615973757871913e-07,
+        "positive_tokens": 117,
+        "negative_tokens": 94
+      }
+    },
+    {
+      "qid": "qwen_bb_lies_q_56",
+      "true_answer": "",
+      "positive_analysis": {
+        "cluster_cohesion": 2.1378605988220335e-07,
+        "optimal_clusters": 2,
+        "min_inertia": 4677572.460828094,
+        "best_silhouette_score": 0.21041668122287815,
+        "n_tokens": 117,
+        "centroid_distance_mean": 259.05139151190076,
+        "centroid_distance_std": 36.031664408559394,
+        "sample_type": "positive"
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 1.8903496756141676e-07,
+        "optimal_clusters": 2,
+        "min_inertia": 5290025.564397953,
+        "best_silhouette_score": 0.21407340711098194,
+        "n_tokens": 133,
+        "centroid_distance_mean": 256.44572594441644,
+        "centroid_distance_std": 37.184157935310104,
+        "sample_type": "negative"
+      },
+      "comparison": {
+        "cohesion_difference": 2.4751092320786595e-08,
+        "positive_cohesion": 2.1378605988220335e-07,
+        "negative_cohesion": 1.8903496756141676e-07,
+        "positive_tokens": 117,
+        "negative_tokens": 133
+      }
+    }
+  ],
+  "summary_statistics": {
+    "total_pairs": 3,
+    "positive_stats": {
+      "cluster_cohesion": [
+        2.481661775936861e-07,
+        2.0921377651211283e-07,
+        2.1378605988220335e-07
+      ],
+      "optimal_clusters": [
+        2,
+        2,
+        2
+      ],
+      "best_silhouette_score": [
+        0.20708611415179076,
+        0.19371885313930962,
+        0.21041668122287815
+      ],
+      "n_tokens": [
+        96,
+        117,
+        117
+      ]
+    },
+    "negative_stats": {
+      "cluster_cohesion": [
+        2.7550687315662777e-07,
+        2.3615973757871913e-07,
+        1.8903496756141676e-07
+      ],
+      "optimal_clusters": [
+        2,
+        2,
+        2
+      ],
+      "best_silhouette_score": [
+        0.20713486108944376,
+        0.16780671723546592,
+        0.21407340711098194
+      ],
+      "n_tokens": [
+        86,
+        94,
+        133
+      ]
+    }
+  },
+  "overall_comparison": {
+    "positive_mean": 2.2372200466266742e-07,
+    "positive_std": 1.7385139947960567e-08,
+    "negative_mean": 2.3356719276558787e-07,
+    "negative_std": 3.534957407355702e-08,
+    "mean_difference": -9.845188102920446e-09,
+    "effect_size": -0.35344039003485656
+  }
+}

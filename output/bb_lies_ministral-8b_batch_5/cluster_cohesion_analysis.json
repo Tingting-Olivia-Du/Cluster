@@ -1,0 +1,46 @@
+{
+  "pair_comparisons": [
+    {
+      "qid": "ministral-8b_bb_lies_q_87",
+      "positive_analysis": {
+        "cluster_cohesion": 0.00030696889322056107,
+        "optimal_clusters": 5,
+        "min_inertia": 3256.659072580645,
+        "best_silhouette_score": 0.10161849856376648,
+        "n_tokens": 155,
+        "centroid_distance_mean": 63.6439208984375,
+        "centroid_distance_std": 6.741729259490967
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.00033416659497666055,
+        "optimal_clusters": 2,
+        "min_inertia": 2991.5193452380954,
+        "best_silhouette_score": 0.17392554879188538,
+        "n_tokens": 126,
+        "centroid_distance_mean": 63.528072357177734,
+        "centroid_distance_std": 7.757873058319092
+      },
+      "cohesion_difference": -2.7197701756099483e-05
+    }
+  ],
+  "summary_statistics": {
+    "total_pairs": 15,
+    "valid_pairs": 1,
+    "positive_stats": {
+      "cluster_cohesion": [
+        0.00030696889322056107
+      ]
+    },
+    "negative_stats": {
+      "cluster_cohesion": [
+        0.00033416659497666055
+      ]
+    }
+  },
+  "overall_comparison": {
+    "positive_mean": 0.00030696889322056107,
+    "negative_mean": 0.00033416659497666055,
+    "mean_difference": -2.7197701756099483e-05,
+    "effect_size": -Infinity
+  }
+}

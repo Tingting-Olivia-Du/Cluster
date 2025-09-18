@@ -1,0 +1,404 @@
+{
+  "pair_comparisons": [
+    {
+      "qid": "mistral-nemo-12b_bb_lies_q_90",
+      "target_answer": "No",
+      "original_question": "Tamika tells the truth. Sal says Tamika lies. Alejandro says Sal tells the truth. Does Alejandro tell the truth?",
+      "positive_analysis": {
+        "cluster_cohesion": 0.8757694693892084,
+        "optimal_clusters": 4,
+        "min_inertia": 16.313095534381826,
+        "best_silhouette_score": 0.8243524232529055,
+        "n_tokens": 115,
+        "feature_variance": 0.47425540354664675,
+        "centroid_distance_mean": 1.2723779646374236,
+        "centroid_distance_std": 0.867370355060838,
+        "sample_type": "positive",
+        "feature_mean": 0.44369760784076984,
+        "feature_std": 0.7593797206375499,
+        "prob_variance": 0.07941137301076945,
+        "info_content_mean": 0.4558371808525619
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.9044385064986759,
+        "optimal_clusters": 4,
+        "min_inertia": 8.769644263948114,
+        "best_silhouette_score": 0.7809214794215343,
+        "n_tokens": 83,
+        "feature_variance": 0.2804647426358926,
+        "centroid_distance_mean": 1.0357404324281583,
+        "centroid_distance_std": 0.5740779300870178,
+        "sample_type": "negative",
+        "feature_mean": 0.4017414204681597,
+        "feature_std": 0.6114173536496862,
+        "prob_variance": 0.06071987868432704,
+        "info_content_mean": 0.36163040330454427
+      },
+      "comparison": {
+        "cohesion_difference": -0.028669037109467443,
+        "positive_cohesion": 0.8757694693892084,
+        "negative_cohesion": 0.9044385064986759,
+        "positive_tokens": 115,
+        "negative_tokens": 83
+      }
+    },
+    {
+      "qid": "mistral-nemo-12b_bb_lies_q_91",
+      "target_answer": "Yes",
+      "original_question": "Kandi lies. Audrie says Kandi lies. Willian says Audrie tells the truth. Does Willian tell the truth?",
+      "positive_analysis": {
+        "cluster_cohesion": 0.8057737609808959,
+        "optimal_clusters": 4,
+        "min_inertia": 26.996831894424776,
+        "best_silhouette_score": 0.737496513861179,
+        "n_tokens": 112,
+        "feature_variance": 0.5361159324038359,
+        "centroid_distance_mean": 1.4140986140784406,
+        "centroid_distance_std": 0.8251695411735792,
+        "sample_type": "positive",
+        "feature_mean": 0.48332679901229797,
+        "feature_std": 0.8078613448546283,
+        "prob_variance": 0.09672338479295328,
+        "info_content_mean": 0.6045015520059628
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.8716584454168467,
+        "optimal_clusters": 4,
+        "min_inertia": 15.165550441885623,
+        "best_silhouette_score": 0.7907453237886981,
+        "n_tokens": 103,
+        "feature_variance": 0.38126549771393253,
+        "centroid_distance_mean": 1.180641864720463,
+        "centroid_distance_std": 0.7158297813300669,
+        "sample_type": "negative",
+        "feature_mean": 0.4284159068529237,
+        "feature_std": 0.6971662508926397,
+        "prob_variance": 0.06622805682065491,
+        "info_content_mean": 0.379247834862305
+      },
+      "comparison": {
+        "cohesion_difference": -0.06588468443595075,
+        "positive_cohesion": 0.8057737609808959,
+        "negative_cohesion": 0.8716584454168467,
+        "positive_tokens": 112,
+        "negative_tokens": 103
+      }
+    },
+    {
+      "qid": "mistral-nemo-12b_bb_lies_q_92",
+      "target_answer": "Yes",
+      "original_question": "Yoland lies. Conception says Yoland tells the truth. Vernell says Conception lies. Does Vernell tell the truth?",
+      "positive_analysis": {
+        "cluster_cohesion": 0.8784859413649808,
+        "optimal_clusters": 3,
+        "min_inertia": 17.290267964648937,
+        "best_silhouette_score": 0.8099068323290703,
+        "n_tokens": 125,
+        "feature_variance": 0.36580376883614985,
+        "centroid_distance_mean": 1.1404681033126443,
+        "centroid_distance_std": 0.7268778091998755,
+        "sample_type": "positive",
+        "feature_mean": 0.4116814385429383,
+        "feature_std": 0.6897192921922024,
+        "prob_variance": 0.05061833628908293,
+        "info_content_mean": 0.28644733787827587
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.9358225788540606,
+        "optimal_clusters": 4,
+        "min_inertia": 8.640906136599448,
+        "best_silhouette_score": 0.8628739122715394,
+        "n_tokens": 126,
+        "feature_variance": 0.31647582031472465,
+        "centroid_distance_mean": 1.0466098219413766,
+        "centroid_distance_std": 0.6978445258003143,
+        "sample_type": "negative",
+        "feature_mean": 0.39083237473601534,
+        "feature_std": 0.6536266764077572,
+        "prob_variance": 0.04130941214556534,
+        "info_content_mean": 0.21490892762252609
+      },
+      "comparison": {
+        "cohesion_difference": -0.0573366374890798,
+        "positive_cohesion": 0.8784859413649808,
+        "negative_cohesion": 0.9358225788540606,
+        "positive_tokens": 125,
+        "negative_tokens": 126
+      }
+    },
+    {
+      "qid": "mistral-nemo-12b_bb_lies_q_93",
+      "target_answer": "No",
+      "original_question": "Sima tells the truth. Millie says Sima lies. Alexis says Millie tells the truth. Does Alexis tell the truth?",
+      "positive_analysis": {
+        "cluster_cohesion": 0.8910982126962425,
+        "optimal_clusters": 3,
+        "min_inertia": 17.598349035278236,
+        "best_silhouette_score": 0.8493147794091676,
+        "n_tokens": 144,
+        "feature_variance": 0.43625752385847905,
+        "centroid_distance_mean": 1.1869983191409332,
+        "centroid_distance_std": 0.8788188719235569,
+        "sample_type": "positive",
+        "feature_mean": 0.4177401145624595,
+        "feature_std": 0.7326017621609789,
+        "prob_variance": 0.06728370354801282,
+        "info_content_mean": 0.3578342965050695
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.896006600666082,
+        "optimal_clusters": 5,
+        "min_inertia": 12.999079154930726,
+        "best_silhouette_score": 0.7790458803157616,
+        "n_tokens": 112,
+        "feature_variance": 0.3864484308421837,
+        "centroid_distance_mean": 1.2260377830899034,
+        "centroid_distance_std": 0.655037028454815,
+        "sample_type": "negative",
+        "feature_mean": 0.44419839393993293,
+        "feature_std": 0.7018236850118734,
+        "prob_variance": 0.07759942643245407,
+        "info_content_mean": 0.4549425722305604
+      },
+      "comparison": {
+        "cohesion_difference": -0.0049083879698395005,
+        "positive_cohesion": 0.8910982126962425,
+        "negative_cohesion": 0.896006600666082,
+        "positive_tokens": 144,
+        "negative_tokens": 112
+      }
+    },
+    {
+      "qid": "mistral-nemo-12b_bb_lies_q_94",
+      "target_answer": "No",
+      "original_question": "Sal tells the truth. Teressa says Sal tells the truth. Millicent says Teressa lies. Does Millicent tell the truth?",
+      "positive_analysis": {
+        "cluster_cohesion": 0.9362362516945092,
+        "optimal_clusters": 5,
+        "min_inertia": 7.083073115112475,
+        "best_silhouette_score": 0.8495084539100041,
+        "n_tokens": 104,
+        "feature_variance": 0.28270831635370863,
+        "centroid_distance_mean": 0.9845802858889842,
+        "centroid_distance_std": 0.6664407268522154,
+        "sample_type": "positive",
+        "feature_mean": 0.3805633079698261,
+        "feature_std": 0.615175060943431,
+        "prob_variance": 0.05395975995988973,
+        "info_content_mean": 0.27731931164613244
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.8810701450699181,
+        "optimal_clusters": 4,
+        "min_inertia": 17.952793877093278,
+        "best_silhouette_score": 0.8033614965062886,
+        "n_tokens": 133,
+        "feature_variance": 0.36070704651055124,
+        "centroid_distance_mean": 1.1401255544137916,
+        "centroid_distance_std": 0.7096822899899642,
+        "sample_type": "negative",
+        "feature_mean": 0.41285292271895996,
+        "feature_std": 0.6815287408301508,
+        "prob_variance": 0.05912575111560768,
+        "info_content_mean": 0.3248896209720904
+      },
+      "comparison": {
+        "cohesion_difference": 0.055166106624591094,
+        "positive_cohesion": 0.9362362516945092,
+        "negative_cohesion": 0.8810701450699181,
+        "positive_tokens": 104,
+        "negative_tokens": 133
+      }
+    },
+    {
+      "qid": "mistral-nemo-12b_bb_lies_q_99",
+      "target_answer": "Yes",
+      "original_question": "Fidel tells the truth. Dallas says Fidel lies. Vina says Dallas lies. Does Vina tell the truth?",
+      "positive_analysis": {
+        "cluster_cohesion": 0.9652466870342613,
+        "optimal_clusters": 5,
+        "min_inertia": 2.4843168351126876,
+        "best_silhouette_score": 0.8997938171174876,
+        "n_tokens": 69,
+        "feature_variance": 0.19517030362017154,
+        "centroid_distance_mean": 0.6931940613622579,
+        "centroid_distance_std": 0.703799340290224,
+        "sample_type": "positive",
+        "feature_mean": 0.32855200655110656,
+        "feature_std": 0.5429183602959562,
+        "prob_variance": 0.037161031425797256,
+        "info_content_mean": 0.18587480098544876
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.9319674706482498,
+        "optimal_clusters": 5,
+        "min_inertia": 4.9639200311370875,
+        "best_silhouette_score": 0.8552760951930305,
+        "n_tokens": 68,
+        "feature_variance": 0.5559080713549353,
+        "centroid_distance_mean": 1.3470672454573254,
+        "centroid_distance_std": 0.982318783792049,
+        "sample_type": "negative",
+        "feature_mean": 0.451866439107567,
+        "feature_std": 0.8228363989856513,
+        "prob_variance": 0.06061374392926401,
+        "info_content_mean": 0.3657995036677609
+      },
+      "comparison": {
+        "cohesion_difference": 0.0332792163860115,
+        "positive_cohesion": 0.9652466870342613,
+        "negative_cohesion": 0.9319674706482498,
+        "positive_tokens": 69,
+        "negative_tokens": 68
+      }
+    },
+    {
+      "qid": "mistral-nemo-12b_bb_lies_q_102",
+      "target_answer": "Yes",
+      "original_question": "Osvaldo lies. Sima says Osvaldo lies. Christie says Sima tells the truth. Does Christie tell the truth?",
+      "positive_analysis": {
+        "cluster_cohesion": 0.9239370830563736,
+        "optimal_clusters": 5,
+        "min_inertia": 8.150153203624106,
+        "best_silhouette_score": 0.8609378856528461,
+        "n_tokens": 99,
+        "feature_variance": 0.28419497109856273,
+        "centroid_distance_mean": 0.9052011326743061,
+        "centroid_distance_std": 0.7756196006406545,
+        "sample_type": "positive",
+        "feature_mean": 0.36826385081659657,
+        "feature_std": 0.6120912045853075,
+        "prob_variance": 0.056700508034105014,
+        "info_content_mean": 0.293488985231689
+      },
+      "negative_analysis": {
+        "cluster_cohesion": 0.88078999294648,
+        "optimal_clusters": 4,
+        "min_inertia": 13.128408334328215,
+        "best_silhouette_score": 0.8118075011136952,
+        "n_tokens": 97,
+        "feature_variance": 0.34934518059106373,
+        "centroid_distance_mean": 1.0970160274366247,
+        "centroid_distance_std": 0.7370764807687789,
+        "sample_type": "negative",
+        "feature_mean": 0.40512353467746953,
+        "feature_std": 0.6760294233132956,
+        "prob_variance": 0.046259263011066976,
+        "info_content_mean": 0.27627741562410546
+      },
+      "comparison": {
+        "cohesion_difference": 0.04314709010989359,
+        "positive_cohesion": 0.9239370830563736,
+        "negative_cohesion": 0.88078999294648,
+        "positive_tokens": 99,
+        "negative_tokens": 97
+      }
+    }
+  ],
+  "summary_statistics": {
+    "total_pairs": 7,
+    "valid_pairs": 7,
+    "positive_stats": {
+      "cluster_cohesion": [
+        0.8757694693892084,
+        0.8057737609808959,
+        0.8784859413649808,
+        0.8910982126962425,
+        0.9362362516945092,
+        0.9652466870342613,
+        0.9239370830563736
+      ],
+      "optimal_clusters": [
+        4,
+        4,
+        3,
+        3,
+        5,
+        5,
+        5
+      ],
+      "best_silhouette_score": [
+        0.8243524232529055,
+        0.737496513861179,
+        0.8099068323290703,
+        0.8493147794091676,
+        0.8495084539100041,
+        0.8997938171174876,
+        0.8609378856528461
+      ],
+      "n_tokens": [
+        115,
+        112,
+        125,
+        144,
+        104,
+        69,
+        99
+      ],
+      "feature_variance": [
+        0.47425540354664675,
+        0.5361159324038359,
+        0.36580376883614985,
+        0.43625752385847905,
+        0.28270831635370863,
+        0.19517030362017154,
+        0.28419497109856273
+      ]
+    },
+    "negative_stats": {
+      "cluster_cohesion": [
+        0.9044385064986759,
+        0.8716584454168467,
+        0.9358225788540606,
+        0.896006600666082,
+        0.8810701450699181,
+        0.9319674706482498,
+        0.88078999294648
+      ],
+      "optimal_clusters": [
+        4,
+        4,
+        4,
+        5,
+        4,
+        5,
+        4
+      ],
+      "best_silhouette_score": [
+        0.7809214794215343,
+        0.7907453237886981,
+        0.8628739122715394,
+        0.7790458803157616,
+        0.8033614965062886,
+        0.8552760951930305,
+        0.8118075011136952
+      ],
+      "n_tokens": [
+        83,
+        103,
+        126,
+        112,
+        133,
+        68,
+        97
+      ],
+      "feature_variance": [
+        0.2804647426358926,
+        0.38126549771393253,
+        0.31647582031472465,
+        0.3864484308421837,
+        0.36070704651055124,
+        0.5559080713549353,
+        0.34934518059106373
+      ]
+    }
+  },
+  "overall_comparison": {
+    "positive_mean": 0.8966496294594959,
+    "positive_std": 0.04791719709378114,
+    "negative_mean": 0.9002505343000446,
+    "negative_std": 0.023515927843523514,
+    "mean_difference": -0.0036009048405487576,
+    "effect_size": -0.09540609070820327
+  }
+}
