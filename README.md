@@ -1,4 +1,11 @@
+# geometry feature plots
+
+- ./geometry contains general geometry features results
+- ./cluster cohesion contains single, pairwise, model-wise results
+
 # scripts desciption
+
+./img are entropy curves and PCA polts segmented by semantic similarity
 
 ## for hidden states
 
